@@ -1,0 +1,43 @@
+{
+  "name": "todos-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.1",
+    "styled-components": "4.0.3",
+    "uid": "0.0.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "deploy": "npm run build && now --public",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@craco/craco": "2.2.3",
+    "@storybook/addon-actions": "^4.0.6",
+    "@storybook/addon-knobs": "4.0.6",
+    "@storybook/addon-links": "^4.0.6",
+    "@storybook/addon-options": "4.0.6",
+    "@storybook/addons": "^4.0.6",
+    "@storybook/react": "^4.0.6",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "1.8.0"
+  }
+}
