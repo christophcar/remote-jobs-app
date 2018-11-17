@@ -1,50 +1,11 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import JobCard from './JobCard'
+import Heading from './Heading'
+
 // import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
-// import Home from './Home'
-// import Config from './Config'
 
-const Card = styled.section`
-  margin-right: auto;
-  margin-left: auto;
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  max-width: 800px;
-  height: auto;
-  box-shadow: 0 8px 16px rgba(80, 80, 80, 0.4);
-`
-
-// const Wrapper = styled.section`
-//   display: grid;
-//   grid-template-rows: auto 50px;
-//   height: 100vh;
-
-//   nav {
-//     display: flex;
-//   }
-
-//   a:any-link {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     text-decoration: none;
-//     color: black;
-//     width: 100%;
-//     background: #efefef;
-
-//     &:first-child {
-//       border-right: 1px solid white;
-//     }
-
-//     &.active {
-//       background: deeppink;
-//       color: white;
-//     }
-//   }
-// `
+const Wrapper = styled.section``
 
 export default class App extends Component {
   // state = {
@@ -57,30 +18,54 @@ export default class App extends Component {
   //   })
   // }
 
+  jobs = [
+    {
+      title: 'Frontend Developer',
+      position: 'Apple Inc.',
+      date: 'Nov 17'
+    },
+    {
+      title: 'Backend Developer',
+      position: 'Google Inc.',
+      date: 'Nov 16'
+    },
+    {
+      title: 'Full Stack Developer',
+      position: 'Amazon Inc.',
+      date: 'Nov 15'
+    },
+    {
+      title: 'Mobile Developer',
+      position: 'Facebook Inc.',
+      date: 'Nov 14'
+    },
+    {
+      title: 'React.js Developer',
+      position: 'Airbnb Inc.',
+      date: 'Nov 13'
+    },
+    {
+      title: 'Vue.js Developer',
+      position: 'PayPal Inc.',
+      date: 'Nov 12'
+    }
+  ]
+
   render() {
     return (
       <React.Fragment>
-        <Card>
-          <h2>Frontend Developer</h2>
-          <h3>Apple Inc.</h3>
-          <p>Nov 17</p>
-        </Card>
-        <Card>
-          <h2>Backend Developer</h2>
-          <h3>Google Inc.</h3>
-          <p>Nov 16</p>
-        </Card>
-        <Card>
-          <h2>Full Stack Developer</h2>
-          <h3>Amazon Inc.</h3>
-          <p>Nov 15</p>
-        </Card>
-        <Card>
-          <h2>Mobile Developer</h2>
-          <h3>Facebook Inc.</h3>
-          <p>Nov 14</p>
-        </Card>
+        <Heading />
+        <Wrapper>
+          {this.jobs.map(jobs => (
+            <JobCard
+              title={jobs.title}
+              position={jobs.position}
+              date={jobs.date}
+            />
+          ))}
+        </Wrapper>
       </React.Fragment>
+
       // <Router>
       //   <Wrapper>
       //     <Route
