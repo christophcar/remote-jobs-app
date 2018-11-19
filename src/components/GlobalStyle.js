@@ -12,7 +12,6 @@ body {
   margin: 0;
   padding: 10px;
   font-family: 'Nunito', sans-serif;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #efefef;
