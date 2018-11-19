@@ -4,7 +4,7 @@ import { withOptions } from '@storybook/addon-options'
 
 import React from 'react'
 import GlobalStyle from '../src/components/GlobalStyle'
-import StyleBox from '../src/stories/StyleBox'
+// import StyleBox from '../src/stories/StyleBox'
 
 addDecorator(withKnobs)
 
@@ -82,20 +82,20 @@ addDecorator(
      * enable/disable shortcuts
      * @type {Boolean}
      */
-    enableShortcuts: true, // true by default
+    enableShortcuts: true // true by default
   })
 )
 
-addDecorator(story => (
-  <StyleBox
-    p="20px 25%"
-    m="0 0 20px 0"
-    bg="repeating-linear-gradient(-45deg, #efefef, #efefef 1px, white 1px, white 8px)"
-  >
-    {story()}
-    <GlobalStyle />
-  </StyleBox>
-))
+// addDecorator(story => (
+//   <StyleBox
+//     p="20px 25%"
+//     m="0 0 20px 0"
+//     bg="repeating-linear-gradient(-45deg, #efefef, #efefef 1px, white 1px, white 8px)"
+//   >
+//     {story()}
+//     <GlobalStyle />
+//   </StyleBox>
+// ))
 
 function loadStories() {
   require('../src/stories')

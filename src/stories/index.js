@@ -1,33 +1,20 @@
-// import React from 'react'
+import React from 'react'
 
-// import { storiesOf } from '@storybook/react'
+import { storiesOf } from '@storybook/react'
 // import { action } from '@storybook/addon-actions'
-// import { text, boolean, number } from '@storybook/addon-knobs'
+import { text } from '@storybook/addon-knobs'
 
-// import Todo from '../components/Todo'
-// import Button from '../components/Button'
-// import Input from '../components/Input'
-// import ProgressBar from '../components/ProgressBar'
-// import Separator from '../components/Separator'
-// import ToggleButton from '../components/ToggleButton'
+import JobCard from '../components/JobCard'
 
-// storiesOf('Todo', module).add('default', () => (
-//   <React.Fragment>
-//     <Todo
-//       text={text('Todo 1: text', 'Hello world')}
-//       done={boolean('Todo 1: done', false)}
-//       onToggle={action('Todo 1: onToggle')}
-//       onDelete={action('Todo 1: onDelete')}
-//     />
-//     <StyleBox h={40} />
-//     <Todo
-//       text={text('Todo 2: text', 'Lorem ipsum dolor sit')}
-//       done={boolean('Todo 2: done', false)}
-//       onToggle={action('Todo 2: onToggle')}
-//       onDelete={action('Todo 2: onDelete')}
-//     />
-//   </React.Fragment>
-// ))
+storiesOf('Job card', module).add('Single card', () => (
+  <React.Fragment>
+    <JobCard
+      position={text('Position', 'Frontend Developer')}
+      company={text('Company', 'Apple Inc.')}
+      date={text('Date', 'Nov 19')}
+    />
+  </React.Fragment>
+))
 
 // storiesOf('ui/Button', module).add('default', () => (
 //   <React.Fragment>
@@ -48,7 +35,7 @@
 //         range: true,
 //         min: 0,
 //         max: 1,
-//         step: 0.01,
+//         step: 0.01
 //       })}
 //     />
 //     <StyleBox h={40} />

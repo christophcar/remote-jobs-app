@@ -1,10 +1,25 @@
 import React, { Component } from 'react'
+import styled from 'styled-components'
 
-class Description extends Component {
+const Wrapper = styled.p`
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: 30px auto;
+  padding: 25px;
+  background: white;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
+`
+
+export default class Description extends Component {
   render() {
-    const { description } = this.props
-    return <h1>Hello World</h1>
+    const { job } = this.props
+    return (
+      <Wrapper>
+        <p>{job.description}</p>
+      </Wrapper>
+    )
   }
 }
-
-export default Description

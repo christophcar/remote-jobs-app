@@ -15,12 +15,12 @@ const Card = styled.section`
   box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
 `
 
-const Title = styled.h2`
+const Position = styled.h2`
   font-size: 23px;
   grid-column: 1 / 8;
 `
 
-const Position = styled.h3`
+const Company = styled.h3`
   font-size: 23px;
   font-weight: 400;
   grid-column: 1 / 8;
@@ -34,11 +34,11 @@ const Date = styled.p`
 
 class JobCard extends Component {
   render() {
-    const { title, position, date } = this.props
+    const { position, company, date } = this.props
     return (
       <Card>
-        <Title>{title}</Title>
         <Position>{position}</Position>
+        <Company>{company}</Company>
         <Date>{date}</Date>
       </Card>
     )
