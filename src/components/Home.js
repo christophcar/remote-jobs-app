@@ -5,11 +5,11 @@ import Filter from './Filter'
 
 export default class Home extends Component {
   render() {
-    const { jobs } = this.props
+    const { jobs, searchChange } = this.props
     return (
       <React.Fragment>
         <Heading />
-        <Filter />
+        <Filter searchChange={searchChange} />
         {jobs.map(job => (
           <JobCard
             key={job.id}

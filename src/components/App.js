@@ -6,10 +6,23 @@ import { jobs } from '../service'
 
 export default class App extends Component {
   state = {
-    savedJobs: jobs || this.load()
+    jobs: jobs,
+    searchfield: ''
+  }
+
+  onSearchChange = event => {
+    this.setState({ searchfield: event.target.value })
   }
 
   render() {
+    const filteredJobs = this.state.jobs.filter(job => {
+      return (
+        job.position
+          .toLowerCase()
+          .includes(this.state.searchfield.toLowerCase()) ||
+        job.company.toLowerCase().includes(this.state.searchfield.toLowerCase())
+      )
+    })
     this.save()
     return (
       <Router>
@@ -17,7 +30,9 @@ export default class App extends Component {
           <Route
             exact
             path="/"
-            render={() => <Home jobs={this.state.savedJobs} />}
+            render={() => (
+              <Home jobs={filteredJobs} searchChange={this.onSearchChange} />
+            )}
           />
           <Route
             path="/jobs/:id"
@@ -26,9 +41,7 @@ export default class App extends Component {
               <div>
                 <Description
                   // set job.id [which is uid()] equal to match.params.id to return array
-                  job={this.state.savedJobs.find(
-                    job => job.id === match.params.id
-                  )}
+                  job={this.state.jobs.find(job => job.id === match.params.id)}
                 />
               </div>
             )}

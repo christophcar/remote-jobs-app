@@ -34,9 +34,14 @@ const Button = styled.button`
 
 export default class Filter extends Component {
   render() {
+    const { searchChange } = this.props
     return (
       <Wrapper>
-        <Input placeholder="Search for jobs..." />
+        <Input
+          type="search"
+          placeholder="Search for jobs..."
+          onChange={searchChange}
+        />
         <Button>Filter</Button>
       </Wrapper>
     )

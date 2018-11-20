@@ -11,6 +11,7 @@ const Wrapper = styled.p`
   height: auto;
   border-radius: 8px;
   box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
+  font-size: 19px;
 `
 
 export default class Description extends Component {

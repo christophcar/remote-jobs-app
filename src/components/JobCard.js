@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 const Card = styled(Link)`
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-rows: 40px 40px;
+  grid-template-columns: 3fr auto 1fr;
+  grid-template-rows: 45px 45px;
   align-items: center;
   margin: 25px auto;
   padding: 25px;
@@ -18,7 +18,7 @@ const Card = styled(Link)`
   color: inherit;
 `
 const Position = styled.h2`
-  font-size: 23px;
+  font-size: 22px;
   grid-column: 1 / 2;
   line-height: 1;
 `
