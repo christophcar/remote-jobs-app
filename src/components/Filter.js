@@ -5,9 +5,11 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 45px;
 `
 
 const Input = styled.input`
+  font-size: 20px;
   width: 400px;
   max-width: 400px;
   height: 50px;
@@ -16,7 +18,6 @@ const Input = styled.input`
   padding: 10px;
   margin: 5px;
   border-radius: 8px;
-  font-size: 20px;
 `
 
 const Button = styled.button`
@@ -35,7 +36,7 @@ export default class Filter extends Component {
   render() {
     return (
       <Wrapper>
-        <Input placeholder="Search for jobs" />
+        <Input placeholder="Search for jobs..." />
         <Button>Filter</Button>
       </Wrapper>
     )

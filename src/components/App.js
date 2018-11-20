@@ -5,11 +5,20 @@ import Description from './Description'
 import { jobs } from '../service'
 
 export default class App extends Component {
+  state = {
+    savedJobs: jobs || this.load()
+  }
+
   render() {
+    this.save()
     return (
       <Router>
         <React.Fragment>
-          <Route exact path="/" render={() => <Home jobs={jobs} />} />
+          <Route
+            exact
+            path="/"
+            render={() => <Home jobs={this.state.savedJobs} />}
+          />
           <Route
             path="/jobs/:id"
             // The match() method searches a string for a match, and returns the matches, as an Array
@@ -17,7 +26,9 @@ export default class App extends Component {
               <div>
                 <Description
                   // set job.id [which is uid()] equal to match.params.id to return array
-                  job={jobs.find(job => job.id === match.params.id)}
+                  job={this.state.savedJobs.find(
+                    job => job.id === match.params.id
+                  )}
                 />
               </div>
             )}
@@ -25,5 +36,17 @@ export default class App extends Component {
         </React.Fragment>
       </Router>
     )
+  }
+
+  save() {
+    localStorage.setItem('remote-jobs', JSON.stringify(jobs))
+  }
+
+  load() {
+    try {
+      return JSON.parse(localStorage.getItem('remote-jobs')) || []
+    } catch (err) {
+      return []
+    }
   }
 }

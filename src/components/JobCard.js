@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Card = styled(Link)`
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: 3fr 1fr;
   grid-template-rows: 40px 40px;
   align-items: center;
   margin: 25px auto;
@@ -19,19 +19,20 @@ const Card = styled(Link)`
 `
 const Position = styled.h2`
   font-size: 23px;
-  grid-column: 1 / 8;
+  grid-column: 1 / 2;
+  line-height: 1;
 `
 
 const Company = styled.h3`
   font-size: 23px;
   font-weight: 400;
-  grid-column: 1 / 8;
+  grid-column: 1 / 2;
 `
 
 const Date = styled.p`
   font-size: 20px;
   grid-row: 1 / 3;
-  grid-column: 9 / 12;
+  grid-column: 2 / 3;
 `
 
 export default class JobCard extends Component {
