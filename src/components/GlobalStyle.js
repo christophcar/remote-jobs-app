@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 10px;
   font-family: 'Nunito', sans-serif;
+  color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #efefef;
