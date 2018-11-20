@@ -1,10 +1,9 @@
 import React from 'react'
-
 import { storiesOf } from '@storybook/react'
 // import { action } from '@storybook/addon-actions'
 import { text } from '@storybook/addon-knobs'
-
 import JobCard from '../components/JobCard'
+import Description from '../components/Description'
 
 storiesOf('Job card', module).add('Single card', () => (
   <React.Fragment>
@@ -12,6 +11,14 @@ storiesOf('Job card', module).add('Single card', () => (
       position={text('Position', 'Frontend Developer')}
       company={text('Company', 'Apple Inc.')}
       date={text('Date', 'Nov 19')}
+    />
+  </React.Fragment>
+))
+
+storiesOf('Description', module).add('Job description', () => (
+  <React.Fragment>
+    <Description
+      job={text('Description', 'Lorem ipsum dolor sit milir suprum')}
     />
   </React.Fragment>
 ))

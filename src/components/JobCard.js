@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
-const Card = styled.section`
+const Card = styled(Link)`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 40px 40px;
@@ -13,8 +14,9 @@ const Card = styled.section`
   height: auto;
   border-radius: 8px;
   box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
+  text-decoration: none;
+  color: inherit;
 `
-
 const Position = styled.h2`
   font-size: 23px;
   grid-column: 1 / 8;
@@ -32,11 +34,11 @@ const Date = styled.p`
   grid-column: 9 / 12;
 `
 
-class JobCard extends Component {
+export default class JobCard extends Component {
   render() {
-    const { position, company, date } = this.props
+    const { position, company, date, id } = this.props
     return (
-      <Card>
+      <Card to={`/jobs/${id}`}>
         <Position>{position}</Position>
         <Company>{company}</Company>
         <Date>{date}</Date>
@@ -44,5 +46,3 @@ class JobCard extends Component {
     )
   }
 }
-
-export default JobCard
