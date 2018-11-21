@@ -6,8 +6,14 @@ import { jobs } from '../service'
 
 export default class App extends Component {
   state = {
-    jobs: jobs,
+    jobs: [],
     searchfield: ''
+  }
+
+  componentDidMount() {
+    fetch('https://remoteok.io/api')
+      .then(response => response.json())
+      .then(remotejobs => this.setState({ jobs: remotejobs }))
   }
 
   onSearchChange = event => {
@@ -23,7 +29,12 @@ export default class App extends Component {
         job.company.toLowerCase().includes(this.state.searchfield.toLowerCase())
       )
     })
+
     this.save()
+
+    // if (this.state.jobs.length === 0) {
+    //   return <h1>Loading...</h1>
+    // } else {
     return (
       <Router>
         <React.Fragment>
@@ -50,6 +61,7 @@ export default class App extends Component {
       </Router>
     )
   }
+  // }
 
   save() {
     localStorage.setItem('remote-jobs', JSON.stringify(jobs))
