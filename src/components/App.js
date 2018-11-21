@@ -3,20 +3,19 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './Home'
 import Description from './Description'
 import { jobs } from '../service'
+import styled from 'styled-components'
+// import scrape from './scraper'
+
+const Loading = styled.h1`
+  display: flex;
+  justify-content: center;
+`
 
 export default class App extends Component {
   state = {
     jobs: [],
     searchfield: ''
   }
-
-  // // From http://foo.com/
-  // fetch('http://bar.com/data.json', {
-  //   mode: 'no-cors' // 'cors' by default
-  // })
-  // .then(function(response) {
-  //   // Do something with response
-  // });
 
   componentDidMount() {
     fetch('https://jsonplaceholder.typicode.com/users')
@@ -38,36 +37,38 @@ export default class App extends Component {
 
     this.save()
 
-    // if (this.state.jobs.length === 0) {
-    //   return <h1>Loading...</h1>
-    // } else {
-    return (
-      <Router>
-        <React.Fragment>
-          <Route
-            exact
-            path="/"
-            render={() => (
-              <Home jobs={filteredJobs} searchChange={this.onSearchChange} />
-            )}
-          />
-          <Route
-            path="/jobs/:id"
-            // The match() method searches a string for a match, and returns the matches, as an Array
-            render={({ match }) => (
-              <div>
-                <Description
-                  // set job.id [which is uid()] equal to match.params.id to return array
-                  job={this.state.jobs.find(job => job.id === match.params.id)}
-                />
-              </div>
-            )}
-          />
-        </React.Fragment>
-      </Router>
-    )
+    if (this.state.jobs.length === 0) {
+      return <Loading>Loading...</Loading>
+    } else {
+      return (
+        <Router>
+          <React.Fragment>
+            <Route
+              exact
+              path="/"
+              render={() => (
+                <Home jobs={filteredJobs} searchChange={this.onSearchChange} />
+              )}
+            />
+            <Route
+              path="/jobs/:id"
+              // The match() method searches a string for a match, and returns the matches, as an Array
+              render={({ match }) => (
+                <div>
+                  <Description
+                    // set job.id [which is uid()] equal to match.params.id to return array
+                    job={this.state.jobs.find(
+                      job => job.id === match.params.id
+                    )}
+                  />
+                </div>
+              )}
+            />
+          </React.Fragment>
+        </Router>
+      )
+    }
   }
-  // }
 
   save() {
     localStorage.setItem('remote-jobs', JSON.stringify(jobs))
