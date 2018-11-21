@@ -10,8 +10,16 @@ export default class App extends Component {
     searchfield: ''
   }
 
+  // // From http://foo.com/
+  // fetch('http://bar.com/data.json', {
+  //   mode: 'no-cors' // 'cors' by default
+  // })
+  // .then(function(response) {
+  //   // Do something with response
+  // });
+
   componentDidMount() {
-    fetch('https://remoteok.io/api')
+    fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
       .then(remotejobs => this.setState({ jobs: remotejobs }))
   }
@@ -23,10 +31,8 @@ export default class App extends Component {
   render() {
     const filteredJobs = this.state.jobs.filter(job => {
       return (
-        job.position
-          .toLowerCase()
-          .includes(this.state.searchfield.toLowerCase()) ||
-        job.company.toLowerCase().includes(this.state.searchfield.toLowerCase())
+        job.name.toLowerCase().includes(this.state.searchfield.toLowerCase()) ||
+        job.email.toLowerCase().includes(this.state.searchfield.toLowerCase())
       )
     })
 
