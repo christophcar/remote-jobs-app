@@ -8,6 +8,16 @@ const Wrapper = styled.section`
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: 100px;
   justify-content: center;
+
+  @media only screen and (min-width: 900px) {
+    display: grid;
+    grid-gap: 30px;
+    margin: 50px;
+    grid-template-columns: repeat(3, minmax(200px, 300px));
+    grid-auto-rows: 100px 100px;
+    justify-content: center;
+    /* , 0 0 0 2px cornflowerblue */
+  }
 `
 
 const Box = styled.div`
@@ -16,7 +26,7 @@ const Box = styled.div`
   align-items: center;
   padding: 17px;
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4), 0 0 0 2px cornflowerblue;
+  box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
   font-size: 20px;
   background: rgb(244, 247, 252);
 `

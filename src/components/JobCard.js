@@ -42,7 +42,7 @@ export default class JobCard extends Component {
       <Card to={`/jobs/${id}`}>
         <Position>{position}</Position>
         <Company>{company}</Company>
-        <Date>Number: {date}</Date>
+        <Date>{date}</Date>
       </Card>
     )
   }

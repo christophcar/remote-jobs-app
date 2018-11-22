@@ -16,9 +16,9 @@ export default class Home extends Component {
           <JobCard
             key={job.id}
             id={job.id}
-            position={job.name}
-            company={job.email}
-            date={job.id}
+            position={job.position}
+            company={job.company}
+            date={job.date}
           />
         ))}
       </React.Fragment>

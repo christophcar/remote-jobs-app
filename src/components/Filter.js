@@ -12,7 +12,7 @@ const Input = styled.input`
   font-size: 20px;
   width: 400px;
   max-width: 400px;
-  height: 50px;
+  height: 60px;
   border: none;
   background: #fff;
   padding: 10px;
@@ -25,7 +25,7 @@ const Button = styled.button`
   font-size: 20px;
   font-weight: 300;
   width: 150px;
-  height: 50px;
+  height: 60px;
   margin: 5px;
   background: cornflowerblue;
   border-radius: 8px;

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './Home'
 import Description from './Description'
-// import { jobs } from '../service'
+import { jobs } from '../service'
 import styled from 'styled-components'
 // import scrape from './scraper'
 
@@ -14,27 +14,27 @@ const Loading = styled.h2`
 
 export default class App extends Component {
   state = {
-    jobs: [],
+    jobs: jobs,
     searchfield: ''
   }
 
-  componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response => response.json())
-      .then(remotejobs => this.setState({ jobs: remotejobs }))
-  }
+  // componentDidMount() {
+  //   fetch('https://jsonplaceholder.typicode.com/users')
+  //     .then(response => response.json())
+  //     .then(remotejobs => this.setState({ jobs: remotejobs }))
+  // }
 
   onSearchChange = event => {
     this.setState({ searchfield: event.target.value })
   }
 
   render() {
-    const filteredJobs = this.state.jobs.filter(job => {
-      return (
-        job.name.toLowerCase().includes(this.state.searchfield.toLowerCase()) ||
-        job.email.toLowerCase().includes(this.state.searchfield.toLowerCase())
-      )
-    })
+    // const filteredJobs = this.state.jobs.filter(job => {
+    //   return (
+    //     job.name.toLowerCase().includes(this.state.searchfield.toLowerCase()) ||
+    //     job.email.toLowerCase().includes(this.state.searchfield.toLowerCase())
+    //   )
+    // })
 
     // this.save()
 
@@ -48,7 +48,7 @@ export default class App extends Component {
               exact
               path="/"
               render={() => (
-                <Home jobs={filteredJobs} searchChange={this.onSearchChange} />
+                <Home jobs={jobs} searchChange={this.onSearchChange} />
               )}
             />
             <Route
