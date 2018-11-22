@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-const Wrapper = styled.p`
+const Wrapper = styled.section`
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
-  margin: 30px auto;
+  margin: 20px 50px;
   padding: 25px;
   background: white;
   height: auto;
@@ -17,10 +17,6 @@ const Wrapper = styled.p`
 export default class Description extends Component {
   render() {
     const { job } = this.props
-    return (
-      <Wrapper>
-        <p>{job.description}</p>
-      </Wrapper>
-    )
+    return <Wrapper>{job.description}</Wrapper>
   }
 }

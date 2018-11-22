@@ -16,7 +16,7 @@ export default class App extends Component {
   state = {
     jobs: jobs,
     searchfield: '',
-    tags: ''
+    jobtags: ''
   }
 
   // componentDidMount() {
@@ -31,7 +31,7 @@ export default class App extends Component {
 
   onClickChange = event => {
     console.log(event.target.value)
-    this.setState({ tags: event.target.value })
+    this.setState({ jobtags: event.target.value })
   }
 
   render() {
@@ -43,7 +43,7 @@ export default class App extends Component {
         job.company
           .toLowerCase()
           .includes(this.state.searchfield.toLowerCase()) ||
-        job.tags.toLowerCase().includes(this.state.tags.toLowerCase())
+        job.jobtags.toLowerCase().includes(this.state.jobtags.toLowerCase())
       )
     })
 
