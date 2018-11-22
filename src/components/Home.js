@@ -6,12 +6,12 @@ import Categories from './Categories'
 
 export default class Home extends Component {
   render() {
-    const { jobs, searchChange } = this.props
+    const { jobs, searchChange, clickChange } = this.props
     return (
       <React.Fragment>
         <Heading />
         <Filter searchChange={searchChange} />
-        <Categories />
+        <Categories clickChange={clickChange} />
         {jobs.map(job => (
           <JobCard
             key={job.id}

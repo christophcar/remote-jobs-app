@@ -20,7 +20,7 @@ const Wrapper = styled.section`
   }
 `
 
-const Box = styled.div`
+const Box = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,46 +39,47 @@ const Image = styled.img`
 
 export default class Categories extends Component {
   render() {
+    const { clickChange } = this.props
     return (
       <Wrapper>
-        <Box>
+        <Box value="Frontend" onClick={clickChange}>
           <Image
-            alt="test"
+            alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/computer.png')}
           />
           Frontend
         </Box>
         <Box>
           <Image
-            alt="test"
+            alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/maintenance.png')}
           />
           Backend
         </Box>
         <Box>
           <Image
-            alt="test"
+            alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/pie-chart.png')}
           />
           Marketing
         </Box>
         <Box>
           <Image
-            alt="test"
+            alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/layers.png')}
           />
           Design
         </Box>
         <Box>
           <Image
-            alt="test"
+            alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/handshake.png')}
           />
           Sales
         </Box>
         <Box>
           <Image
-            alt="test"
+            alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/support.png')}
           />
           Support

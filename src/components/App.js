@@ -15,7 +15,8 @@ const Loading = styled.h2`
 export default class App extends Component {
   state = {
     jobs: jobs,
-    searchfield: ''
+    searchfield: '',
+    tags: ''
   }
 
   // componentDidMount() {
@@ -28,13 +29,23 @@ export default class App extends Component {
     this.setState({ searchfield: event.target.value })
   }
 
+  onClickChange = event => {
+    console.log(event.target.value)
+    this.setState({ tags: event.target.value })
+  }
+
   render() {
-    // const filteredJobs = this.state.jobs.filter(job => {
-    //   return (
-    //     job.name.toLowerCase().includes(this.state.searchfield.toLowerCase()) ||
-    //     job.email.toLowerCase().includes(this.state.searchfield.toLowerCase())
-    //   )
-    // })
+    const filteredJobs = this.state.jobs.filter(job => {
+      return (
+        job.position
+          .toLowerCase()
+          .includes(this.state.searchfield.toLowerCase()) ||
+        job.company
+          .toLowerCase()
+          .includes(this.state.searchfield.toLowerCase()) ||
+        job.tags.toLowerCase().includes(this.state.tags.toLowerCase())
+      )
+    })
 
     // this.save()
 
@@ -48,7 +59,11 @@ export default class App extends Component {
               exact
               path="/"
               render={() => (
-                <Home jobs={jobs} searchChange={this.onSearchChange} />
+                <Home
+                  jobs={filteredJobs}
+                  searchChange={this.onSearchChange}
+                  clickChange={this.onClickChange}
+                />
               )}
             />
             <Route
