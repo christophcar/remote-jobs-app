@@ -2,13 +2,14 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './Home'
 import Description from './Description'
-import { jobs } from '../service'
+// import { jobs } from '../service'
 import styled from 'styled-components'
 // import scrape from './scraper'
 
-const Loading = styled.h1`
+const Loading = styled.h2`
   display: flex;
   justify-content: center;
+  font-size: 32px;
 `
 
 export default class App extends Component {
@@ -35,7 +36,7 @@ export default class App extends Component {
       )
     })
 
-    this.save()
+    // this.save()
 
     if (this.state.jobs.length === 0) {
       return <Loading>Loading...</Loading>
@@ -70,15 +71,15 @@ export default class App extends Component {
     }
   }
 
-  save() {
-    localStorage.setItem('remote-jobs', JSON.stringify(jobs))
-  }
+  // save() {
+  //   localStorage.setItem('remote-jobs', JSON.stringify(jobs))
+  // }
 
-  load() {
-    try {
-      return JSON.parse(localStorage.getItem('remote-jobs')) || []
-    } catch (err) {
-      return []
-    }
-  }
+  // load() {
+  //   try {
+  //     return JSON.parse(localStorage.getItem('remote-jobs')) || []
+  //   } catch (err) {
+  //     return []
+  //   }
+  // }
 }

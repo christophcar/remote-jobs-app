@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import JobCard from './JobCard'
 import Heading from './Heading'
 import Filter from './Filter'
+import Categories from './Categories'
 
 export default class Home extends Component {
   render() {
@@ -10,13 +11,14 @@ export default class Home extends Component {
       <React.Fragment>
         <Heading />
         <Filter searchChange={searchChange} />
+        <Categories />
         {jobs.map(job => (
           <JobCard
             key={job.id}
             id={job.id}
             position={job.name}
             company={job.email}
-            date={job.date}
+            date={job.id}
           />
         ))}
       </React.Fragment>
