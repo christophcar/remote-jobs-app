@@ -44,15 +44,15 @@ export default class App extends Component {
   }
 
   render() {
-    const filteredJobs = this.state.jobs.filter(job => {
-      return (
-        job.name.toLowerCase().includes(this.state.searchfield.toLowerCase()) ||
-        job.email
-          .toLowerCase()
-          .includes(this.state.searchfield.toLowerCase()) ||
-        job.jobtags.toLowerCase().includes(this.state.jobtags.toLowerCase())
-      )
-    })
+    // const filteredJobs = this.state.jobs.filter(job => {
+    //   return (
+    //     job.name.toLowerCase().includes(this.state.searchfield.toLowerCase()) ||
+    //     job.email
+    //       .toLowerCase()
+    //       .includes(this.state.searchfield.toLowerCase()) ||
+    //     job.jobtags.toLowerCase().includes(this.state.jobtags.toLowerCase())
+    //   )
+    // })
 
     // this.save()
 
