@@ -2,10 +2,11 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 const Card = styled(Link)`
   display: grid;
-  grid-template-columns: 3fr auto 1fr;
+  grid-template-columns: 4fr 1fr;
   grid-template-rows: 45px 45px;
   align-items: center;
   margin: 25px auto;
@@ -45,13 +46,15 @@ export default class JobCard extends Component {
   }
 
   render() {
-    const { position, company, date, id } = this.props
+    const { company, date, position, id } = this.props
     return (
-      <Card to={`/jobs/${id}`}>
-        <Position>{position}</Position>
-        <Company>{company}</Company>
-        <Date>Number: {date}</Date>
-      </Card>
+      <Router>
+        <Card to={`/jobs/${id}`}>
+          <Position>{position}</Position>
+          <Company>{company}</Company>
+          <Date>{date}</Date>
+        </Card>
+      </Router>
     )
   }
 }

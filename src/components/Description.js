@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
-const Wrapper = styled.section`
+export const Wrapper = styled.section`
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;

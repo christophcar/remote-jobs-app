@@ -19,13 +19,13 @@ export default class Home extends Component {
         <Heading />
         <Filter searchChange={searchChange} />
         <Categories clickChange={clickChange} />
-        {jobs.map(job => (
+        {jobs.map((job, index) => (
           <JobCard
-            key={job.id}
-            id={job.id}
-            position={job.name}
-            company={job.email}
-            date={job.id}
+            key={index}
+            id={index}
+            position={job.position}
+            company={job.company}
+            date={job.date}
           />
         ))}
       </React.Fragment>

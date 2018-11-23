@@ -1,9 +1,10 @@
+import React from 'react'
 import { configure, addDecorator } from '@storybook/react'
 import { withKnobs } from '@storybook/addon-knobs'
 import { withOptions } from '@storybook/addon-options'
 
 // import React from 'react'
-// import GlobalStyle from '../src/components/GlobalStyle'
+import GlobalStyle from '../src/components/GlobalStyle'
 
 addDecorator(withKnobs)
 
@@ -84,6 +85,13 @@ addDecorator(
     enableShortcuts: true // true by default
   })
 )
+
+addDecorator(story => (
+  <React.Fragment>
+    {story()}
+    <GlobalStyle />
+  </React.Fragment>
+))
 
 function loadStories() {
   require('../src/stories')

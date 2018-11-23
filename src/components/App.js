@@ -6,6 +6,7 @@ import Particles from 'react-particles-js'
 import { jobs } from '../service'
 import styled from 'styled-components'
 // import scrape from './scraper'
+import stepstone from '../stepstone.json'
 
 const Loading = styled.h2`
   display: flex;
@@ -82,7 +83,7 @@ export default class App extends Component {
                   events: {
                     onhover: {
                       enable: true,
-                      mode: 'grab'
+                      mode: 'repulse'
                     }
                   }
                 }
@@ -95,7 +96,7 @@ export default class App extends Component {
             path="/"
             render={() => (
               <Home
-                jobs={filteredJobs}
+                jobs={stepstone}
                 searchChange={this.onSearchChange}
                 clickChange={this.onClickChange}
               />

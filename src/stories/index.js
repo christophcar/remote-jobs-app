@@ -17,7 +17,7 @@ storiesOf('Job card', module).add('Single card', () => (
 storiesOf('Description', module).add('Job description', () => (
   <React.Fragment>
     <Description
-      job={text('Description', 'Lorem ipsum dolor sit milir suprum')}
+      description={text('Description', 'Lorem ipsum dolor sit milir suprum')}
     />
   </React.Fragment>
 ))
