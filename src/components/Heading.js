@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const Headline = styled.h1`
   display: grid;
+  font-size: 35px;
   grid-template-rows: 80px;
   justify-content: center;
   align-items: center;

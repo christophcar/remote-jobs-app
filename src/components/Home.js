@@ -25,6 +25,7 @@ export default class Home extends Component {
             id={index}
             position={job.position}
             company={job.company}
+            image={job.image}
             date={job.date}
           />
         ))}

@@ -17,7 +17,6 @@ const Wrapper = styled.section`
     grid-template-columns: repeat(3, minmax(200px, 300px));
     grid-auto-rows: 100px 100px;
     justify-content: center;
-    /* , 0 0 0 2px cornflowerblue */
   }
 `
 
@@ -54,35 +53,35 @@ export default class Categories extends Component {
           />
           Frontend
         </Box>
-        <Box>
+        <Box value="Backend" onClick={clickChange}>
           <Image
             alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/maintenance.png')}
           />
           Backend
         </Box>
-        <Box>
+        <Box value="Marketing" onClick={clickChange}>
           <Image
             alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/pie-chart.png')}
           />
           Marketing
         </Box>
-        <Box>
+        <Box value="Design" onClick={clickChange}>
           <Image
             alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/layers.png')}
           />
           Design
         </Box>
-        <Box>
+        <Box value="Sales" onClick={clickChange}>
           <Image
             alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/handshake.png')}
           />
           Sales
         </Box>
-        <Box>
+        <Box value="Support" onClick={clickChange}>
           <Image
             alt="Button"
             src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/support.png')}
