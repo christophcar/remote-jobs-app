@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 const Wrapper = styled.section`
   display: flex;
@@ -33,11 +34,16 @@ const Button = styled.button`
 `
 
 export default class Filter extends Component {
+  static propTypes = {
+    onChange: PropTypes.func
+  }
+
   render() {
     const { searchChange } = this.props
     return (
-      <Wrapper>
+      <Wrapper data-cy="Filter">
         <Input
+          data-cy="Todo"
           type="search"
           placeholder="Search for jobs..."
           onChange={searchChange}

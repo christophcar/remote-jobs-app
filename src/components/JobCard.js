@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
 
 const Card = styled(Link)`
   display: grid;
@@ -36,13 +37,20 @@ const Date = styled.p`
 `
 
 export default class JobCard extends Component {
+  static propTypes = {
+    position: PropTypes.string,
+    company: PropTypes.string,
+    date: PropTypes.number,
+    id: PropTypes.number
+  }
+
   render() {
     const { position, company, date, id } = this.props
     return (
       <Card to={`/jobs/${id}`}>
         <Position>{position}</Position>
         <Company>{company}</Company>
-        <Date>{date}</Date>
+        <Date>Number: {date}</Date>
       </Card>
     )
   }

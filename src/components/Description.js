@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 const Wrapper = styled.section`
   display: grid;
@@ -15,8 +16,12 @@ const Wrapper = styled.section`
 `
 
 export default class Description extends Component {
+  static propTypes = {
+    description: PropTypes.string
+  }
+
   render() {
-    const { job } = this.props
-    return <Wrapper>{job.description}</Wrapper>
+    const { description } = this.props
+    return <Wrapper>{description}</Wrapper>
   }
 }

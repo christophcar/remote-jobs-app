@@ -3,8 +3,15 @@ import JobCard from './JobCard'
 import Heading from './Heading'
 import Filter from './Filter'
 import Categories from './Categories'
+import PropTypes from 'prop-types'
 
 export default class Home extends Component {
+  static propTypes = {
+    jobs: PropTypes.array,
+    searchChange: PropTypes.func,
+    clickChange: PropTypes.func
+  }
+
   render() {
     const { jobs, searchChange, clickChange } = this.props
     return (
@@ -16,9 +23,9 @@ export default class Home extends Component {
           <JobCard
             key={job.id}
             id={job.id}
-            position={job.position}
-            company={job.company}
-            date={job.date}
+            position={job.name}
+            company={job.email}
+            date={job.id}
           />
         ))}
       </React.Fragment>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 const Wrapper = styled.section`
   display: grid;
@@ -38,6 +39,10 @@ const Image = styled.img`
 `
 
 export default class Categories extends Component {
+  static propTypes = {
+    clickChange: PropTypes.func
+  }
+
   render() {
     const { clickChange } = this.props
     return (
