@@ -23,9 +23,9 @@ const Wrapper = styled.div`
 
 export default class App extends Component {
   state = {
-    jobs: [],
-    searchfield: '',
-    jobtags: ''
+    jobs: jobs,
+    searchfield: ''
+    // jobtags: ''
   }
 
   // componentDidMount() {
@@ -38,21 +38,18 @@ export default class App extends Component {
     this.setState({ searchfield: event.target.value })
   }
 
-  onClickChange = event => {
-    this.setState({ jobtags: event.target.value })
-  }
+  // onClickChange = event => {
+  //   this.setState({ jobtags: event.target.value })
+  // }
 
   render() {
-    console.log(jobs)
     const filteredJobs = this.state.jobs.filter(job => {
       return (
         job.position
           .toLowerCase()
           .includes(this.state.searchfield.toLowerCase()) ||
-        job.company
-          .toLowerCase()
-          .includes(this.state.searchfield.toLowerCase()) ||
-        job.date.toLowerCase().includes(this.state.jobtags.toLowerCase())
+        job.company.toLowerCase().includes(this.state.searchfield.toLowerCase())
+        // job.date.toLowerCase().includes(this.state.jobtags.toLowerCase())
       )
     })
 
