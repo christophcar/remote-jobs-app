@@ -6,7 +6,7 @@ const puppeteer = require('puppeteer')
   const browser = await puppeteer.launch()
   const page = await browser.newPage()
   await page.goto(
-    'https://www.stepstone.de/5/ergebnisliste.html?stf=freeText&ns=1&qs=%5B%7B%22id%22%3A%22237719%22%2C%22description%22%3A%22Entwickler%2Fin+Frontend%22%2C%22type%22%3A%22jd%22%7D%5D&companyID=0&cityID=0&sourceOfTheSearchField=resultlistpage%3Ageneral&searchOrigin=Resultlist_top-search&ke=Entwickler%2Fin+Frontend&ws=Deutschland&ra=30'
+    'https://www.stepstone.de/5/ergebnisliste.html?ke=Entwickler%2Fin%20Frontend&ws=Deutschland&qs=%5B%7B%22id%22%3A%22237719%22%2C%22description%22%3A%22Entwickler%2Fin%20Frontend%22%2C%22type%22%3A%22jd%22%7D%5D&ob=refdate&suid=3e64694a-5437-4f43-9f9c-10fb3466d87d&an=sorting'
   )
 
   const position = await page.evaluate(() =>

@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './Home'
 import Description from './Description'
 import Particles from 'react-particles-js'
-import { jobs } from '../service'
+// import { jobs } from '../service'
 import styled from 'styled-components'
+import jobs from '../stepstone.json'
 // import scrape from './scraper'
-import stepstone from '../stepstone.json'
 
 const Loading = styled.h2`
   display: flex;
@@ -28,31 +28,33 @@ export default class App extends Component {
     jobtags: ''
   }
 
-  componentDidMount() {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response => response.json())
-      .then(remotejobs => this.setState({ jobs: remotejobs }))
-  }
+  // componentDidMount() {
+  //   fetch('https://jsonplaceholder.typicode.com/users')
+  //     .then(response => response.json())
+  //     .then(remotejobs => this.setState({ jobs: remotejobs }))
+  // }
 
   onSearchChange = event => {
     this.setState({ searchfield: event.target.value })
   }
 
   onClickChange = event => {
-    console.log(event.target.value)
     this.setState({ jobtags: event.target.value })
   }
 
   render() {
-    // const filteredJobs = this.state.jobs.filter(job => {
-    //   return (
-    //     job.name.toLowerCase().includes(this.state.searchfield.toLowerCase()) ||
-    //     job.email
-    //       .toLowerCase()
-    //       .includes(this.state.searchfield.toLowerCase()) ||
-    //     job.jobtags.toLowerCase().includes(this.state.jobtags.toLowerCase())
-    //   )
-    // })
+    console.log(jobs)
+    const filteredJobs = this.state.jobs.filter(job => {
+      return (
+        job.position
+          .toLowerCase()
+          .includes(this.state.searchfield.toLowerCase()) ||
+        job.company
+          .toLowerCase()
+          .includes(this.state.searchfield.toLowerCase()) ||
+        job.date.toLowerCase().includes(this.state.jobtags.toLowerCase())
+      )
+    })
 
     // this.save()
 
@@ -90,13 +92,12 @@ export default class App extends Component {
               }}
             />
           </Wrapper>
-
           <Route
             exact
             path="/"
             render={() => (
               <Home
-                jobs={stepstone}
+                jobs={filteredJobs}
                 searchChange={this.onSearchChange}
                 clickChange={this.onClickChange}
               />
