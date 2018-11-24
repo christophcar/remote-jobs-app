@@ -6,7 +6,7 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 45px;
+  margin: 50px 0;
 `
 
 const Input = styled.input`

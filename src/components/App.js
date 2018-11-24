@@ -5,7 +5,6 @@ import Description from './Description'
 import Particles from 'react-particles-js'
 import styled from 'styled-components'
 import jobs from '../stepstone.json'
-// import { jobs } from '../service'
 
 const Loading = styled.h2`
   display: flex;

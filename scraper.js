@@ -9,15 +9,22 @@ const puppeteer = require('puppeteer')
     'https://www.stepstone.de/5/ergebnisliste.html?ke=Frontend-Entwickler%2Fin&ws=Deutschland&qs=%5B%7B%22id%22%3A%22231794%22%2C%22description%22%3A%22Frontend-Entwickler%2Fin%22%2C%22type%22%3A%22jd%22%7D%2C%7B%22id%22%3A%22300000115%22%2C%22description%22%3A%22Deutschland%22%2C%22type%22%3A%22geocity%22%7D%5D&cityid=300000115&ob=refdate&suid=36fe6921-9cf8-4be7-ab1e-27a60340c9bb&an=sorting'
   )
 
-  const position = await page.evaluate(() =>
+  const stepstone = await page.evaluate(() =>
     Array.from(document.querySelectorAll('.job-element')).map(card => {
       const position = card.querySelector('.job-element__body__title').innerText
       const company = card.querySelector('.job-element__body__company')
         .innerText
       const description = card.querySelector('.job-element__body__details')
         .innerText
-      const image = card.querySelector('div.job-element__logo img').src
+      // const image = card.querySelector('.job-element__logo img').src
       const date = card.querySelector('time').innerText
+      const image = Array.from(
+        document.querySelectorAll('.job-element__logo img'),
+        img =>
+          img.dataset.src
+            ? 'https://www.stepstone.de' + img.dataset.src
+            : img.src
+      )
       return {
         position,
         company,
@@ -36,7 +43,7 @@ const puppeteer = require('puppeteer')
 
   fs.writeFile(
     path.join(__dirname, 'src/stepstone.json'),
-    JSON.stringify(position),
+    JSON.stringify(stepstone),
     err => {
       if (err) {
         console.error(err)

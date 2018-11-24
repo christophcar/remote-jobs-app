@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import JobCard from './JobCard'
-import Heading from './Heading'
 import Filter from './Filter'
 import Categories from './Categories'
 import PropTypes from 'prop-types'
+import Navigation from './Navigation'
 
 export default class Home extends Component {
   static propTypes = {
@@ -16,7 +16,8 @@ export default class Home extends Component {
     const { jobs, searchChange, clickChange } = this.props
     return (
       <React.Fragment>
-        <Heading />
+        {/* <Heading /> */}
+        <Navigation />
         <Filter searchChange={searchChange} />
         <Categories clickChange={clickChange} />
         {jobs.map((job, index) => (

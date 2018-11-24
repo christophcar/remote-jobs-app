@@ -56,7 +56,7 @@ export default class Categories extends Component {
         <Box value="Backend" onClick={clickChange}>
           <Image
             alt="Button"
-            src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/maintenance.png')}
+            src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/networking.png')}
           />
           Backend
         </Box>
