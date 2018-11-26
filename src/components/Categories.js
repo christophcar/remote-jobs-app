@@ -1,6 +1,12 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import computer from '../img/computer.png'
+import networking from '../img/networking.png'
+import pieChart from '../img/pie-chart.png'
+import layers from '../img/layers.png'
+import handshake from '../img/handshake.png'
+import support from '../img/support.png'
 
 const Wrapper = styled.section`
   display: grid;
@@ -47,45 +53,27 @@ export default class Categories extends Component {
     return (
       <Wrapper>
         <Box value="Frontend" onClick={clickChange}>
-          <Image
-            alt="Button"
-            src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/computer.png')}
-          />
+          <Image alt="Button" src={computer} />
           Frontend
         </Box>
         <Box value="Backend" onClick={clickChange}>
-          <Image
-            alt="Button"
-            src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/networking.png')}
-          />
+          <Image alt="Button" src={networking} />
           Backend
         </Box>
         <Box value="Marketing" onClick={clickChange}>
-          <Image
-            alt="Button"
-            src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/pie-chart.png')}
-          />
+          <Image alt="Button" src={pieChart} />
           Marketing
         </Box>
         <Box value="Design" onClick={clickChange}>
-          <Image
-            alt="Button"
-            src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/layers.png')}
-          />
+          <Image alt="Button" src={layers} />
           Design
         </Box>
         <Box value="Sales" onClick={clickChange}>
-          <Image
-            alt="Button"
-            src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/handshake.png')}
-          />
+          <Image alt="Button" src={handshake} />
           Sales
         </Box>
         <Box value="Support" onClick={clickChange}>
-          <Image
-            alt="Button"
-            src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/support.png')}
-          />
+          <Image alt="Button" src={support} />
           Support
         </Box>
       </Wrapper>
