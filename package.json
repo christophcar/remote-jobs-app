@@ -2,24 +2,9 @@
   "name": "todos-app",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "cypress": "^3.1.2",
-    "fs": "0.0.1-security",
-    "prop-types": "^15.6.2",
-    "puppeteer": "^1.10.0",
-    "puppeteer-core": "^1.10.0",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
-    "react-particles-js": "^2.4.1",
-    "react-router-dom": "4.3.1",
-    "react-scripts": "2.1.1",
-    "styled-components": "4.0.3",
-    "uid": "0.0.2"
-  },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "deploy": "npm run build && now --public",
     "test": "craco test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
@@ -35,17 +20,31 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.1.6",
     "@craco/craco": "2.2.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-jsx-remove-data-test-id": "^1.2.1",
+    "babel-plugin-styled-components": "1.8.0",
+    "fs": "0.0.1-security",
+    "prop-types": "^15.6.2",
+    "puppeteer": "^1.10.0",
+    "puppeteer-core": "^1.10.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-particles-js": "^2.4.1",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.1",
+    "styled-components": "4.0.3",
+    "uid": "0.0.2"
+  },
+  "devDependencies": {
     "@storybook/addon-actions": "^4.0.6",
     "@storybook/addon-knobs": "4.0.6",
     "@storybook/addon-links": "^4.0.6",
     "@storybook/addon-options": "4.0.6",
     "@storybook/addons": "^4.0.6",
     "@storybook/react": "^4.0.6",
-    "babel-loader": "^8.0.4",
-    "babel-plugin-jsx-remove-data-test-id": "^1.2.1",
-    "babel-plugin-styled-components": "1.8.0"
+    "cypress": "^3.1.2"
   }
 }
