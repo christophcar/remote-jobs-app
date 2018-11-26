@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import employee from '../img/employee.png'
 
 const Bar = styled.div`
   display: flex;
@@ -30,10 +31,7 @@ export default class Navigation extends Component {
   render() {
     return (
       <Bar>
-        <Image
-          alt="Button"
-          src={require('/Users/christoph/Documents/q4-2018/remote-jobs-app/src/img/employee.png')}
-        />
+        <Image alt="Button" src={employee} />
         <Headline>Find remote jobs in Germany</Headline>
       </Bar>
     )
