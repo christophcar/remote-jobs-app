@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 const Card = styled(Link)`
   display: grid;
   grid-template-columns: 1fr 4fr 2fr;
-  grid-template-rows: 45px 45px;
+  grid-template-rows: 65px 65px;
   align-items: center;
   margin: 25px auto;
   padding: 30px;
@@ -21,13 +21,14 @@ const Card = styled(Link)`
 `
 const Position = styled.h2`
   font-size: 22px;
-  line-height: 1;
+  line-height: 1.3;
   grid-column: 2 / 3;
   margin-left: 15px;
 `
 
 const Company = styled.h3`
   font-size: 23px;
+  line-height: 1.3;
   font-weight: 400;
   grid-column: 2 / 3;
   margin-left: 15px;
