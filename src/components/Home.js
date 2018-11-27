@@ -13,13 +13,12 @@ export default class Home extends Component {
   }
 
   render() {
-    const { jobs, searchChange, clickChange } = this.props
+    const { jobs, searchChange } = this.props
     return (
       <React.Fragment>
-        {/* <Heading /> */}
         <Navigation />
         <Filter searchChange={searchChange} />
-        <Categories clickChange={clickChange} />
+        <Categories searchChange={searchChange} />
         {jobs.map((job, index) => (
           <JobCard
             key={index}

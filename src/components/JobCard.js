@@ -61,7 +61,7 @@ export default class JobCard extends Component {
     const { company, date, position, image, id } = this.props
     return (
       <Router>
-        <Card to={`/jobs/${id}`}>
+        <Card data-cy="JobCard" to={`/jobs/${id}`}>
           <Image src={image} />
           <Position>{position}</Position>
           <Company>{company}</Company>

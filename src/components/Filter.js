@@ -9,7 +9,11 @@ const Wrapper = styled.section`
   margin: 50px 0;
 `
 
-const Input = styled.input`
+const Input = styled.input.attrs({
+  shouldComponentUpdate: (nextProps, nextState) => {
+    return false
+  }
+})`
   font-size: 20px;
   width: 400px;
   max-width: 400px;
@@ -41,14 +45,14 @@ export default class Filter extends Component {
   render() {
     const { searchChange } = this.props
     return (
-      <Wrapper data-cy="Filter">
+      <Wrapper>
         <Input
-          data-cy="Todo"
+          data-cy="Input"
           type="search"
-          placeholder="Search for jobs..."
-          onChange={searchChange}
+          placeholder="Search for position, company, ..."
+          onChange={event => searchChange(event.target.value)}
         />
-        <Button>Filter</Button>
+        <Button data-cy="FilterButton">Filter</Button>
       </Wrapper>
     )
   }

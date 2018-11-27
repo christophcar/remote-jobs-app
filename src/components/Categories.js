@@ -49,31 +49,35 @@ export default class Categories extends Component {
   }
 
   render() {
-    const { clickChange } = this.props
+    const { searchChange } = this.props
     return (
       <Wrapper>
-        <Box value="Frontend" onClick={clickChange}>
-          <Image alt="Button" src={computer} />
+        <Box
+          data-cy="CategoryButton1"
+          data-cy="CategoryButton"
+          onClick={() => searchChange('Frontend')}
+        >
+          <Image alt="Icon" src={computer} />
           Frontend
         </Box>
-        <Box value="Backend" onClick={clickChange}>
-          <Image alt="Button" src={networking} />
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Backend')}>
+          <Image alt="Icon" src={networking} />
           Backend
         </Box>
-        <Box value="Marketing" onClick={clickChange}>
-          <Image alt="Button" src={pieChart} />
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Marketing')}>
+          <Image alt="Icon" src={pieChart} />
           Marketing
         </Box>
-        <Box value="Design" onClick={clickChange}>
-          <Image alt="Button" src={layers} />
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Design')}>
+          <Image alt="Icon" src={layers} />
           Design
         </Box>
-        <Box value="Sales" onClick={clickChange}>
-          <Image alt="Button" src={handshake} />
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Sales')}>
+          <Image alt="Icon" src={handshake} />
           Sales
         </Box>
-        <Box value="Support" onClick={clickChange}>
-          <Image alt="Button" src={support} />
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
+          <Image alt="Icon" src={support} />
           Support
         </Box>
       </Wrapper>

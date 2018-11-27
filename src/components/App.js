@@ -18,7 +18,6 @@ const Wrapper = styled.div`
   top: 0;
   left: 0;
   right: 0;
-  /* bottom: 0; */
   z-index: -1;
 `
 
@@ -45,7 +44,6 @@ export default class App extends Component {
   state = {
     jobs: jobs,
     searchfield: ''
-    // category: ''
   }
 
   // componentDidMount() {
@@ -54,13 +52,13 @@ export default class App extends Component {
   //     .then(remotejobs => this.setState({ jobs: remotejobs }))
   // }
 
-  onSearchChange = event => {
-    this.setState({ searchfield: event.target.value })
+  onSearchChange = value => {
+    this.setState({ searchfield: value.toLowerCase() })
   }
 
-  onClickChange = event => {
-    this.setState({ category: event.target.value })
-  }
+  // onClickChange = event => {
+  //   this.setState({ category: event.target.value })
+  // }
 
   render() {
     const filteredJobs = this.state.jobs.filter(job => {
@@ -68,16 +66,14 @@ export default class App extends Component {
         job.position
           .toLowerCase()
           .includes(this.state.searchfield.toLowerCase()) ||
-        job.company.toLowerCase().includes(this.state.searchfield.toLowerCase())
+        job.company.toLowerCase().includes(this.state.searchfield)
         // job.position.toLowerCase().includes(this.state.category.toLowerCase())
       )
     })
 
     // this.save()
 
-    return !jobs.length ? (
-      <Loading>Loading...</Loading>
-    ) : (
+    return jobs.length ? (
       <Router>
         <React.Fragment>
           <Wrapper>
@@ -90,7 +86,7 @@ export default class App extends Component {
               <Home
                 jobs={filteredJobs}
                 searchChange={this.onSearchChange}
-                clickChange={this.onClickChange}
+                // clickChange={this.onClickChange}
               />
             )}
           />
@@ -109,19 +105,21 @@ export default class App extends Component {
           />
         </React.Fragment>
       </Router>
+    ) : (
+      <Loading>Loading...</Loading>
     )
   }
-  // }
-
-  // save() {
-  //   localStorage.setItem('remote-jobs', JSON.stringify(jobs))
-  // }
-
-  // load() {
-  //   try {
-  //     return JSON.parse(localStorage.getItem('remote-jobs')) || []
-  //   } catch (err) {
-  //     return []
-  //   }
-  // }
 }
+// }
+
+// save() {
+//   localStorage.setItem('remote-jobs', JSON.stringify(jobs))
+// }
+
+// load() {
+//   try {
+//     return JSON.parse(localStorage.getItem('remote-jobs')) || []
+//   } catch (err) {
+//     return []
+//   }
+// }
