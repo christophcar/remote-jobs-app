@@ -21,24 +21,24 @@ const Wrapper = styled.div`
   z-index: -1;
 `
 
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 200
-    },
-    size: {
-      value: 2
-    }
-  },
-  interactivity: {
-    events: {
-      onhover: {
-        enable: true,
-        mode: 'repulse'
-      }
-    }
-  }
-}
+// const particlesOptions = {
+//   particles: {
+//     number: {
+//       value: 200
+//     },
+//     size: {
+//       value: 2
+//     }
+//   },
+//   interactivity: {
+//     events: {
+//       onhover: {
+//         enable: true,
+//         mode: 'repulse'
+//       }
+//     }
+//   }
+// }
 
 export default class App extends Component {
   state = {
@@ -67,7 +67,6 @@ export default class App extends Component {
           .toLowerCase()
           .includes(this.state.searchfield.toLowerCase()) ||
         job.company.toLowerCase().includes(this.state.searchfield)
-        // job.position.toLowerCase().includes(this.state.category.toLowerCase())
       )
     })
 
@@ -76,18 +75,14 @@ export default class App extends Component {
     return jobs.length ? (
       <Router>
         <React.Fragment>
-          <Wrapper>
+          {/* <Wrapper>
             <Particles params={particlesOptions} />
-          </Wrapper>
+          </Wrapper> */}
           <Route
             exact
             path="/"
             render={() => (
-              <Home
-                jobs={filteredJobs}
-                searchChange={this.onSearchChange}
-                // clickChange={this.onClickChange}
-              />
+              <Home jobs={filteredJobs} searchChange={this.onSearchChange} />
             )}
           />
           <Route

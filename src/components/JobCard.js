@@ -9,7 +9,7 @@ const Card = styled(Link)`
   grid-template-columns: 1fr 4fr 2fr;
   grid-template-rows: 45px 45px;
   align-items: center;
-  margin: 25px auto;
+  margin: 25px;
   padding: 30px;
   background: white;
   max-width: 1000px;
@@ -18,6 +18,10 @@ const Card = styled(Link)`
   box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
   text-decoration: none;
   color: inherit;
+
+  @media only screen and (min-width: 1050px) {
+    margin: 25px auto;
+  }
 `
 const Position = styled.h2`
   font-size: 22px;

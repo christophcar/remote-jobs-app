@@ -14,17 +14,29 @@ const Bar = styled.div`
 
 const Headline = styled.h1`
   display: grid;
-  font-size: 35px;
+  font-size: 25px;
   grid-template-rows: 80px;
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  @media only screen and (min-width: 400px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (min-width: 1050px) {
+    font-size: 35px;
+  }
 `
 
 const Image = styled.img`
   width: 60px;
   height: auto;
-  margin-right: 35px;
+  margin-right: 0;
+
+  @media only screen and (min-width: 400px) {
+    margin-left: 25px;
+  }
 `
 
 export default class Navigation extends Component {

@@ -3,6 +3,8 @@ import { storiesOf } from '@storybook/react'
 import { text } from '@storybook/addon-knobs'
 import JobCard from '../components/JobCard'
 import Description from '../components/Description'
+import Categories from '../components/Categories'
+import Filter from '../components/Filter'
 
 storiesOf('Job card', module).add('Single card', () => (
   <React.Fragment>
@@ -22,11 +24,17 @@ storiesOf('Description', module).add('Job description', () => (
   </React.Fragment>
 ))
 
-// storiesOf('ui/Button', module).add('default', () => (
-//   <React.Fragment>
-//     <Button>{text('Label', 'Hello world')}</Button>
-//   </React.Fragment>
-// ))
+storiesOf('Categories', module).add('Category buttons', () => (
+  <React.Fragment>
+    <Categories />
+  </React.Fragment>
+))
+
+storiesOf('Filter', module).add('Input filter', () => (
+  <React.Fragment>
+    <Filter />
+  </React.Fragment>
+))
 
 // storiesOf('ui/Input', module).add('default', () => (
 //   <React.Fragment>

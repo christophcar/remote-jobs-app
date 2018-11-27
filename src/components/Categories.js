@@ -52,11 +52,7 @@ export default class Categories extends Component {
     const { searchChange } = this.props
     return (
       <Wrapper>
-        <Box
-          data-cy="CategoryButton1"
-          data-cy="CategoryButton"
-          onClick={() => searchChange('Frontend')}
-        >
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Frontend')}>
           <Image alt="Icon" src={computer} />
           Frontend
         </Box>
