@@ -14,10 +14,11 @@ const puppeteer = require('puppeteer')
       const position = card
         .querySelector('.job-element__body__title')
         .textContent.trim()
-        .replace(/^(.{60}[^\s]*).*/, '$1')
+        .replace(/^(.{45}[^\s]*).*/, '$1')
       const company = card
         .querySelector('.job-element__body__company')
         .textContent.trim()
+        .replace(/^(.{20}[^\s]*).*/, '$1')
       const description = card
         .querySelector('.job-element__body__details')
         .textContent.trim()
@@ -25,7 +26,8 @@ const puppeteer = require('puppeteer')
       const image = image_element.dataset.src
         ? `https://www.stepstone.de${image_element.dataset.src}`
         : image_element.src
-      const date = card.querySelector('time').innerText
+      // const date = card.querySelector('time').innerText
+      const date = card.querySelector('time').getAttribute('datetime')
 
       return {
         position,

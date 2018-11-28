@@ -25,9 +25,7 @@ describe('Search', () => {
     cy.visit('http://localhost:3000')
   })
   it('can filter jobs via text', () => {
-    cy.get('input[placeholder="Search for position, company, ..."]').type(
-      'Frontend'
-    )
+    cy.get('input[placeholder="Search for jobs..."]').type('Frontend')
 
     cy.get('[data-cy="JobCard"]')
   })

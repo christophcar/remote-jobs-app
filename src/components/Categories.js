@@ -10,19 +10,16 @@ import support from '../img/support.png'
 
 const Wrapper = styled.section`
   display: grid;
-  grid-gap: 30px;
-  margin: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-auto-rows: 100px;
+  grid-gap: 10px;
+  margin: 50px 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 80px;
   justify-content: center;
 
-  @media only screen and (min-width: 900px) {
-    display: grid;
+  @media only screen and (min-width: 700px) {
     grid-gap: 30px;
-    margin: 50px;
-    grid-template-columns: repeat(3, minmax(200px, 300px));
+    grid-template-columns: repeat(3, minmax(200px, 313px));
     grid-auto-rows: 100px 100px;
-    justify-content: center;
   }
 `
 
@@ -30,7 +27,7 @@ const Box = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 17px;
+  padding: 18px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
   font-size: 20px;

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './Home'
 import Description from './Description'
-import Particles from 'react-particles-js'
+// import Particles from 'react-particles-js'
 import styled from 'styled-components'
 import jobs from '../stepstone.json'
 
@@ -13,13 +13,13 @@ const Loading = styled.h2`
   font-size: 32px;
 `
 
-const Wrapper = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-`
+// const Wrapper = styled.div`
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   z-index: -1;
+// `
 
 // const particlesOptions = {
 //   particles: {

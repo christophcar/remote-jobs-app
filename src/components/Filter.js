@@ -6,11 +6,15 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 0;
+  margin: 15px 10px;
+
+  @media only screen and (min-width: 700px) {
+    margin: 50px 0;
+  }
 `
 
 const Input = styled.input.attrs({
-  shouldComponentUpdate: (nextProps, nextState) => {
+  shouldComponentUpdate: () => {
     return false
   }
 })`
@@ -21,7 +25,7 @@ const Input = styled.input.attrs({
   border: none;
   background: #fff;
   padding: 10px;
-  margin: 5px;
+  margin-right: 5px;
   border-radius: 8px;
 `
 
@@ -31,7 +35,7 @@ const Button = styled.button`
   font-weight: 300;
   width: 150px;
   height: 60px;
-  margin: 5px;
+  margin-left: 5px;
   background: cornflowerblue;
   border-radius: 8px;
   box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
@@ -49,7 +53,7 @@ export default class Filter extends Component {
         <Input
           data-cy="Input"
           type="search"
-          placeholder="Search for position, company, ..."
+          placeholder="Search for jobs..."
           onChange={event => searchChange(event.target.value)}
         />
         <Button data-cy="FilterButton">Filter</Button>
