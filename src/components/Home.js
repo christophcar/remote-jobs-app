@@ -22,7 +22,7 @@ export default class Home extends Component {
         {jobs.map((job, index) => (
           <JobCard
             key={index}
-            id={index}
+            id={job.id}
             position={job.position}
             company={job.company}
             image={job.image}

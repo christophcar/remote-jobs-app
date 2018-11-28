@@ -11,6 +11,7 @@ const puppeteer = require('puppeteer')
 
   const stepstone = await page.evaluate(() => {
     return Array.from(document.querySelectorAll('.job-element'), card => {
+      const id = card.querySelector('time').getAttribute('datetime')
       const position = card
         .querySelector('.job-element__body__title')
         .textContent.trim()
@@ -30,6 +31,7 @@ const puppeteer = require('puppeteer')
       const date = card.querySelector('time').getAttribute('datetime')
 
       return {
+        id,
         position,
         company,
         description,
