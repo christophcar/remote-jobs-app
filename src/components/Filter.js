@@ -6,11 +6,7 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px 10px;
-
-  @media only screen and (min-width: 700px) {
-    margin: 50px 0;
-  }
+  margin: 160px 10px 50px 10px;
 `
 
 const Input = styled.input.attrs({

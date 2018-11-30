@@ -4,6 +4,7 @@ import Filter from './Filter'
 import Categories from './Categories'
 import PropTypes from 'prop-types'
 import Navigation from './Navigation'
+import Footer from './Footer'
 
 export default class Home extends Component {
   static propTypes = {
@@ -29,6 +30,7 @@ export default class Home extends Component {
             date={job.date}
           />
         ))}
+        <Footer />
       </React.Fragment>
     )
   }
