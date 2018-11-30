@@ -31,7 +31,7 @@ const Box = styled.button`
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
   font-size: 20px;
-  background: rgb(244, 247, 252);
+  background: rgb(244, 248, 249);
 `
 
 const Image = styled.img`

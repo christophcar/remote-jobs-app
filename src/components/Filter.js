@@ -15,27 +15,26 @@ const Input = styled.input.attrs({
   }
 })`
   font-size: 20px;
-  width: 400px;
-  max-width: 400px;
-  height: 60px;
-  border: none;
+  width: 500px;
+  height: 70px;
+  border: 1px solid gray;
   background: #fff;
   padding: 10px;
   margin-right: 5px;
   border-radius: 8px;
 `
 
-const Button = styled.button`
-  color: white;
-  font-size: 20px;
-  font-weight: 300;
-  width: 150px;
-  height: 60px;
-  margin-left: 5px;
-  background: cornflowerblue;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
-`
+// const Button = styled.button`
+//   color: white;
+//   font-size: 20px;
+//   font-weight: 300;
+//   width: 150px;
+//   height: 60px;
+//   margin-left: 5px;
+//   background: cornflowerblue;
+//   border-radius: 8px;
+//   box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
+// `
 
 export default class Filter extends Component {
   static propTypes = {
@@ -49,10 +48,10 @@ export default class Filter extends Component {
         <Input
           data-cy="Input"
           type="search"
-          placeholder="Search for jobs..."
+          placeholder="Search for position or company..."
           onChange={event => searchChange(event.target.value)}
         />
-        <Button data-cy="FilterButton">Filter</Button>
+        {/* <Button data-cy="FilterButton">Filter</Button> */}
       </Wrapper>
     )
   }
