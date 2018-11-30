@@ -6,7 +6,7 @@ const Bar = styled.section`
   display: grid;
   grid-template-columns: 2fr 1fr 5fr 1fr;
   grid-gap: 10px;
-  grid-template-rows: 110px;
+  grid-template-rows: 100px;
   position: fixed;
   top: 0;
   width: 100%;

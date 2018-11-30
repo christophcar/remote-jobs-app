@@ -7,9 +7,14 @@ const Bar = styled.section`
   grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
   grid-template-rows: 55px 55px;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 180px;
   box-shadow: 0 1px 3.5px rgba(57, 73, 76, 0.25);
   background: #fff;
+
+  @media only screen and (max-width: 500px) {
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 70px 70px 120px;
+  }
 `
 
 const Wrapper = styled.section`
@@ -18,6 +23,12 @@ const Wrapper = styled.section`
   align-items: center;
   grid-column: 2 / 3;
   grid-row: 1 / 3;
+
+  @media only screen and (max-width: 500px) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-content: left;
+  }
 `
 
 const Image = styled.img`
@@ -26,13 +37,18 @@ const Image = styled.img`
   align-items: center;
   width: 55px;
 
-  @media only screen and (min-width: 700px) {
-    width: 55px;
+  @media only screen and (max-width: 500px) {
+    width: 35px;
+    justify-content: left;
   }
 `
 
 const Made = styled.p`
   margin-left: 20px;
+
+  @media only screen and (max-width: 500px) {
+    font-size: 16px;
+  }
 `
 
 const Name = styled.h3`
@@ -41,6 +57,14 @@ const Name = styled.h3`
   grid-column: 3 / 4;
   grid-row: 1 / 2;
   margin-bottom: -10px;
+
+  @media only screen and (max-width: 500px) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 16px;
+    justify-content: left;
+    margin-bottom: 20px;
+  }
 `
 
 const Claim = styled.p`
@@ -51,6 +75,14 @@ const Claim = styled.p`
   grid-column: 3 / 4;
   grid-row: 2 / 3;
   margin-top: -10px;
+
+  @media only screen and (max-width: 500px) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 16px;
+    justify-content: left;
+    margin-top: 60px;
+  }
 `
 
 const Adress = styled.p`
@@ -58,6 +90,13 @@ const Adress = styled.p`
   grid-row: 1 / 3;
   font-size: 16px;
   margin-left: 20px;
+
+  @media only screen and (max-width: 500px) {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    font-size: 16px;
+    margin: 0;
+  }
 `
 
 const Link = styled.a``
