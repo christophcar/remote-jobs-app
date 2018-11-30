@@ -15,10 +15,6 @@ const Bar = styled.section`
   box-shadow: 0 1px 3.5px rgba(57, 73, 76, 0.25);
   line-height: 1;
   background: #fff;
-
-  @media only screen and (min-width: 700px) {
-    grid-gap: 5px;
-  }
 `
 
 const Headline = styled.h1`
@@ -26,7 +22,7 @@ const Headline = styled.h1`
   font-size: 20px;
 
   @media only screen and (min-width: 700px) {
-    font-size: 40px;
+    font-size: 38px;
   }
 `
 
@@ -40,8 +36,8 @@ const Wrapper = styled.section`
 const Image = styled.img`
   width: 55px;
 
-  @media only screen and (min-width: 700px) {
-    width: 70px;
+  @media only screen and (min-width: 750px) {
+    width: 65px;
   }
 `
 
