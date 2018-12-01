@@ -56,10 +56,6 @@ export default class App extends Component {
     this.setState({ searchfield: value.toLowerCase() })
   }
 
-  // onClickChange = event => {
-  //   this.setState({ category: event.target.value })
-  // }
-
   render() {
     const filteredJobs = this.state.jobs.filter(job => {
       return (
