@@ -29,10 +29,13 @@ const Box = styled.button`
   align-items: center;
   padding: 18px;
   border-radius: 10px;
-  /* box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4); */
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
   font-size: 20px;
   background: rgb(244, 248, 249);
+
+  &:hover {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  }
 `
 
 const Image = styled.img`

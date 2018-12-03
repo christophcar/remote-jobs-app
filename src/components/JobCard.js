@@ -103,17 +103,15 @@ export default class JobCard extends Component {
   render() {
     const { company, date, position, image, id } = this.props
     return (
-      <Router>
-        <Card data-cy="JobCard" to={`/jobs/${id}`}>
-          <Image src={image} />
-          <Position>{position}</Position>
-          <Company>{company}</Company>
-          <Date>
-            <Moment format="D MMM">{date}</Moment>
-            {/* <Moment fromNow>{date}</Moment> */}
-          </Date>
-        </Card>
-      </Router>
+      <Card data-cy="JobCard" to={`/jobs/${id}`}>
+        <Image src={image} />
+        <Position>{position}</Position>
+        <Company>{company}</Company>
+        <Date>
+          <Moment format="D MMM">{date}</Moment>
+          {/* <Moment fromNow>{date}</Moment> */}
+        </Date>
+      </Card>
     )
   }
 }

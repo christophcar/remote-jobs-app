@@ -10,7 +10,6 @@ const Bar = styled.section`
   box-shadow: 0 1px 3.5px rgba(57, 73, 76, 0.25);
   margin-top: 180px;
   background: #fff;
-  bottom: 0;
 
   @media only screen and (min-width: 900px) {
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;

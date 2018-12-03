@@ -12,6 +12,9 @@ const puppeteer = require('puppeteer')
   const stepstone = await page.evaluate(() => {
     return Array.from(document.querySelectorAll('.job-element'), card => {
       const id = card.querySelector('time').getAttribute('datetime')
+      const href = card
+        .querySelector('.job-element__body > a')
+        .getAttribute('href')
       const position = card
         .querySelector('.job-element__body__title')
         .textContent.trim()
@@ -20,25 +23,33 @@ const puppeteer = require('puppeteer')
         .querySelector('.job-element__body__company')
         .textContent.trim()
         .replace(/^(.{20}[^\s]*).*/, '$1')
-      const description = card
-        .querySelector('.job-element__body__details')
-        .textContent.trim()
       const image_element = card.querySelector('.job-element__logo img')
       const image = image_element.dataset.src
         ? `https://www.stepstone.de${image_element.dataset.src}`
         : image_element.src
-      // const date = card.querySelector('time').innerText
       const date = card.querySelector('time').getAttribute('datetime')
 
       return {
         id,
         position,
         company,
-        description,
         image,
-        date
+        date,
+        href
       }
     })
+  })
+
+  stepstone.map(async stone => {
+    const page = await browser.newPage()
+    await page.goto(stone.href)
+    const details = await page.evaluate(() => {
+      return document.querySelector('card__body')
+    })
+    return {
+      ...stone,
+      details
+    }
   })
 
   fs.writeFile(
