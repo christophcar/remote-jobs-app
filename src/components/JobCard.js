@@ -16,9 +16,14 @@ const Card = styled(Link)`
   max-width: 1000px;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
+  /* box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4); */
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   text-decoration: none;
   color: inherit;
+
+  &:hover {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  }
 
   @media only screen and (min-width: 700px) {
     padding: 30px;
@@ -92,7 +97,7 @@ export default class JobCard extends Component {
     position: PropTypes.string,
     company: PropTypes.string,
     date: PropTypes.string,
-    id: PropTypes.number
+    id: PropTypes.string
   }
 
   render() {
