@@ -40,17 +40,19 @@ const puppeteer = require('puppeteer')
     })
   })
 
-  stepstone.map(async stone => {
-    const page = await browser.newPage()
-    await page.goto(stone.href)
-    const details = await page.evaluate(() => {
-      return document.querySelector('card__body')
-    })
-    return {
-      ...stone,
-      details
-    }
-  })
+  // const newStepstone = stepstone.map(async stone => {
+  //   const page = await browser.newPage()
+  //   await page.goto(stone.href)
+
+  //   const details = await page.evaluate(() => {
+  //     return stone.querySelector('card__title color-custom').textContent.trim()
+  //   })
+
+  //   return {
+  //     ...stone,
+  //     details
+  //   }
+  // })
 
   fs.writeFile(
     path.join(__dirname, 'src/stepstone.json'),
