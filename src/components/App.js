@@ -4,7 +4,6 @@ import Home from './Home'
 import Description from './Description'
 import styled from 'styled-components'
 import jobs from '../stepstone.json'
-// import Particles from 'react-particles-js'
 
 const Loading = styled.h2`
   display: flex;
@@ -12,33 +11,6 @@ const Loading = styled.h2`
   align-items: center;
   font-size: 32px;
 `
-
-// const Wrapper = styled.div`
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   z-index: -1;
-// `
-
-// const particlesOptions = {
-//   particles: {
-//     number: {
-//       value: 200
-//     },
-//     size: {
-//       value: 2
-//     }
-//   },
-//   interactivity: {
-//     events: {
-//       onhover: {
-//         enable: true,
-//         mode: 'repulse'
-//       }
-//     }
-//   }
-// }
 
 export default class App extends Component {
   state = {
@@ -66,14 +38,11 @@ export default class App extends Component {
       )
     })
 
-    // this.save()
+    this.save()
 
     return jobs.length ? (
       <Router>
         <React.Fragment>
-          {/* <Wrapper>
-            <Particles params={particlesOptions} />
-          </Wrapper> */}
           <Route
             exact
             path="/"
@@ -84,14 +53,16 @@ export default class App extends Component {
           <Route
             path="/jobs/:id"
             render={({ match }) => (
-              <div>
-                <Description
-                  description={
-                    this.state.jobs.find(job => job.id === match.params.id)
-                      .description
-                  }
-                />
-              </div>
+              <Description
+                title={
+                  this.state.jobs.find(job => job.id === match.params.id)
+                    .details[0].title
+                }
+                body={
+                  this.state.jobs.find(job => job.id === match.params.id)
+                    .details[0].body
+                }
+              />
             )}
           />
         </React.Fragment>
@@ -100,17 +71,16 @@ export default class App extends Component {
       <Loading>Loading...</Loading>
     )
   }
+
+  save() {
+    localStorage.setItem('remote-jobs', JSON.stringify(jobs))
+  }
+
+  load() {
+    try {
+      return JSON.parse(localStorage.getItem('remote-jobs')) || []
+    } catch (err) {
+      return []
+    }
+  }
 }
-// }
-
-// save() {
-//   localStorage.setItem('remote-jobs', JSON.stringify(jobs))
-// }
-
-// load() {
-//   try {
-//     return JSON.parse(localStorage.getItem('remote-jobs')) || []
-//   } catch (err) {
-//     return []
-//   }
-// }

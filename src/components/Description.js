@@ -9,7 +9,6 @@ export const Wrapper = styled.section`
   margin: 20px 50px;
   padding: 25px;
   background: white;
-  height: auto;
   border-radius: 8px;
   box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
   font-size: 19px;
@@ -21,7 +20,12 @@ export default class Description extends Component {
   }
 
   render() {
-    const { description } = this.props
-    return <Wrapper>{description}</Wrapper>
+    const { title, body } = this.props
+    return (
+      <React.Fragment>
+        <Wrapper>{title}</Wrapper>
+        <Wrapper>{body}</Wrapper>
+      </React.Fragment>
+    )
   }
 }
