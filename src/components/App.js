@@ -4,6 +4,7 @@ import Home from './Home'
 import Description from './Description'
 import styled from 'styled-components'
 import jobs from '../stepstone.json'
+import Autosuggest from 'react-autosuggest'
 // import Particles from 'react-particles-js'
 
 const Loading = styled.h2`
@@ -40,10 +41,54 @@ const Loading = styled.h2`
 //   }
 // }
 
+const languages = [
+  {
+    name: 'javascript'
+  },
+  {
+    name: 'python'
+  }
+]
+
+const getSuggestions = value => {
+  const inputValue = value.trim().toLowerCase()
+  const inputLength = inputValue.length
+
+  return inputLength === 0
+    ? []
+    : languages.filter(
+        lang => lang.name.toLowerCase().slice(0, inputLength) === inputValue
+      )
+}
+
+const getSuggestionValue = suggestion => suggestion.name
+
+const renderSuggestion = suggestion => <div>{suggestion.name}</div>
+
 export default class App extends Component {
   state = {
     jobs: jobs,
-    searchfield: ''
+    searchfield: '',
+    value: '',
+    suggestions: []
+  }
+
+  onChange = (event, { newValue }) => {
+    this.setState({
+      value: newValue
+    })
+  }
+
+  onSuggestionsFetchRequested = ({ value }) => {
+    this.setState({
+      suggestions: getSuggestions(value)
+    })
+  }
+
+  onSuggestionsClearRequested = () => {
+    this.setState({
+      suggestions: []
+    })
   }
 
   // componentDidMount() {
@@ -57,6 +102,7 @@ export default class App extends Component {
   }
 
   render() {
+    const { value, suggestions } = this.state
     const filteredJobs = this.state.jobs.filter(job => {
       return (
         job.position
@@ -65,12 +111,25 @@ export default class App extends Component {
         job.company.toLowerCase().includes(this.state.searchfield)
       )
     })
+    const inputProps = {
+      placeholder: 'Type a programming language',
+      value,
+      onChange: this.onChange
+    }
 
     // this.save()
 
     return jobs.length ? (
       <Router>
         <React.Fragment>
+          <Autosuggest
+            suggestions={suggestions}
+            onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
+            onSuggestionsClearRequested={this.onSuggestionsClearRequested}
+            getSuggestionValue={getSuggestionValue}
+            renderSuggestion={renderSuggestion}
+            inputProps={inputProps}
+          />
           {/* <Wrapper>
             <Particles params={particlesOptions} />
           </Wrapper> */}
