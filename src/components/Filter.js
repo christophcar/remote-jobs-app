@@ -20,16 +20,16 @@ const Input = styled.input.attrs({
   border: 1px solid gray;
   background: #fff;
   padding: 10px;
-  margin-right: 5px;
+  margin-right: 8px;
   border-radius: 8px;
 `
 
 // const Button = styled.button`
 //   color: white;
-//   font-size: 20px;
+//   font-size: 23px;
 //   font-weight: 300;
 //   width: 150px;
-//   height: 60px;
+//   height: 70px;
 //   margin-left: 5px;
 //   background: cornflowerblue;
 //   border-radius: 8px;

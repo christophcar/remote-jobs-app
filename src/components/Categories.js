@@ -31,7 +31,8 @@ const Box = styled.button`
   border-radius: 10px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
   font-size: 20px;
-  background: rgb(244, 248, 249);
+  /* background: rgb(244, 248, 249); */
+  background: rgb(250, 250, 250);
 
   &:hover {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);

@@ -10,7 +10,7 @@ const puppeteer = require('puppeteer')
   )
 
   const stepstone = await page.evaluate(() => {
-    return Array.from(document.querySelectorAll('.job-element'), card => {
+    return Array.from(document.querySelectorAll('.job-element')).map(card => {
       const id = card.querySelector('time').getAttribute('datetime')
       const href = card
         .querySelector('.job-element__body > a')
@@ -40,23 +40,34 @@ const puppeteer = require('puppeteer')
     })
   })
 
-  // const newStepstone = stepstone.map(async stone => {
-  //   const page = await browser.newPage()
-  //   await page.goto(stone.href)
+  const newStepstone = stepstone.map(async stone => {
+    const page = await browser.newPage()
+    await page.goto(stone.href)
+    let details
+    try {
+      details = await page.evaluate(() => {
+        const cards = Array.from(document.querySelectorAll('.card__body'))
+        return cards.map(card => {
+          const title = card.querySelector('.card__title').textContent
+          const body = card.querySelector('.richtext').textContent
+          return { title, body }
+        })
+      })
+    } catch (err) {
+      console.error(err)
+    }
 
-  //   const details = await page.evaluate(() => {
-  //     return stone.querySelector('card__title color-custom').textContent.trim()
-  //   })
+    return {
+      ...stone,
+      details
+    }
+  })
 
-  //   return {
-  //     ...stone,
-  //     details
-  //   }
-  // })
+  const doneDetails = await Promise.all(newStepstone)
 
   fs.writeFile(
     path.join(__dirname, 'src/stepstone.json'),
-    JSON.stringify(stepstone),
+    JSON.stringify(doneDetails),
     err => {
       if (err) {
         console.error(err)

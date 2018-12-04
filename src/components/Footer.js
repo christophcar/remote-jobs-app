@@ -8,7 +8,9 @@ const Bar = styled.section`
   grid-template-rows: 70px 70px 120px;
   align-items: center;
   box-shadow: 0 1px 3.5px rgba(57, 73, 76, 0.25);
-  margin-top: 180px;
+  position: absolute;
+  bottom: -330px;
+  width: 100%;
   background: #fff;
 
   @media only screen and (min-width: 900px) {
