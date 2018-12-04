@@ -24,6 +24,7 @@
   "dependencies": {
     "@babel/core": "^7.1.6",
     "@craco/craco": "2.2.3",
+    "async": "^2.6.1",
     "babel-loader": "^8.0.4",
     "babel-plugin-jsx-remove-data-test-id": "^1.2.1",
     "babel-plugin-styled-components": "1.8.0",

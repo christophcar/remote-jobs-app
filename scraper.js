@@ -1,9 +1,9 @@
 const fs = require('fs')
 const path = require('path')
 const puppeteer = require('puppeteer')
-
+const async = require('async')
 ;(async () => {
-  const browser = await puppeteer.launch()
+  const browser = await puppeteer.launch({ headless: false })
   const page = await browser.newPage()
   await page.goto(
     'https://www.stepstone.de/5/ergebnisliste.html?stf=freeText&ns=1&qs=%5B%7B%22id%22%3A%22231794%22%2C%22description%22%3A%22Frontend-Entwickler%2Fin%22%2C%22type%22%3A%22jd%22%7D%2C%7B%22id%22%3A%22300000115%22%2C%22description%22%3A%22Deutschland%22%2C%22type%22%3A%22geocity%22%7D%5D&companyID=0&cityID=300000115&sourceOfTheSearchField=homepagemex%3Ageneral&searchOrigin=Homepage_top-search&ke=Frontend-Entwickler%2Fin&ws=Deutschland&ra=30'
@@ -40,28 +40,29 @@ const puppeteer = require('puppeteer')
     })
   })
 
-  const newStepstone = stepstone.map(async stone => {
-    const page = await browser.newPage()
-    await page.goto(stone.href)
-    let details
-    try {
-      details = await page.evaluate(() => {
+  const newStepstone = async.mapSeries(
+    stepstone,
+    async stone => {
+      const page = await browser.newPage()
+      await page.goto(stone.href)
+      const details = await page.evaluate(() => {
         const cards = Array.from(document.querySelectorAll('.card__body'))
         return cards.map(card => {
-          const title = card.querySelector('.card__title').textContent
-          const body = card.querySelector('.richtext').textContent
+          const title = card.querySelector('.card__title')
+          const body = card.querySelector('.richtext')
           return { title, body }
         })
       })
-    } catch (err) {
+
+      return {
+        ...stone,
+        details
+      }
+    },
+    err => {
       console.error(err)
     }
-
-    return {
-      ...stone,
-      details
-    }
-  })
+  )
 
   const doneDetails = await Promise.all(newStepstone)
 
