@@ -30,6 +30,7 @@
     "babel-plugin-styled-components": "1.8.0",
     "fs": "0.0.1-security",
     "moment": "^2.22.2",
+    "moment-timezone": "^0.5.23",
     "prop-types": "^15.6.2",
     "puppeteer": "^1.10.0",
     "puppeteer-core": "^1.10.0",

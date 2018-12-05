@@ -31,15 +31,16 @@ const Box = styled.div`
   justify-content: center;
   align-items: center;
   padding: 18px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 5px 5px rgba(17, 16, 62, 0.1);
   font-size: 16px;
   font-weight: 700;
   border: 2px solid rgb(74, 165, 234);
   border-radius: 3px;
   background: white;
+  cursor: pointer;
 
   &:hover {
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 5px rgba(17, 16, 62, 0.15);
   }
 `
 
@@ -59,6 +60,12 @@ export default class Categories extends Component {
         <Box data-cy="CategoryButton" onClick={() => searchChange('Backend')}>
           Backend
         </Box>
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
+          Fullstack
+        </Box>
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
+          Data Science
+        </Box>
         <Box data-cy="CategoryButton" onClick={() => searchChange('Marketing')}>
           Marketing
         </Box>
@@ -69,19 +76,13 @@ export default class Categories extends Component {
           Sales
         </Box>
         <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
-          Support
+          Management
         </Box>
         <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
-          Support
+          Finance
         </Box>
         <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
-          Support
-        </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
-          Support
-        </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
-          Support
+          Mobile
         </Box>
         <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
           Support

@@ -18,7 +18,6 @@ export default class Home extends Component {
     return (
       <React.Fragment>
         <StartPage />
-        {/* <Filter searchChange={searchChange} /> */}
         <Categories searchChange={searchChange} />
         {jobs.map((job, index) => (
           <JobCard

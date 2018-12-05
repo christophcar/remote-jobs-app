@@ -3,10 +3,12 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import Moment from 'react-moment'
+import 'moment-timezone'
+import 'moment/locale/de'
 
 const Card = styled(Link)`
   display: grid;
-  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: 60px 60px;
   align-items: center;
   margin: 15px 10px;
@@ -14,7 +16,6 @@ const Card = styled(Link)`
   background: white;
   max-width: 1000px;
   height: auto;
-  /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); */
   box-shadow: 0 10px 10px rgba(17, 16, 62, 0.1);
   text-decoration: none;
   color: inherit;
@@ -107,7 +108,9 @@ export default class JobCard extends Component {
         <Position>{position}</Position>
         <Company>{company}</Company>
         <Date>
-          <Moment format="D MMM">{date}</Moment>
+          <Moment locale="de" format="D MMM" fromNow>
+            {date}
+          </Moment>
           {/* <Moment fromNow>{date}</Moment> */}
         </Date>
       </Card>
