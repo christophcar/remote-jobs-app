@@ -17,7 +17,6 @@ export default class Home extends Component {
     const { jobs, searchChange } = this.props
     return (
       <React.Fragment>
-        <Navigation />
         <Filter searchChange={searchChange} />
         <Categories searchChange={searchChange} />
         {jobs.map((job, index) => (

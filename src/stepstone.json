@@ -1,50 +1,102 @@
 [
   {
-    "id": "2018-12-04T14:12:04Z",
-    "position": "Frontend (Web) Entwickler (100%)",
-    "company": "Digitale Neubelebung",
-    "image": "https://www.stepstone.de/upload_de/logo/D/logoDigitale-Neubelebung-GmbH-170820DE.gif",
-    "date": "2018-12-04T14:12:04Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Web-Entwickler-100-Konstanz-Digitale-Neubelebung-GmbH--5372720-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=1_1_25_dynrl_m_0_0_0",
+    "id": "2018-12-05T10:12:05Z",
+    "position": "QUALI WEBENTWICKLER/FRONTEND ENTWICKLER (M/W)",
+    "company": "Fitmart GmbH & Co. KG",
+    "image": "https://www.stepstone.de/upload_de/logo/F/logoFitmart-GmbH-Co-KG-114141DE.gif",
+    "date": "2018-12-05T10:12:05Z",
+    "href": "https://www.stepstone.de/stellenangebote--QUALI-WEBENTWICKLER-FRONTEND-ENTWICKLER-M-W-Elmshorn-Fitmart-GmbH-Co-KG--5384894-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=1_1_25_dynrl_m_0_0_0",
     "details": [
       {
-        "title": "Deine Aufgaben ",
-        "body": "\n \nAgile Softwareentwicklung in interdisziplinären SCRUM Teams \nDu entwickelst Komponenten und Features für ein modernes Frontend aufgebaut auf neusten Webtechnologien \nStetige Verbesserung der Usability \nBeratung und Unterstützung bei der Erstellung von Konzepten \n\n"
+        "title": "DEINE AUFGABEN",
+        "body": "\n \nUmsetzung und Implementierung von Templates für den OXID eShop \nKontinuierliche Optimierung und Pflege von bestehenden Benutzeroberflächen im Hinblick auf Usability, Performance und Responsive Design \nErstellung von Anforderungsspezifikationen sowie Verantwortung für die entsprechende Planung und Umsetzung der Weboberflächen \nEnge Zusammenarbeit mit verschiedenen Fachbereichen sowie regelmäßiger Austausch mit unseren Backend-Entwicklern \n\n"
       },
       {
-        "title": "Was wir von Dir erwarten ",
-        "body": "\n \nHochschulabschluss der Informatik/Wirtschaftsinformatik/Medieninformatik oder ein vergleichbarer Studiengang \nFundierte Kenntnisse in den Bereichen HTML5, CSS3, JavaScript und Frameworks wie jQuery \nErfahrung in der Webentwicklung \nTeamfähigkeit und selbstständiges Arbeiten \nSehr gute Deutsch- und Englischkenntnisse \nHohe Reisebereitschaft  \n\n"
+        "title": "DEIN PROFIL",
+        "body": "\nUNSERE ANFORDERUNGEN \n \nFundierte Kenntnisse und praktische Erfahrung mit HTML, Javascript/ AJAX, CSS und JSON \nKenntnisse in Browser- und Plattformtechnologien und deren Unterschiede \nKnow-how in der Konzeption, Gestaltung und Umsetzung von GUIs sowie Websites und den damit einhergehenden UX/Usability-Aspekten \nRoutine im Arbeiten in Teams und mit Versionsverwaltung (Git) \nErfahrung mit der Template Engine Smarty \n \nWÜNSCHENSWERTE KENNTNISSE  \n \nVon Vorteil wären zusätzliche Kenntnisse in den Bereichen PHP und MySQL \nKnow-how in agiler Entwicklung auf Basis von Scrum/Kanban und unter Verwendung von JIRA \nAnwendung von CSS Pre- und Postprocessing Tools wie SASS und LESS \n \nDEINE PERSÖNLICHKEIT \n \nEngagement und Flexibilität \nZuverlässigkeit \nMotivation und Leistungsbereitschaft \nTeamfähigkeit \nHohe Eigenverantwortung und Spaß an vielseitigen Projekten \n\n"
       },
       {
-        "title": "Was Dich bei uns erwartet?",
-        "body": "\n \nProfessionelle Arbeitsumfelder an mehreren Standorten \nGemeinsame Projektarbeit mit Global Playern \nDeine Bedürfnisse und Anliegen treffen bei uns auf ein offenes Ohr \nMitgestaltungsmöglichkeit auf Grund von flachen Hierarchien \nStart-up Mentalität \nIndividuell einsetzbares Weiterbildungsbudget \nFringe Benefits sowie Obst, Kalt- und Warmgetränke \nHomeoffice \n\n"
+        "title": "WIR BIETEN",
+        "body": "\n \nEntwicklungsmöglichkeiten \nHerausfordernde Aufgaben und spannende Projekte in einem innovativen und dynamischen Team \nFlache Hierarchien, Kommunikation auf Augenhöhe und kurze Entscheidungswege \n\n"
       },
       {
-        "title": "Kontakt",
-        "body": "\nDigitale Neubelebung GmbH Fatih Korkmaz Geschäftsführer 01725690658 Max-Stromeyer-Str. 126 78467 Konstanz korkmaz@neubelebung.de www.neubelebung.de\n"
+        "title": "INTERESSE GEWECKT?",
+        "body": "\nDann freuen wir uns auf Deine vollständigen Bewerbungsunterlagen inklusive Angaben zu Deiner Gehaltsvorstellung und Deinem frühestmöglichen Eintrittstermin. \nFITMART GMBH & CO. KG | Ansprechpartner: Franziska Pförtner | Werner-von-Siemens-Straße 8 | 25337 Elmshorn | personal@fitmart.de \n"
       },
       {
         "title": "Standort",
-        "body": " Digitale Neubelebung GmbH Max-Stromeyer-Str. 126, 78467 Konstanz, Deutschland "
+        "body": " Fitmart GmbH & Co. KG Werner-von-Siemens-Straße 8, 25337 Elmshorn, Deutschland "
       }
     ]
   },
   {
-    "id": "2018-12-04T08:12:04Z",
-    "position": "Frontend (Senior) Entwickler (m/w)",
-    "company": "CHECK24",
-    "image": "https://www.stepstone.de/upload_de/logo/C/logoCHECK24-112642DE.gif",
-    "date": "2018-12-04T08:12:04Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Senior-Entwickler-m-w-Muenchen-Frankfurt-Augsburg-Muenster-Duesseldorf-CHECK24--4472398-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=2_2_25_dynrl_m_0_0_0",
-    "details": [{ "title": "Standort", "body": " CHECK24 " }]
+    "id": "2018-12-05T09:12:05Z",
+    "position": "Web-Frontend-Entwickler (m/w) Access & Trust",
+    "company": "ING-DiBa AG",
+    "image": "https://www.stepstone.de/upload_de/logo/F/logoING-DiBa-AG-1874DE.gif",
+    "date": "2018-12-05T09:12:05Z",
+    "href": "https://www.stepstone.de/stellenangebote--Web-Frontend-Entwickler-m-w-Access-Trust-Nuernberg-ING-DiBa-AG--5259069-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=2_2_25_dynrl_m_0_0_0",
+    "details": [
+      {
+        "title": "Jump on.",
+        "body": "\nDie ING-DiBa ist mit über 9 Millionen Kunden die drittgrößte Privatkundenbank in Deutschland.    \nJetzt Web-Frontend-Entwickler (m/w) Access & Trust am Standort Nürnberg werden.   \nWeshalb zuschauen, wenn man auch mitgestalten kann? Sie bringen die Dinge zum Laufen und machen sie dann jeden Tagein bisschen besser. Sie denken auch mal unkonventionell oder probieren vermeintlich Unmögliches aus? Das alles gern gemeinsam mit den passenden Leuten in einem agilen Squad? Sie merken schon: Hier ist Ihr Können gefragt. Jump on.\n"
+      },
+      {
+        "title": "Ihre Aufgaben:",
+        "body": "\nFrontends entwickeln Sie mit Leidenschaft und hohem Qualitätsbewusstsein? Perfekt! Dann sind Sie die optimale Besetzung, um die Web-Frontends für einen Identity Service nicht nur zu konzipieren, sondern auch zu entwickeln. Was alles dazugehört? Sie implementieren sicherheitskritische Schnittstellen für Authentifizierung & Autorisierung und binden diese ein. Darüber hinaus entwickeln Sie Web-Komponentenund stellen sie für Login-Prozesse und Means Services bereit. Wenn Sie zudem noch Spaß an der internationalen und interdisziplinären Zusammenarbeit haben, freuen wir uns, Sie im Team begrüßen zu dürfen.\n"
+      },
+      {
+        "title": "Ihr Profil:",
+        "body": "\n \nStudium der (Wirtschafts-)Informatik oder eine vergleichbare Ausbildung ergänzt durch relevante Berufserfahrung \nAlternativ: Mehrjährige relevante Berufserfahrung in einer vergleichbaren Position \nKnow-how in puncto Single Page Applications (Angular/Polymer) sowie zu den Standards der Authentifizierung und Autorisierung, z. B. OAuth, HTTP und REST \nIdealerweise Kenntnisse in Java, Wicket, Javascript, CSS3,HTML5 und den entsprechenden Frameworks \nVertraut mit agilen Methoden (Scrum/Kanban), Jira und Confluence sowie mit Unit Testing und Design Patterns \nPraxis im Einsatz der relevanten Entwicklungstools (Continuous Integration, Gitflow etc.) \nVerhandlungssicheres Englisch \n\n"
+      },
+      {
+        "title": "Kontakt:",
+        "body": "\nBewerben Sie sich jetzt bei Deutschlands drittgrößter Privatkundenbank: ing-diba.de/karriere\n"
+      },
+      {
+        "title": "Standort",
+        "body": " ING-DiBa AG Südwestpark 97, 90449 Nürnberg, Deutschland "
+      }
+    ]
   },
   {
-    "id": "2018-12-04T00:12:04Z",
+    "id": "2018-12-05T03:12:05Z",
+    "position": "Frontend Entwickler (m/w)",
+    "company": "InnovaMaxx GmbH",
+    "image": "https://www.stepstone.de/upload_de/logo/I/logoInnovaMaxx-GmbH-163740DE.gif",
+    "date": "2018-12-05T03:12:05Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-Berlin-InnovaMaxx-GmbH--5419223-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=3_3_25_dynrl_m_0_0_0",
+    "details": [
+      {
+        "title": "Einleitung",
+        "body": "\nWir sind ein e-Commerce Unternehmen im Herzen der Hauptstadt Berlin. Aktuell beschäftigen wir bei der InnovaMaxx GmbH mehr als 120 Mitarbeiter aus 16 Nationen. So wurden wir für unseren Erfolg vom Magazin Focus als Wachstumschampion 2018, im Gründerszene Wachstumsranking in den Top 50 und in der FINANCIAL TIMES als eines der am schnellsten wachsenden Unternehmen in Deutschland und Europa, im Jahr 2018, ausgezeichnet. Unsere Mitarbeiter teilen eine Leidenschaft für Innovationen. Bei uns zählt hohe Eigenmotivation, denn wir arbeiten als ein globales Team und unterstützen uns gegenseitig dabei, unser volles Potenzial auszuschöpfen.\n"
+      },
+      {
+        "title": "Ihre Aufgaben",
+        "body": "\n \nOptimierung der Geschwindigkeit und Benutzbarkeit unserer Webshops \nAufmerksame Recherche aktueller Technologie Entwicklung \nFachliches Know-How gezielt einsetzen \nProjektbezogene Abteilungsübergreifende Zusammenarbeit \n \n \n"
+      },
+      {
+        "title": "Ihr Profil",
+        "body": "\n \nErfolgreich abgeschlossene Studium im Bereich Informatik oder vergleichbare Qualifikationen \nSehr gute Kenntnisse in HTML, CSS und modernem JavaScript \nErfahrung mit Responsive Web Design \nSelbstständige und strukturierte Arbeitsweise sowie analytisches Denkvermögen \nKeine Angst vor dem Backend  \n\n"
+      },
+      {
+        "title": "Wir bieten",
+        "body": "\n \nEin motiviertes Team mit einem gemeinsamen Ziel \nMarktgerechte Bezahlung \nZahnzusatz – und Unfallversicherung \nFlexible Arbeitszeiten \nNutzung von Sport- und Wellnesseinrichtungen auf unsere Kosten \nAnspruchsvolle Aufgaben und ein langfristiges Arbeitsverhältnis \nEin moderner Arbeitsplatz mit guter Verkehrsanbindung \n\n"
+      },
+      {
+        "title": "Kontakt",
+        "body": "\nSie haben Interesse an dieser Position in unserem Unternehmen? Dann freuen wir uns auf Ihre Bewerbung unter Angabe des frühestmöglichen Starttermins über unser Jobportal.\n"
+      },
+      { "title": "Standort", "body": " InnovaMaxx GmbH Berlin, Deutschland " }
+    ]
+  },
+  {
+    "id": "2018-12-04T08:12:04Z",
     "position": "Frontend Entwickler (m/w/d) für unseren Kochboxen-Shop",
     "company": "Lidl Digital International",
     "image": "https://www.stepstone.de/upload_de/logo/L/logoLidl-Digital-193318DE.gif",
-    "date": "2018-12-04T00:12:04Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-d-fuer-unseren-Kochboxen-Shop-Berlin-Lidl-Digital-International-GmbH-Co-KG--5416737-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=3_3_25_dynrl_m_0_0_0",
+    "date": "2018-12-04T08:12:04Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-d-fuer-unseren-Kochboxen-Shop-Berlin-Lidl-Digital-International-GmbH-Co-KG--5416737-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=4_4_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Frontend Entwickler (m/w/d) für unseren Kochboxen-Shop",
@@ -73,12 +125,51 @@
     ]
   },
   {
-    "id": "2018-12-03T23:12:03Z",
+    "id": "2018-12-04T14:12:04Z",
+    "position": "Frontend (Web) Entwickler (100%)",
+    "company": "Digitale Neubelebung",
+    "image": "https://www.stepstone.de/upload_de/logo/D/logoDigitale-Neubelebung-GmbH-170820DE.gif",
+    "date": "2018-12-04T14:12:04Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Web-Entwickler-100-Konstanz-Digitale-Neubelebung-GmbH--5372720-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=5_5_25_dynrl_m_0_0_0",
+    "details": [
+      {
+        "title": "Deine Aufgaben ",
+        "body": "\n \nAgile Softwareentwicklung in interdisziplinären SCRUM Teams \nDu entwickelst Komponenten und Features für ein modernes Frontend aufgebaut auf neusten Webtechnologien \nStetige Verbesserung der Usability \nBeratung und Unterstützung bei der Erstellung von Konzepten \n\n"
+      },
+      {
+        "title": "Was wir von Dir erwarten ",
+        "body": "\n \nHochschulabschluss der Informatik/Wirtschaftsinformatik/Medieninformatik oder ein vergleichbarer Studiengang \nFundierte Kenntnisse in den Bereichen HTML5, CSS3, JavaScript und Frameworks wie jQuery \nErfahrung in der Webentwicklung \nTeamfähigkeit und selbstständiges Arbeiten \nSehr gute Deutsch- und Englischkenntnisse \nHohe Reisebereitschaft  \n\n"
+      },
+      {
+        "title": "Was Dich bei uns erwartet?",
+        "body": "\n \nProfessionelle Arbeitsumfelder an mehreren Standorten \nGemeinsame Projektarbeit mit Global Playern \nDeine Bedürfnisse und Anliegen treffen bei uns auf ein offenes Ohr \nMitgestaltungsmöglichkeit auf Grund von flachen Hierarchien \nStart-up Mentalität \nIndividuell einsetzbares Weiterbildungsbudget \nFringe Benefits sowie Obst, Kalt- und Warmgetränke \nHomeoffice \n\n"
+      },
+      {
+        "title": "Kontakt",
+        "body": "\nDigitale Neubelebung GmbH Fatih Korkmaz Geschäftsführer 01725690658 Max-Stromeyer-Str. 126 78467 Konstanz korkmaz@neubelebung.de www.neubelebung.de\n"
+      },
+      {
+        "title": "Standort",
+        "body": " Digitale Neubelebung GmbH Max-Stromeyer-Str. 126, 78467 Konstanz, Deutschland "
+      }
+    ]
+  },
+  {
+    "id": "2018-12-04T05:12:04Z",
+    "position": "Frontend (Senior) Entwickler (m/w)",
+    "company": "CHECK24",
+    "image": "https://www.stepstone.de/upload_de/logo/C/logoCHECK24-112642DE.gif",
+    "date": "2018-12-04T05:12:04Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Senior-Entwickler-m-w-Muenchen-Frankfurt-Augsburg-Muenster-Duesseldorf-CHECK24--4472398-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=6_6_25_dynrl_m_0_0_0",
+    "details": [{ "title": "Standort", "body": " CHECK24 " }]
+  },
+  {
+    "id": "2018-12-04T04:12:04Z",
     "position": "Selfcare Frontend-Entwickler JSON, CSS, JavaScript,",
     "company": "Brunel GmbH",
     "image": "https://www.stepstone.de/upload_de/logo/B/logoBrunel-GmbH-26920DE.gif",
-    "date": "2018-12-03T23:12:03Z",
-    "href": "https://www.stepstone.de/stellenangebote--Selfcare-Frontend-Entwickler-JSON-CSS-JavaScript-Spring-MVC-Thymeleaf-w-m-Karlsruhe-Brunel-GmbH--5415527-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=4_4_25_dynrl_m_0_0_0",
+    "date": "2018-12-04T04:12:04Z",
+    "href": "https://www.stepstone.de/stellenangebote--Selfcare-Frontend-Entwickler-JSON-CSS-JavaScript-Spring-MVC-Thymeleaf-w-m-Karlsruhe-Brunel-GmbH--5415527-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=7_7_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Einleitung",
@@ -109,7 +200,7 @@
     "company": "communicode AG",
     "image": "https://www.stepstone.de/upload_de/logo/1/logocommunicode-AG-88319DE.gif",
     "date": "2018-12-03T17:12:03Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Developer-Frontend-Entwickler-m-w-Essen-Homeoffice-communicode-AG--5315218-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=5_5_25_dynrl_m_0_0_0",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Developer-Frontend-Entwickler-m-w-Essen-Homeoffice-communicode-AG--5315218-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=8_8_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Standort",
@@ -123,7 +214,7 @@
     "company": "HORNBACH Baumarkt AG",
     "image": "https://www.stepstone.de/upload_de/logo/H/logoHornbach_Baumarkt_AGDE.gif",
     "date": "2018-12-03T14:12:03Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-React-w-m-Neustadt-an-der-Weinstrasse-HORNBACH-Baumarkt-AG--5321271-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=6_6_25_dynrl_m_0_0_0",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-React-w-m-Neustadt-an-der-Weinstrasse-HORNBACH-Baumarkt-AG--5321271-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=9_9_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Ihre Aufgaben:",
@@ -153,7 +244,7 @@
     "company": "GIB mbH",
     "image": "https://www.stepstone.de/upload_de/logo/G/logoGIB-mbH-196572DE.gif",
     "date": "2018-12-03T11:12:03Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-Siegen-GIB-mbH--5281505-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=7_7_25_dynrl_m_0_0_0",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-Siegen-GIB-mbH--5281505-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=10_10_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "In Sicherheit erfolgreich groß werden.",
@@ -182,43 +273,12 @@
     ]
   },
   {
-    "id": "2018-12-03T04:12:03Z",
-    "position": "Frontend Entwickler für Webanwendungen (w/m)",
-    "company": "Brunel GmbH",
-    "image": "https://www.stepstone.de/upload_de/logo/B/logoBrunel-GmbH-26920DE.gif",
-    "date": "2018-12-03T04:12:03Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-fuer-Webanwendungen-w-m-Duisburg-Brunel-GmbH--5412719-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=8_8_25_dynrl_m_0_0_0",
-    "details": [
-      {
-        "title": "Einleitung",
-        "body": "\nArbeiten bei Brunel bedeutet: Attraktive Arbeitsaufgaben, außergewöhnliche Karriereperspektiven, die Sicherheit eines expandierenden Arbeitgebers und die ganze Vielfalt des Engineerings. Allein in Deutschland verfügen wir über \n \n40 Niederlassungen, \n3 Entwicklungszentren und \nweltweit 106 Standorte \nmit mehr als 12.000 Mitarbeitern. \n \nStillstand bedeutet Rückschritt – mit Brunel können Sie etwas bewegen! \n \n \nSie suchen nach einer neuen beruflichen Herausforderung, die eine persönliche Weiterentwicklung und Freude am Beruf vereint-Sie sind Software Entwickler und hegen Interesse an einer abwechslungsreichen Tätigkeit- Dann sollten wir uns kennenlernen! Bewerben Sie sich hierzu jetzt bei Brunel! Derzeit suchen wir für unseren Kunden zum nächstmöglichen Zeitpunkt einen \"Frontend Entwickler für Webanwendungen\". \n \n"
-      },
-      {
-        "title": "Ihre Aufgabe",
-        "body": "\n \nSie konzipieren und entwickeln neue Oberflächen in AngularJS. \nDarüber hinaus betreuen und pflegen Sie bestehende Anwendungen und realisieren Web-Applikationen unter Verwendung von HTML5, CSS3 sowie mit Responsive Design. \nZudem führen Sie Neuentwicklungen und permanente Weiterentwicklungen von komplexen Webanwendungen durch \nWeiterhin gestalten und verbessern Sie User Experience für bestehende und neue Produkte. \nSie führen im Frontend-Bereich Integrations- und Unit-Tests und nutzen neue Technologien und Frameworks (Entity Framework) durch zur Sicherstellung einer hohen Qualität. \n\n"
-      },
-      {
-        "title": "Ihr Profil",
-        "body": "\n \nAbgeschlossenes Studium der (Wirtschafts-) Informatik oder eine vergleichbare Ausbildung mit entsprechendem Hintergrund \nMehrährige Berufserfahrung mit AngularJS und Angular (TypeScript), HTML5, CSS3, Entity Framework sowie Entity Framework \nWünschenswert sind gute Kenntnisse in Unit-Tests (Bootstrap, Jasmin, Mocha, SASS oder jQuery) sowie erste Berufserfahrung mit Responsive Design \nGutes Gespür für Gestaltung, Usability und Nutzerverhalten \nGute Deutsch- und Englischkenntnisse in Wort und Schrift sowie gute Team- und Kommunikationsfähigkeit \n\n"
-      },
-      {
-        "title": "Wir bieten",
-        "body": "\nWir bieten Ihnen eine Unternehmenskultur, die geprägt ist, von der Vielfältigkeit unserer Mitarbeiter sowie von gegenseitiger Wertschätzung – zwischen den Mitarbeitern und auf allen Unternehmensebenen. Dazu gehören neben abwechslungsreichen Stammtischen mit den lokalen Brunel Teams, auch regelmäßige Feedback-Gespräche über Ihre Herausforderungen und Perspektiven mit Ihrem Account Manager.  \nMit individuellen Fortbildungen und Trainings werden Sie optimal gefördert und auf zukünftige Projekte vorbereitet.  \n \nUnbefristete Arbeitsverträge,  \n30 Tage Urlaub,  \nArbeitskontenregelung  \nsowie betriebliche, arbeitgeberfinanzierte Altersvorsorge sind bei uns selbstverständlich.  \n \nHaben wir Ihr Interesse geweckt-  \nDann senden Sie uns bitte Ihre aussagefähigen Bewerbungsunterlagen – per Online-Formular auf unserer Homepage.\n"
-      },
-      {
-        "title": "Kontakt",
-        "body": "\nAnsprechpartner: Frau Laura Sosa Dietrich \nE-Mail: l.sosa.dietrich@brunel.net  \n+49 203 289 56 14\n"
-      },
-      { "title": "Standort", "body": " Brunel GmbH Duisburg, Deutschland " }
-    ]
-  },
-  {
-    "id": "2018-12-02T23:12:02Z",
+    "id": "2018-12-03T05:12:03Z",
     "position": "Frontend Entwickler (m/w) - 1&1 Source Center",
     "company": "1&1 IONOS",
     "image": "https://www.stepstone.de/upload_de/logo/6/logo1-1-IONOS-123674DE.gif",
-    "date": "2018-12-02T23:12:02Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-11-Source-Center-Karlsruhe-11-IONOS--5211194-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=9_9_25_dynrl_m_0_0_0",
+    "date": "2018-12-03T05:12:03Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-11-Source-Center-Karlsruhe-11-IONOS--5211194-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=11_11_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "ÜBER UNS:",
@@ -249,7 +309,7 @@
     "company": "FERCHAU Engineering GmbH",
     "image": "https://www.stepstone.de/upload_de/logo/F/logoFERCHAU-Engineering-GmbH-6095DE.gif",
     "date": "2018-12-02T23:12:02Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-Leipzig-FERCHAU-Engineering-GmbH--4918742-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=10_10_25_dynrl_m_0_0_0",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-Leipzig-FERCHAU-Engineering-GmbH--4918742-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=12_12_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Einleitung",
@@ -274,12 +334,43 @@
     ]
   },
   {
-    "id": "2018-12-02T08:12:02Z",
+    "id": "2018-12-02T23:12:02Z",
+    "position": "Frontend Entwickler für Webanwendungen (w/m)",
+    "company": "Brunel GmbH",
+    "image": "https://www.stepstone.de/upload_de/logo/B/logoBrunel-GmbH-26920DE.gif",
+    "date": "2018-12-02T23:12:02Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-fuer-Webanwendungen-w-m-Duisburg-Brunel-GmbH--5412719-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=13_13_25_dynrl_m_0_0_0",
+    "details": [
+      {
+        "title": "Einleitung",
+        "body": "\nArbeiten bei Brunel bedeutet: Attraktive Arbeitsaufgaben, außergewöhnliche Karriereperspektiven, die Sicherheit eines expandierenden Arbeitgebers und die ganze Vielfalt des Engineerings. Allein in Deutschland verfügen wir über \n \n40 Niederlassungen, \n3 Entwicklungszentren und \nweltweit 106 Standorte \nmit mehr als 12.000 Mitarbeitern. \n \nStillstand bedeutet Rückschritt – mit Brunel können Sie etwas bewegen! \n \n \nSie suchen nach einer neuen beruflichen Herausforderung, die eine persönliche Weiterentwicklung und Freude am Beruf vereint-Sie sind Software Entwickler und hegen Interesse an einer abwechslungsreichen Tätigkeit- Dann sollten wir uns kennenlernen! Bewerben Sie sich hierzu jetzt bei Brunel! Derzeit suchen wir für unseren Kunden zum nächstmöglichen Zeitpunkt einen \"Frontend Entwickler für Webanwendungen\". \n \n"
+      },
+      {
+        "title": "Ihre Aufgabe",
+        "body": "\n \nSie konzipieren und entwickeln neue Oberflächen in AngularJS. \nDarüber hinaus betreuen und pflegen Sie bestehende Anwendungen und realisieren Web-Applikationen unter Verwendung von HTML5, CSS3 sowie mit Responsive Design. \nZudem führen Sie Neuentwicklungen und permanente Weiterentwicklungen von komplexen Webanwendungen durch \nWeiterhin gestalten und verbessern Sie User Experience für bestehende und neue Produkte. \nSie führen im Frontend-Bereich Integrations- und Unit-Tests und nutzen neue Technologien und Frameworks (Entity Framework) durch zur Sicherstellung einer hohen Qualität. \n\n"
+      },
+      {
+        "title": "Ihr Profil",
+        "body": "\n \nAbgeschlossenes Studium der (Wirtschafts-) Informatik oder eine vergleichbare Ausbildung mit entsprechendem Hintergrund \nMehrährige Berufserfahrung mit AngularJS und Angular (TypeScript), HTML5, CSS3, Entity Framework sowie Entity Framework \nWünschenswert sind gute Kenntnisse in Unit-Tests (Bootstrap, Jasmin, Mocha, SASS oder jQuery) sowie erste Berufserfahrung mit Responsive Design \nGutes Gespür für Gestaltung, Usability und Nutzerverhalten \nGute Deutsch- und Englischkenntnisse in Wort und Schrift sowie gute Team- und Kommunikationsfähigkeit \n\n"
+      },
+      {
+        "title": "Wir bieten",
+        "body": "\nWir bieten Ihnen eine Unternehmenskultur, die geprägt ist, von der Vielfältigkeit unserer Mitarbeiter sowie von gegenseitiger Wertschätzung – zwischen den Mitarbeitern und auf allen Unternehmensebenen. Dazu gehören neben abwechslungsreichen Stammtischen mit den lokalen Brunel Teams, auch regelmäßige Feedback-Gespräche über Ihre Herausforderungen und Perspektiven mit Ihrem Account Manager.  \nMit individuellen Fortbildungen und Trainings werden Sie optimal gefördert und auf zukünftige Projekte vorbereitet.  \n \nUnbefristete Arbeitsverträge,  \n30 Tage Urlaub,  \nArbeitskontenregelung  \nsowie betriebliche, arbeitgeberfinanzierte Altersvorsorge sind bei uns selbstverständlich.  \n \nHaben wir Ihr Interesse geweckt-  \nDann senden Sie uns bitte Ihre aussagefähigen Bewerbungsunterlagen – per Online-Formular auf unserer Homepage.\n"
+      },
+      {
+        "title": "Kontakt",
+        "body": "\nAnsprechpartner: Frau Laura Sosa Dietrich \nE-Mail: l.sosa.dietrich@brunel.net  \n+49 203 289 56 14\n"
+      },
+      { "title": "Standort", "body": " Brunel GmbH Duisburg, Deutschland " }
+    ]
+  },
+  {
+    "id": "2018-12-01T23:12:01Z",
     "position": "Frontend Entwickler w/m",
     "company": "Kienbaum Consultants",
     "image": "https://www.stepstone.de/upload_de/logo/K/logoKienbaum-Consultants-International-GmbH-38585DE.gif",
-    "date": "2018-12-02T08:12:02Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-w-m-Koeln-Kienbaum-Consultants-International-GmbH--5317386-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=11_11_25_dynrl_m_0_0_0",
+    "date": "2018-12-01T23:12:01Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-w-m-Koeln-Kienbaum-Consultants-International-GmbH--5317386-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=14_14_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Aufgaben:",
@@ -304,12 +395,21 @@
     ]
   },
   {
-    "id": "2018-12-01T08:12:01Z",
+    "id": "2018-12-01T12:12:01Z",
+    "position": "Frontend Entwickler (w/m)",
+    "company": "Cofinpro AG",
+    "image": "https://www.stepstone.de/upload_de/logo/C/logoCofinpro-AG-54094DE.gif",
+    "date": "2018-12-01T12:12:01Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-w-m-Frankfurt-am-Main-Berlin-Muenchen-Cofinpro-AG--4716357-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=15_15_25_dynrl_m_0_0_0",
+    "details": []
+  },
+  {
+    "id": "2018-12-01T07:12:01Z",
     "position": "Frontend-Entwickler(in) für Webanwendungen auf",
     "company": "SYNGENIO AG",
     "image": "https://www.stepstone.de/upload_de/logo/S/logoSYNGENIO-AG-98606DE.gif",
-    "date": "2018-12-01T08:12:01Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwicklerin-fuer-Webanwendungen-auf-Basis-von-HTML-CSS-JavaScript-Hamburg-Bonn-Frankfurt-Stuttgart-oder-Muenchen-SYNGENIO-AG--5284296-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=12_12_25_dynrl_m_0_0_0",
+    "date": "2018-12-01T07:12:01Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwicklerin-fuer-Webanwendungen-auf-Basis-von-HTML-CSS-JavaScript-Hamburg-Bonn-Frankfurt-Stuttgart-oder-Muenchen-SYNGENIO-AG--5284296-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=16_16_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "WE+ MAKE IT WORK.",
@@ -335,21 +435,12 @@
     ]
   },
   {
-    "id": "2018-12-01T07:12:01Z",
-    "position": "Frontend Entwickler (w/m)",
-    "company": "Cofinpro AG",
-    "image": "https://www.stepstone.de/upload_de/logo/C/logoCofinpro-AG-54094DE.gif",
-    "date": "2018-12-01T07:12:01Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-w-m-Frankfurt-am-Main-Berlin-Muenchen-Cofinpro-AG--4716357-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=13_13_25_dynrl_m_0_0_0",
-    "details": []
-  },
-  {
-    "id": "2018-12-01T04:12:01Z",
+    "id": "2018-12-01T03:12:01Z",
     "position": "Frontend Entwickler (m/w) Frontend Developer in",
     "company": "Ratbacher GmbH",
     "image": "https://www.stepstone.de/upload_de/logo/R/logoRatbacher_GmbH_46710DE.gif",
-    "date": "2018-12-01T04:12:01Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-Frontend-Developer-in-Stuttgart-Stuttgart-Ratbacher-GmbH--5378139-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=14_14_25_dynrl_m_0_0_0",
+    "date": "2018-12-01T03:12:01Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-Frontend-Developer-in-Stuttgart-Stuttgart-Ratbacher-GmbH--5378139-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=17_17_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Ihre Aufgaben",
@@ -376,7 +467,7 @@
     "company": "E.M.P. Merchandising",
     "image": "https://www.stepstone.de/upload_de/logo/E/logoE-M-P-Merchandising-Handelsgesellschaft-mbH-46777DE.gif",
     "date": "2018-11-30T23:11:30Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-Web-m-w-d-Lingen-Ems-E-M-P-Merchandising-Handelsgesellschaft-mbH--5378402-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=15_15_25_dynrl_m_0_0_0",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-Web-m-w-d-Lingen-Ems-E-M-P-Merchandising-Handelsgesellschaft-mbH--5378402-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=18_18_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Frontend Entwickler (Web) (m/w/d)",
@@ -406,7 +497,7 @@
     "company": "ING-DiBa AG",
     "image": "https://www.stepstone.de/upload_de/logo/F/logoING-DiBa-AG-1874DE.gif",
     "date": "2018-11-30T16:11:30Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Java-Entwickler-m-w-Wertpapier-und-Sparprodukte-Nuernberg-ING-DiBa-AG--5345179-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=16_16_25_dynrl_m_0_0_0",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Java-Entwickler-m-w-Wertpapier-und-Sparprodukte-Nuernberg-ING-DiBa-AG--5345179-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=19_19_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Jump on.",
@@ -431,42 +522,12 @@
     ]
   },
   {
-    "id": "2018-11-30T10:11:30Z",
-    "position": "Frontend-Entwicklerin / Frontend-Entwickler",
-    "company": "L-SHOP-TEAM GmbH",
-    "image": "https://www.stepstone.de/upload_de/logo/L/logoL-SHOP-TEAM-GmbH-155177DE.gif",
-    "date": "2018-11-30T10:11:30Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwicklerin-Frontend-Entwickler-Dortmund-L-SHOP-TEAM-GmbH--5410993-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=17_17_25_dynrl_m_0_0_0",
-    "details": [
-      {
-        "title": "Was Sie tun",
-        "body": "\n \nSie entwickeln neue Frontends auf Basis von Angular \nSie modernisieren die Templates unserer Oxid-Shops auf Basis von Smarty \nSie erfassen Anforderungen in unserem dynamischen und kreativen Umfeld mit Kollegen verschiedener Disziplinen (Einkauf, Vertrieb, Marketing) \nSie erstellen Prototypen \nSie setzen Ihre Ideen inkl. Dokumentation und Test um \n\n"
-      },
-      {
-        "title": "Was Sie mitbringen",
-        "body": "\n \nSie haben gute Kenntnisse in HTML5, CSS3 (less, sass) und JavaScript (jQuery) \nSie bringen idealerweise Kenntnisse einer Template-Sprache (z.B. Smarty) und Erfahrung mit OXID eShop mit \nWir wünschen uns Kenntnisse im Bereich automatischer Frontend-Tests \nErfahrung mit Wordpress runden Ihr Profil ab \nSie zeichnet eine zielgerichtete und selbständige Arbeitsweise aus \nSie sind hoch motiviert und teamfähig \n\n"
-      },
-      {
-        "title": "Was wir bieten",
-        "body": "\n \nAnspruchsvolle und vielseitige Aufgaben mit dem Freiraum, eigene Ideen und Erfahrungen in eine moderne und innovative E-Commerce-Landschaft einzubringen \nEine hervorragende Arbeitsatmosphäre in einem hoch motivierten und erfolgreichen Team mit viel Spaß bei der gemeinsamen Arbeit \nModerne und kreative Arbeitsumgebung an einem zentralen Standort in Dortmund \nFachliche und persönliche Weiterentwicklung \nBeteiligung an betrieblicher Altersvorsorge \n30 Tage Urlaub \nPersonalrabatte auf unsere mehr als 6.000 Artikel \nKostenlose Parkplätze \nKaffee Flatrate \n\n"
-      },
-      {
-        "title": "Interessiert?",
-        "body": "\nEnjoy our Team. Mit flachen Hierarchien und viel Platz für Kreativität und Mitbestimmung.Haben wir Ihr Interesse geweckt? \nBei Fragen zu der Position wenden Sie sich an Stefan Konarski (per E-Mail s.konarski@l-shop.de oder telefonisch +49 (0) 231 - 99 31 290).  \nIhre Bewerbung richten Sie bitte online unter Angabe Ihrer Gehaltsvorstellung und Verfügbarkeit an bewerbung@l-shop-team.de. \nL-SHOP-TEAM GmbHWeißenburger Str. 71 | 44145 Dortmund \nwww.l-shop-team.de\n"
-      },
-      {
-        "title": "Standort",
-        "body": " L-SHOP-TEAM GmbH Weißenburger Straße 71, 44145 Dortmund, Deutschland "
-      }
-    ]
-  },
-  {
     "id": "2018-11-30T12:11:30Z",
     "position": "Frontend-Entwickler (Java-Script) (m/w/d)",
     "company": "Scansonic MI GmbH",
     "image": "https://www.stepstone.de/upload_de/logo/5/logoScansonic-MI-GmbH-76074DE.gif",
     "date": "2018-11-30T12:11:30Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-Java-Script-m-w-d-Berlin-Scansonic-MI-GmbH--5309348-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=18_18_25_dynrl_m_0_0_0",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-Java-Script-m-w-d-Berlin-Scansonic-MI-GmbH--5309348-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=20_20_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Deine Aufgaben:",
@@ -491,42 +552,12 @@
     ]
   },
   {
-    "id": "2018-11-29T20:11:29Z",
-    "position": "Frontend Entwickler (m/w)",
-    "company": "ABUS August Bremicker",
-    "image": "https://www.stepstone.de/upload_de/logo/A/logoABUS-August-Bremicker-Sohne-KG-205899DE.gif",
-    "date": "2018-11-29T20:11:29Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-Wetter-Ruhr-ABUS-August-Bremicker-Soehne-KG--5409012-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=19_19_25_dynrl_m_0_0_0",
-    "details": [
-      {
-        "title": "IHRE HAUPTAUFGABEN ALS FRONTEND ENTWICKLER/IN ",
-        "body": "\n \nPerformance-Optimierung und Weiterentwicklung bestehender Frontends für eine verbesserte User Experience \nCustomizing von professionellen Content-Management- und Shopsystemen für einen einzigarten Internetauftritt unserer Marke Entwicklung und Umsetzung von modularen Web-Modulen und Interfaces \nPlanung und Vorbereitung von A/B-Tests für eine stetige Verbesserung des Usability-Erlebnisses unserer Kunden \nUmsetzung von Ergebnissen aus externen UX-Tests, um so nachhaltig eine kundenfreundliche Online-Präsenz voranzutreiben \n\n"
-      },
-      {
-        "title": "IHR PROFIL ALS FRONTEND ENTWICKLER/IN ",
-        "body": "\n \nErfolgreich abgeschlossenes Studium der Informatik, Ausbildung im IT-Bereich oder mehrjährige Berufserfahrung als FrontendEntwickler/in \nSehr gute Kenntnisse in den Basis-Technologien (X)HTML, CSS und JavaScript-Programmierung als auch im Bereich Web-Entwicklung (W3CStandards, Usability, SEO, Cross-Browser-Entwicklung, Web 2.0, Responsive) \nPraktische Erfahrung in der Erstellung von Templates (Smarty, Twig) sowie in der Verwendung gängiger Frameworks und Bibliotheken \nGrundkenntnisse in den LAMP-Technologien und Erfahrung im Umgang mit Adobe-Produkten und CMS-Systemen \nGute Englischkenntnisse in Wort und Schrift für die Kommunikation mit unseren internationalen Partnern runden Ihr Profil ab \n\n"
-      },
-      {
-        "title": "DAS BIETEN WIR IHNEN ",
-        "body": "\n \nEine abwechslungsreiche Tätigkeit als Frontend Entwickler/in in einem internationalen Familienunternehmen mit attraktiver Vergütung und umfassenden Sozialleistungen \nAusgewogene Work-Life-Balance durch flexible Arbeitszeiten und 30 Tage Urlaub im Jahr \nWeiterbildungsmöglichkeiten, damit Sie sich fachlich und persönlich weiterentwickeln können \nRegelmäßige Teamevents sowie Sport- und Freizeitangebote auf dem Firmengelände (Fußball, Volleyball u. v. m.) \nDie Möglichkeit, exklusive E-Bikes oder Bikes durch ABUS zu leasen, die sowohl für die Fahrt zur Arbeit als auch private Zwecke genutzt werden können \nKaffee und Wasser zur freien Verfügung sowie ein ansprechendes Essensangebot am hauseigenen Snackpoint \n \n ABUS – EIN TRADITIONSUNTERNEHMEN MIT GUTEN PERSPEKTIVEN  Seit 1924 ist ABUS als familiengeführtes Unternehmen weltweit einer der führenden Qualitätshersteller für Sicherheitsprodukte. Der tragende Beweis für Innovationskraft und unternehmerisches Handeln: Die Entwicklung vom Hangschlosshersteller zur Weltmarke für Sicherheitslösungen. Mit den Unternehmensbereichen Haussicherheit, Objektsicherheit und Mobile Sicherheit bietet ABUS hochwertige Markenprodukte für Zuhause und Unterwegs. An fünf deutschen Standorten sowie in rund 21 Niederlassungen in Europa, den USA, Lateinamerika und Asien beschäftigt ABUS mehr als 3.500 Mitarbeiter. \n"
-      },
-      {
-        "title": "HABEN WIR IHR INTERESSE GEWECKT? ",
-        "body": "\nDann freuen wir uns auf Ihre Bewerbung als „Frontend Entwickler (m/w)“ unter Angabe Ihrer Gehaltsvorstellung sowie Ihres frühestmöglichen Eintrittstermins über einen Klick auf den Bewerben-Button. Für Fragen steht Ihnen gerne unser Rekrutierungspartner, die Randstad Personalvermittlung, Ansprechpartner Herr Ralf Schelte, unter 0201-177668-42 zur Verfügung.    Randstad Personalvermittlung und Beratung • Kastanienallee 95 • 45127 Essen\n"
-      },
-      {
-        "title": "Standort",
-        "body": " ABUS August Bremicker Söhne KG Wetter, Deutschland "
-      }
-    ]
-  },
-  {
-    "id": "2018-11-30T06:11:30Z",
+    "id": "2018-11-30T10:11:30Z",
     "position": "Frontend-Entwickler (m/w/d)",
     "company": "Next Step Consulting",
     "image": "https://www.stepstone.de/upload_de/logo/0/logoNext-Step-Consulting-GmbH-158431DE.gif",
-    "date": "2018-11-30T06:11:30Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-d-Frankfurt-Next-Step-Consulting-GmbH--5376562-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=20_20_25_dynrl_m_0_0_0",
+    "date": "2018-11-30T10:11:30Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-d-Frankfurt-Next-Step-Consulting-GmbH--5376562-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=21_21_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Frontend-Entwickler (m/w/d)",
@@ -555,12 +586,42 @@
     ]
   },
   {
-    "id": "2018-11-30T05:11:30Z",
+    "id": "2018-11-29T20:11:29Z",
+    "position": "Frontend Entwickler (m/w)",
+    "company": "ABUS August Bremicker",
+    "image": "https://www.stepstone.de/upload_de/logo/A/logoABUS-August-Bremicker-Sohne-KG-205899DE.gif",
+    "date": "2018-11-29T20:11:29Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-Wetter-Ruhr-ABUS-August-Bremicker-Soehne-KG--5409012-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=22_22_25_dynrl_m_0_0_0",
+    "details": [
+      {
+        "title": "IHRE HAUPTAUFGABEN ALS FRONTEND ENTWICKLER/IN ",
+        "body": "\n \nPerformance-Optimierung und Weiterentwicklung bestehender Frontends für eine verbesserte User Experience \nCustomizing von professionellen Content-Management- und Shopsystemen für einen einzigarten Internetauftritt unserer Marke Entwicklung und Umsetzung von modularen Web-Modulen und Interfaces \nPlanung und Vorbereitung von A/B-Tests für eine stetige Verbesserung des Usability-Erlebnisses unserer Kunden \nUmsetzung von Ergebnissen aus externen UX-Tests, um so nachhaltig eine kundenfreundliche Online-Präsenz voranzutreiben \n\n"
+      },
+      {
+        "title": "IHR PROFIL ALS FRONTEND ENTWICKLER/IN ",
+        "body": "\n \nErfolgreich abgeschlossenes Studium der Informatik, Ausbildung im IT-Bereich oder mehrjährige Berufserfahrung als FrontendEntwickler/in \nSehr gute Kenntnisse in den Basis-Technologien (X)HTML, CSS und JavaScript-Programmierung als auch im Bereich Web-Entwicklung (W3CStandards, Usability, SEO, Cross-Browser-Entwicklung, Web 2.0, Responsive) \nPraktische Erfahrung in der Erstellung von Templates (Smarty, Twig) sowie in der Verwendung gängiger Frameworks und Bibliotheken \nGrundkenntnisse in den LAMP-Technologien und Erfahrung im Umgang mit Adobe-Produkten und CMS-Systemen \nGute Englischkenntnisse in Wort und Schrift für die Kommunikation mit unseren internationalen Partnern runden Ihr Profil ab \n\n"
+      },
+      {
+        "title": "DAS BIETEN WIR IHNEN ",
+        "body": "\n \nEine abwechslungsreiche Tätigkeit als Frontend Entwickler/in in einem internationalen Familienunternehmen mit attraktiver Vergütung und umfassenden Sozialleistungen \nAusgewogene Work-Life-Balance durch flexible Arbeitszeiten und 30 Tage Urlaub im Jahr \nWeiterbildungsmöglichkeiten, damit Sie sich fachlich und persönlich weiterentwickeln können \nRegelmäßige Teamevents sowie Sport- und Freizeitangebote auf dem Firmengelände (Fußball, Volleyball u. v. m.) \nDie Möglichkeit, exklusive E-Bikes oder Bikes durch ABUS zu leasen, die sowohl für die Fahrt zur Arbeit als auch private Zwecke genutzt werden können \nKaffee und Wasser zur freien Verfügung sowie ein ansprechendes Essensangebot am hauseigenen Snackpoint \n \n ABUS – EIN TRADITIONSUNTERNEHMEN MIT GUTEN PERSPEKTIVEN  Seit 1924 ist ABUS als familiengeführtes Unternehmen weltweit einer der führenden Qualitätshersteller für Sicherheitsprodukte. Der tragende Beweis für Innovationskraft und unternehmerisches Handeln: Die Entwicklung vom Hangschlosshersteller zur Weltmarke für Sicherheitslösungen. Mit den Unternehmensbereichen Haussicherheit, Objektsicherheit und Mobile Sicherheit bietet ABUS hochwertige Markenprodukte für Zuhause und Unterwegs. An fünf deutschen Standorten sowie in rund 21 Niederlassungen in Europa, den USA, Lateinamerika und Asien beschäftigt ABUS mehr als 3.500 Mitarbeiter. \n"
+      },
+      {
+        "title": "HABEN WIR IHR INTERESSE GEWECKT? ",
+        "body": "\nDann freuen wir uns auf Ihre Bewerbung als „Frontend Entwickler (m/w)“ unter Angabe Ihrer Gehaltsvorstellung sowie Ihres frühestmöglichen Eintrittstermins über einen Klick auf den Bewerben-Button. Für Fragen steht Ihnen gerne unser Rekrutierungspartner, die Randstad Personalvermittlung, Ansprechpartner Herr Ralf Schelte, unter 0201-177668-42 zur Verfügung.    Randstad Personalvermittlung und Beratung • Kastanienallee 95 • 45127 Essen\n"
+      },
+      {
+        "title": "Standort",
+        "body": " ABUS August Bremicker Söhne KG Wetter, Deutschland "
+      }
+    ]
+  },
+  {
+    "id": "2018-11-30T04:11:30Z",
     "position": "Frontend Entwickler (m/w/d)",
     "company": "Sport-Thieme GmbH",
     "image": "https://www.stepstone.de/upload_de/logo/S/logoSport-Thieme-GmbH-37943DE.gif",
-    "date": "2018-11-30T05:11:30Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-d-Berlin-Sport-Thieme-GmbH--5375087-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=21_21_25_dynrl_m_0_0_0",
+    "date": "2018-11-30T04:11:30Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwickler-m-w-d-Berlin-Sport-Thieme-GmbH--5375087-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=23_23_25_dynrl_m_0_0_0",
     "details": [
       {
         "title": "Einleitung",
@@ -589,94 +650,44 @@
     ]
   },
   {
-    "id": "2018-11-30T00:11:30Z",
-    "position": "Mobile Frontend-Entwickler (m/w) React Native,",
-    "company": "Steuerbot GmbH",
-    "image": "https://www.stepstone.de/upload_de/logo/B/logoSteuerbot-GmbH-217016DE.gif",
-    "date": "2018-11-30T00:11:30Z",
-    "href": "https://www.stepstone.de/stellenangebote--Mobile-Frontend-Entwickler-m-w-React-Native-iOS-Android-Start-up-Stuttgart-Steuerbot-GmbH--5343965-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=22_22_25_dynrl_m_0_0_0",
-    "details": [
-      { "title": "Standort", "body": " Steuerbot GmbH Stuttgart, Deutschland " }
-    ]
-  },
-  {
-    "id": "2018-11-30T00:11:30Z",
-    "position": "Web-Developer/ Frontend-Entwickler (m/w/x)",
-    "company": "meinestadt.de GmbH",
-    "image": "https://www.stepstone.de/upload_de/logo/m/logomeinestadt-de-GmbH-73379DE.gif",
-    "date": "2018-11-30T00:11:30Z",
-    "href": "https://www.stepstone.de/stellenangebote--Web-Developer-Frontend-Entwickler-m-w-x-Koeln-meinestadt-de-GmbH--5243048-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=23_23_25_dynrl_m_0_0_0",
+    "id": "2018-11-30T01:11:30Z",
+    "position": "Frontend-Entwicklerin / Frontend-Entwickler",
+    "company": "L-SHOP-TEAM GmbH",
+    "image": "https://www.stepstone.de/upload_de/logo/L/logoL-SHOP-TEAM-GmbH-155177DE.gif",
+    "date": "2018-11-30T01:11:30Z",
+    "href": "https://www.stepstone.de/stellenangebote--Frontend-Entwicklerin-Frontend-Entwickler-Dortmund-L-SHOP-TEAM-GmbH--5410993-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=24_24_25_dynrl_m_0_0_0",
     "details": [
       {
-        "title": "Dein Job:",
-        "body": "\n \nKonzeption, Entwicklung und Umsetzung von anspruchsvollen Web-Anwendungen mit HTML5, CSS3 und JavaScript \naktive Weiterentwicklung und Optimierung des Frontends von meinestadt.de im Hinblick auf Usability und responsive Design inklusive Testing \nMitgestaltung und Implementierung der Benutzerführung zusammen mit Deinen Kollegen aus dem Team Graphics & UX \nPeer Reviews und Test Automation \nEigenverantwortliche Übernahme von internen Projekten \n\n"
+        "title": "Was Sie tun",
+        "body": "\n \nSie entwickeln neue Frontends auf Basis von Angular \nSie modernisieren die Templates unserer Oxid-Shops auf Basis von Smarty \nSie erfassen Anforderungen in unserem dynamischen und kreativen Umfeld mit Kollegen verschiedener Disziplinen (Einkauf, Vertrieb, Marketing) \nSie erstellen Prototypen \nSie setzen Ihre Ideen inkl. Dokumentation und Test um \n\n"
       },
       {
-        "title": "Das bringst Du mit:",
-        "body": "\n \nhast ein abgeschlossenes Informatikstudium oder vergleichbare Berufserfahrung \nhast mind. 5 Jahre Berufserfahrung bei der Entwicklung von Web Frontends \nAusgezeichnete Kenntnisse im Bereich von HTML5, CSS3 (Gulp und SASS) und JavaScript \nbist sicher im Umgang mit Versionsverwaltung (git) \nErfahrungen mit BEM \nIdealerweise Docker und Jenkins \narbeitest zuverlässig und genau \nbist kreativ und offen für neue Herausforderungen \n\n"
+        "title": "Was Sie mitbringen",
+        "body": "\n \nSie haben gute Kenntnisse in HTML5, CSS3 (less, sass) und JavaScript (jQuery) \nSie bringen idealerweise Kenntnisse einer Template-Sprache (z.B. Smarty) und Erfahrung mit OXID eShop mit \nWir wünschen uns Kenntnisse im Bereich automatischer Frontend-Tests \nErfahrung mit Wordpress runden Ihr Profil ab \nSie zeichnet eine zielgerichtete und selbständige Arbeitsweise aus \nSie sind hoch motiviert und teamfähig \n\n"
       },
       {
-        "title": "Gute Gründe für meinestadt.de:",
-        "body": "\n \n250 Talente, die uns zu einem unschlagbaren Team machen \nGute Zusammenarbeit ist uns wichtig: Wir führen regelmäßige Feedbackgespräche und haben kurze Kommunikationswege \nIndividuell gestaltete Weiterbildungsmöglichkeiten: Bilde Dich kontinuierlich durch externe und interne Workshops, Trainings und Seminare weiter \nWir arbeiten in modernen Büros im Herzen von Köln - mit dem kostenfreien KVB-Jobticket fährst Du ganz entspannt zu uns \nWir sorgen für dein Wohlbefinden: Unser Barista-Team versorgt Dich mit frischem Kaffee, unsere Müslibar steht Dir den ganzen Tag zur Verfügung und unser eigenes Gym sorgt für den nötigen Ausgleich nach der Arbeit \nOb TGIF, Sommerfest, Weihnachtsfeier oder Kick-Off-Events: Wir feiern Erfolge gerne gemeinsam \n\n"
+        "title": "Was wir bieten",
+        "body": "\n \nAnspruchsvolle und vielseitige Aufgaben mit dem Freiraum, eigene Ideen und Erfahrungen in eine moderne und innovative E-Commerce-Landschaft einzubringen \nEine hervorragende Arbeitsatmosphäre in einem hoch motivierten und erfolgreichen Team mit viel Spaß bei der gemeinsamen Arbeit \nModerne und kreative Arbeitsumgebung an einem zentralen Standort in Dortmund \nFachliche und persönliche Weiterentwicklung \nBeteiligung an betrieblicher Altersvorsorge \n30 Tage Urlaub \nPersonalrabatte auf unsere mehr als 6.000 Artikel \nKostenlose Parkplätze \nKaffee Flatrate \n\n"
+      },
+      {
+        "title": "Interessiert?",
+        "body": "\nEnjoy our Team. Mit flachen Hierarchien und viel Platz für Kreativität und Mitbestimmung.Haben wir Ihr Interesse geweckt? \nBei Fragen zu der Position wenden Sie sich an Stefan Konarski (per E-Mail s.konarski@l-shop.de oder telefonisch +49 (0) 231 - 99 31 290).  \nIhre Bewerbung richten Sie bitte online unter Angabe Ihrer Gehaltsvorstellung und Verfügbarkeit an bewerbung@l-shop-team.de. \nL-SHOP-TEAM GmbHWeißenburger Str. 71 | 44145 Dortmund \nwww.l-shop-team.de\n"
       },
       {
         "title": "Standort",
-        "body": " meinestadt.de GmbH Waidmarkt 11, 50676 Köln, Deutschland "
+        "body": " L-SHOP-TEAM GmbH Weißenburger Straße 71, 44145 Dortmund, Deutschland "
       }
     ]
   },
   {
-    "id": "2018-11-29T18:11:29Z",
-    "position": "Java Frontend Entwickler (m/w)",
-    "company": "SEVEN PRINCIPLES AG",
-    "image": "https://www.stepstone.de/upload_de/logo/S/logoSEVEN-PRINCIPLES-AG-3538DE.gif",
-    "date": "2018-11-29T18:11:29Z",
-    "href": "https://www.stepstone.de/stellenangebote--Java-Frontend-Entwickler-m-w-Ratingen-und-Dresden-SEVEN-PRINCIPLES-AG--4890229-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=24_24_25_dynrl_m_0_0_0",
+    "id": "2018-11-29T23:11:29Z",
+    "position": "Mobile Frontend-Entwickler (m/w) React Native,",
+    "company": "Steuerbot GmbH",
+    "image": "https://www.stepstone.de/upload_de/logo/B/logoSteuerbot-GmbH-217016DE.gif",
+    "date": "2018-11-29T23:11:29Z",
+    "href": "https://www.stepstone.de/stellenangebote--Mobile-Frontend-Entwickler-m-w-React-Native-iOS-Android-Start-up-Stuttgart-Steuerbot-GmbH--5343965-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=25_25_25_dynrl_m_0_0_0",
     "details": [
-      {
-        "title": "Deine Aufgaben:",
-        "body": "\n \nRealisierung moderner Software Lösungen, insbesondere im Rahmen von Gewerken im Umfeld der Telekommunikation \nMitarbeit in agilen Teams \nVerantwortung für Design und Implementierung von Frontends für anspruchsvolle Enterprise Systeme \nAuswahl geeigneter Frontend Technologien für konkrete Anforderungen \nTeilnahme an Projektbesprechungen mit der Fachabteilungen unserer Kunden \n\n"
-      },
-      {
-        "title": "Dein Profil:",
-        "body": "\n \nabgeschlossenes Hochschulstudium mit dem Schwerpunkt Informatik oder vergleichbar \nsehr gute Programmierkenntnisse in Java / JEE \ngute Kenntnisse aktueller Webtechnologien, HTML5, CSS3, JavaScript \nErfahrungen in einem aktuellen Webframework wie Wicket, JSF, React oder Angular \nErfahrungen mit Web-Services wie REST oder SOAP \nKenntnisse von Applikation Servern wie Glassfish oder Tomcat \ngute praktische Kenntnisse des SW-Entwicklungsprozesses (Versionskontrolle, Unit-Testing, Bugtracking, etc.) \nLinux-Erfahrung wünschenswert \nKenntnisse im Bereich GUI-Design und Usability von Vorteil \nsehr gute analytische und kommunikative Fähigkeiten \nziel- und teamorientierte Arbeitsweise \ngute Deutsch- und gute Englischkenntnisse in Wort und Schrift \nReisebereitschaft \n\n"
-      },
-      {
-        "title": "Deine Perspektiven:",
-        "body": "\nBei SEVEN PRINCIPLES erwarten Dich interessante und anspruchsvolle Projektaufgaben innerhalb unseres Leistungsspektrums. Flache Organisationsstrukturen und kurze Entscheidungswege gehören dabei ebenso zu unserer Unternehmenskultur, wie flexible Arbeitszeiten, eine gesunde Work-Life-Balance und eine leistungsgerechte Vergütung. Deinen persönlichen Fähigkeiten entsprechend bietet SEVEN PRINCIPLES die Möglichkeit, Dich sowohl fachlich und technologisch, als auch persönlich weiterzuentwickeln.\n"
-      },
-      {
-        "title": "Interessiert?",
-        "body": "\nWir freuen uns auf Deine Bewerbung. Bitte sende Deine vollständigen Bewerbungsunterlagen unter Angabe der Jobnummer 7P129S, des möglichen Eintrittstermins und Deiner Gehaltsvorstellung per E-Mail an personal@7p-group.com. www.7p-group.com  SEVEN PRINCIPLES AG | Erna-Scheffler-Straße 1a | 51103 Köln | +49 221 9200 7-0 | E-Mail: info@7p-group.com\n"
-      },
-      { "title": "Standort", "body": " SEVEN PRINCIPLES AG Deutschland " }
-    ]
-  },
-  {
-    "id": "2018-11-29T16:11:29Z",
-    "position": "Frontend-Web-Entwickler (m/w)",
-    "company": "Aboutbooks GmbH",
-    "image": "https://www.stepstone.de/upload_de/logo/L/logoLovelyBooks-de-175898DE.gif",
-    "date": "2018-11-29T16:11:29Z",
-    "href": "https://www.stepstone.de/stellenangebote--Frontend-Web-Entwickler-m-w-Muenchen-Aboutbooks-GmbH--5120214-inline.html?suid=181ed6ee-c350-4678-a745-0c2de1d1ea8e&rltr=25_25_25_dynrl_m_0_0_0",
-    "details": [
-      {
-        "title": "Deine Aufgaben",
-        "body": "\n \nDu entwickelst und optimierst alle Bestandteile des Frontends \nDu arbeitest an der optimalen responsiven Darstellung unserer Plattform für die unterschiedlichen Endgeräte \nDu verbesserst kontinuierlich die Usability von LovelyBooks \nDu berätst und unterstützt deine Kollegen und den Product-Owner bei der Erstellung von Konzepten \n\n"
-      },
-      {
-        "title": "Dein Profil",
-        "body": "\n \nDu hast mehrere Jahre nachweisliche Berufserfahrung im Web-App-Umfeld \nDu verfügst über umfassende Kenntnisse in React, Typescript, SPA und REST \nDu bist fit im Umgang mit gängigen CSS-Technologien wie Responsive Design, SASS, LESS oder Flexbox \nNode, Webpack, Redux, Jasmine und Mocha sind keine Fremdwörter für dich \nErfahrungen in der Entwicklung hybrider Apps sind ein Plus \nDu bist es gewohnt, in agilen Prozessen wie z. B. Scrum oder Kanban zu arbeiten und kannst diese effektiv einsetzen, um Transparenz und Geschwindigkeit im Entwicklungsprozess sicherzustellen \nDu interessierst dich für neue Trends und Techniken in der Software-Entwicklung und bist offen für neue Lösungsansätze und Technologien \nSehr gute Deutsch- und/oder Englischkenntnisse runden dein Profil ab \n\n"
-      },
-      {
-        "title": "Deine Perspektiven",
-        "body": "\nEine herausfordernde Aufgabe in einem dynamischen, innovativen und technologie- orientierten Team, eingebunden in eine internationale Mediengruppe. Neben leistungsgerechter Bezahlung bieten wir dir 30 Tage Urlaub sowie die Aufnahme in unsere Gruppenunfallversicherung. Darüber hinaus hast du freie Wahl bei der Geräteausstattung. Regelmäßiges Feedback und Weiterbildung haben bei uns einen hohen Stellenwert. Du profitierst von einer anerkannt guten Arbeitsatmosphäre, flexiblen Strukturen, flachen Hierarchien und einem motivierten, sympathischen Team.\n"
-      },
-      {
-        "title": "Kontakt",
-        "body": "\nHaben wir Dein Interesse geweckt? Bitte bewirb Dich online mit Deinen vollständigen Bewerbungsunterlagen (Anschreiben, Lebenslauf, Zeugnisse) und mit Angabe des frühestmöglichen Eintrittstermins unter holtzbrinck.com/de. \nAnsprechpartner \nAriane Gotsch Consultant HR Gänsheidestraße 26 70184 Stuttgart  karriere@holtzbrinck.com 0711 2150 208  www.holtzbrinck.com  Online-Bewerbung\n"
-      },
-      { "title": "Standort", "body": " Aboutbooks GmbH München, Deutschland " }
+      { "title": "Standort", "body": " Steuerbot GmbH Stuttgart, Deutschland " }
     ]
   }
 ]

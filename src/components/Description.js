@@ -2,8 +2,14 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
-const Wrapper = styled.section`
-  padding: 15px;
+const Title = styled.section`
+  padding: 15px 350px;
+  font-size: 19px;
+  font-weight: bold;
+`
+
+const Body = styled.section`
+  padding: 15px 350px;
   font-size: 19px;
 `
 
@@ -16,8 +22,8 @@ export default class Description extends Component {
     const { title, body } = this.props
     return (
       <React.Fragment>
-        <Wrapper>{title}</Wrapper>
-        <Wrapper>{body}</Wrapper>
+        <Title>{title}</Title>
+        <Body>{body}</Body>
       </React.Fragment>
     )
   }

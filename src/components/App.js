@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './Home'
+import Navigation from './Navigation'
 import Description from './Description'
 import styled from 'styled-components'
 import jobs from '../stepstone.json'
@@ -12,17 +13,15 @@ const Loading = styled.h2`
   font-size: 32px;
 `
 
+const Container = styled.section`
+  margin-top: 160px;
+`
+
 export default class App extends Component {
   state = {
     jobs: jobs,
     searchfield: ''
   }
-
-  // componentDidMount() {
-  //   fetch('https://jsonplaceholder.typicode.com/users')
-  //     .then(response => response.json())
-  //     .then(remotejobs => this.setState({ jobs: remotejobs }))
-  // }
 
   onSearchChange = value => {
     this.setState({ searchfield: value.toLowerCase() })
@@ -42,7 +41,9 @@ export default class App extends Component {
 
     return jobs.length ? (
       <Router>
-        <React.Fragment>
+        <Container>
+          <Navigation />
+
           <Route
             exact
             path="/"
@@ -52,20 +53,18 @@ export default class App extends Component {
           />
           <Route
             path="/jobs/:id"
-            render={({ match }) => (
-              <Description
-                title={
-                  this.state.jobs.find(job => job.id === match.params.id)
-                    .details[0].title
-                }
-                body={
-                  this.state.jobs.find(job => job.id === match.params.id)
-                    .details[0].body
-                }
-              />
-            )}
+            render={({ match }) =>
+              this.state.jobs
+                .find(job => job.id === match.params.id)
+                .details.map(description => (
+                  <Description
+                    title={description.title}
+                    body={description.body}
+                  />
+                ))
+            }
           />
-        </React.Fragment>
+        </Container>
       </Router>
     ) : (
       <Loading>Loading...</Loading>
