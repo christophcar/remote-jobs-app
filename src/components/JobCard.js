@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
-import { BrowserRouter as Router } from 'react-router-dom'
 import Moment from 'react-moment'
 
 const Card = styled(Link)`
@@ -15,8 +14,6 @@ const Card = styled(Link)`
   background: white;
   max-width: 1000px;
   height: auto;
-  border-radius: 8px;
-  /* box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4); */
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   text-decoration: none;
   color: inherit;

@@ -21,20 +21,7 @@ const Input = styled.input.attrs({
   background: #fff;
   padding: 10px;
   margin-right: 8px;
-  border-radius: 8px;
 `
-
-// const Button = styled.button`
-//   color: white;
-//   font-size: 23px;
-//   font-weight: 300;
-//   width: 150px;
-//   height: 70px;
-//   margin-left: 5px;
-//   background: cornflowerblue;
-//   border-radius: 8px;
-//   box-shadow: 0 8px 16px rgba(180, 180, 180, 0.4);
-// `
 
 export default class Filter extends Component {
   static propTypes = {

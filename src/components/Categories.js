@@ -23,15 +23,13 @@ const Wrapper = styled.section`
   }
 `
 
-const Box = styled.button`
+const Box = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 18px;
-  border-radius: 10px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
   font-size: 20px;
-  /* background: rgb(244, 248, 249); */
   background: rgb(250, 250, 250);
 
   &:hover {
