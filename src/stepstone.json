@@ -1,35 +1,5 @@
 [
   {
-    "id": "2018-12-05T10:12:05Z",
-    "position": "QUALI WEBENTWICKLER/FRONTEND ENTWICKLER (M/W)",
-    "company": "Fitmart GmbH & Co. KG",
-    "image": "https://www.stepstone.de/upload_de/logo/F/logoFitmart-GmbH-Co-KG-114141DE.gif",
-    "date": "2018-12-05T10:12:05Z",
-    "href": "https://www.stepstone.de/stellenangebote--QUALI-WEBENTWICKLER-FRONTEND-ENTWICKLER-M-W-Elmshorn-Fitmart-GmbH-Co-KG--5384894-inline.html?suid=d876c693-0305-4d05-bbe3-92e23f45a07a&rltr=1_1_25_dynrl_m_0_0_0",
-    "details": [
-      {
-        "title": "DEINE AUFGABEN",
-        "body": "\n \nUmsetzung und Implementierung von Templates für den OXID eShop \nKontinuierliche Optimierung und Pflege von bestehenden Benutzeroberflächen im Hinblick auf Usability, Performance und Responsive Design \nErstellung von Anforderungsspezifikationen sowie Verantwortung für die entsprechende Planung und Umsetzung der Weboberflächen \nEnge Zusammenarbeit mit verschiedenen Fachbereichen sowie regelmäßiger Austausch mit unseren Backend-Entwicklern \n\n"
-      },
-      {
-        "title": "DEIN PROFIL",
-        "body": "\nUNSERE ANFORDERUNGEN \n \nFundierte Kenntnisse und praktische Erfahrung mit HTML, Javascript/ AJAX, CSS und JSON \nKenntnisse in Browser- und Plattformtechnologien und deren Unterschiede \nKnow-how in der Konzeption, Gestaltung und Umsetzung von GUIs sowie Websites und den damit einhergehenden UX/Usability-Aspekten \nRoutine im Arbeiten in Teams und mit Versionsverwaltung (Git) \nErfahrung mit der Template Engine Smarty \n \nWÜNSCHENSWERTE KENNTNISSE  \n \nVon Vorteil wären zusätzliche Kenntnisse in den Bereichen PHP und MySQL \nKnow-how in agiler Entwicklung auf Basis von Scrum/Kanban und unter Verwendung von JIRA \nAnwendung von CSS Pre- und Postprocessing Tools wie SASS und LESS \n \nDEINE PERSÖNLICHKEIT \n \nEngagement und Flexibilität \nZuverlässigkeit \nMotivation und Leistungsbereitschaft \nTeamfähigkeit \nHohe Eigenverantwortung und Spaß an vielseitigen Projekten \n\n"
-      },
-      {
-        "title": "WIR BIETEN",
-        "body": "\n \nEntwicklungsmöglichkeiten \nHerausfordernde Aufgaben und spannende Projekte in einem innovativen und dynamischen Team \nFlache Hierarchien, Kommunikation auf Augenhöhe und kurze Entscheidungswege \n\n"
-      },
-      {
-        "title": "INTERESSE GEWECKT?",
-        "body": "\nDann freuen wir uns auf Deine vollständigen Bewerbungsunterlagen inklusive Angaben zu Deiner Gehaltsvorstellung und Deinem frühestmöglichen Eintrittstermin. \nFITMART GMBH & CO. KG | Ansprechpartner: Franziska Pförtner | Werner-von-Siemens-Straße 8 | 25337 Elmshorn | personal@fitmart.de \n"
-      },
-      {
-        "title": "Standort",
-        "body": " Fitmart GmbH & Co. KG Werner-von-Siemens-Straße 8, 25337 Elmshorn, Deutschland "
-      }
-    ]
-  },
-  {
     "id": "2018-12-05T09:12:05Z",
     "position": "Web-Frontend-Entwickler (m/w) Access & Trust",
     "company": "ING-DiBa AG",

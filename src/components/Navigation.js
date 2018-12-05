@@ -33,7 +33,7 @@ const Image = styled.img`
 
 const Input = styled.input`
   font-size: 16px;
-  width: 200px;
+  width: 300px;
   height: 40px;
   border: none;
   background: #fff;

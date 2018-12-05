@@ -3,7 +3,7 @@ import JobCard from './JobCard'
 import Filter from './Filter'
 import Categories from './Categories'
 import PropTypes from 'prop-types'
-import Navigation from './Navigation'
+import StartPage from './StartPage'
 import Footer from './Footer'
 
 export default class Home extends Component {
@@ -17,6 +17,7 @@ export default class Home extends Component {
     const { jobs, searchChange } = this.props
     return (
       <React.Fragment>
+        <StartPage />
         <Filter searchChange={searchChange} />
         <Categories searchChange={searchChange} />
         {jobs.map((job, index) => (
