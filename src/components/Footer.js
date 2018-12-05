@@ -103,8 +103,8 @@ export default class Navigation extends Component {
           <Image alt="Button" src={anchor} />
           <Made>Proudly produced in Hamburg</Made>
         </Wrapper>
-        <Name>getremote.io</Name>
-        <Claim>Find remote jobs in Germany</Claim>
+        <Name>helloremote.co</Name>
+        <Claim>Finde Jobs an den ungewöhnlichsten Orten</Claim>
         <Adress>
           Christoph Carstens <br />
           Lerchenstraße 17 <br />

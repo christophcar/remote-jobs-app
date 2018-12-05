@@ -14,7 +14,7 @@ const Loading = styled.h2`
 `
 
 const Container = styled.section`
-  margin-top: 160px;
+  margin-top: 130px;
 `
 
 export default class App extends Component {
@@ -42,7 +42,7 @@ export default class App extends Component {
     return jobs.length ? (
       <Router>
         <Container>
-          <Navigation />
+          <Navigation searchChange={this.onSearchChange} />
 
           <Route
             exact

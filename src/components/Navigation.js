@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import logo from '../img/logo-new.png'
+import logo from '../img/logo.png'
 
 const Bar = styled.section`
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: 80px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -17,23 +16,18 @@ const Bar = styled.section`
   background: #fff;
 `
 
-const Wrapper = styled.section`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
-
-const Image = styled.img`
+const Logo = styled.img`
+  grid-column: 2 / 3;
   width: 55px;
 
   @media only screen and (min-width: 750px) {
-    width: 250px;
+    width: 230px;
   }
 `
 
 const Input = styled.input`
   font-size: 16px;
-  width: 300px;
+  width: 500px;
   height: 40px;
   border: none;
   background: #fff;
@@ -41,16 +35,20 @@ const Input = styled.input`
   margin-right: 8px;
   background: #efefef;
   border-radius: 4px;
+  outline: none;
 `
 
 export default class Navigation extends Component {
   render() {
+    const { searchChange } = this.props
     return (
       <Bar>
-        <Wrapper>
-          <Image alt="logo" src={logo} />
-        </Wrapper>
-        <Input type="search" placeholder="Search latest jobs..." />
+        <Logo alt="logo" src={logo} />
+        <Input
+          type="search"
+          placeholder="Suche nach Jobs..."
+          onChange={event => searchChange(event.target.value)}
+        />
       </Bar>
     )
   }

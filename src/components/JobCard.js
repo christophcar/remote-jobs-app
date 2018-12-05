@@ -14,12 +14,14 @@ const Card = styled(Link)`
   background: white;
   max-width: 1000px;
   height: auto;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); */
+  box-shadow: 0 10px 10px rgba(17, 16, 62, 0.1);
   text-decoration: none;
   color: inherit;
+  border-radius: 3px;
 
   &:hover {
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 10px rgba(17, 16, 62, 0.15);
   }
 
   @media only screen and (min-width: 700px) {
