@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import employee from '../img/employee.png'
+import logo from '../img/logo-new.png'
 
 const Bar = styled.section`
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 2fr 1fr 5fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px;
   position: fixed;
   top: 0;
@@ -17,28 +17,30 @@ const Bar = styled.section`
   background: #fff;
 `
 
-const Headline = styled.h1`
-  grid-column: 3 / 4;
-  font-size: 20px;
-
-  @media only screen and (min-width: 700px) {
-    font-size: 38px;
-  }
-`
-
 const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-column: 2 / 3;
 `
 
 const Image = styled.img`
   width: 55px;
 
   @media only screen and (min-width: 750px) {
-    width: 65px;
+    width: 250px;
   }
+`
+
+const Input = styled.input`
+  font-size: 16px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background: #fff;
+  padding: 10px;
+  margin-right: 8px;
+  background: #efefef;
+  border-radius: 4px;
 `
 
 export default class Navigation extends Component {
@@ -46,9 +48,9 @@ export default class Navigation extends Component {
     return (
       <Bar>
         <Wrapper>
-          <Image alt="Button" src={employee} />
+          <Image alt="logo" src={logo} />
         </Wrapper>
-        <Headline>Find remote jobs in Germany</Headline>
+        <Input type="search" placeholder="Search latest jobs..." />
       </Bar>
     )
   }
