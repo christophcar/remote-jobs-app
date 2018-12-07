@@ -44,6 +44,7 @@ export default class Navigation extends Component {
     return (
       <Bar>
         <Logo alt="logo" src={logo} />
+
         <Input
           type="search"
           placeholder="Suche nach Jobs..."

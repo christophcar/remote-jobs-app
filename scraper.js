@@ -6,7 +6,7 @@ const async = require('async')
   const browser = await puppeteer.launch({ headless: true })
   const page = await browser.newPage()
   await page.goto(
-    'https://www.stepstone.de/5/ergebnisliste.html?stf=freeText&ns=1&qs=%5B%7B%22id%22%3A%22231794%22%2C%22description%22%3A%22Frontend-Entwickler%2Fin%22%2C%22type%22%3A%22jd%22%7D%2C%7B%22id%22%3A%22300000115%22%2C%22description%22%3A%22Deutschland%22%2C%22type%22%3A%22geocity%22%7D%5D&companyID=0&cityID=300000115&sourceOfTheSearchField=homepagemex%3Ageneral&searchOrigin=Homepage_top-search&ke=Frontend-Entwickler%2Fin&ws=Deutschland&ra=30'
+    'https://www.stepstone.de/5/ergebnisliste.html?ke=entwickler%20frontend%20backend%20fullstack&li=50&ob=refdate&suid=b7f1e477-21ae-4695-8f2f-2746a2a6a718&an=sorting'
   )
 
   const stepstone = await page.evaluate(() => {

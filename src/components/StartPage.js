@@ -33,6 +33,14 @@ const Image = styled.img`
   grid-row: 1 / 3;
   width: 700px;
   height: auto;
+
+  @media only screen and (max-width: 1000px) {
+    width: 500px;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    display: none;
+  }
 `
 
 export default class Categories extends Component {

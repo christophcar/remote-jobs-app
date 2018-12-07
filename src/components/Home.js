@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import JobCard from './JobCard'
-import Filter from './Filter'
 import Categories from './Categories'
 import PropTypes from 'prop-types'
 import StartPage from './StartPage'
