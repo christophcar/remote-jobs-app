@@ -3,14 +3,38 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
 const Title = styled.section`
-  padding: 15px 350px;
+  padding: 10px 30px;
   font-size: 19px;
   font-weight: bold;
+
+  @media only screen and (min-width: 500px) {
+    padding: 15px 50px;
+  }
+
+  @media only screen and (min-width: 1050px) {
+    padding: 15px 150px;
+  }
+
+  @media only screen and (min-width: 1250px) {
+    padding: 15px 350px;
+  }
 `
 
 const Body = styled.section`
-  padding: 15px 350px;
+  padding: 10px 30px;
   font-size: 19px;
+
+  @media only screen and (min-width: 500px) {
+    padding: 15px 50px;
+  }
+
+  @media only screen and (min-width: 1050px) {
+    padding: 15px 150px;
+  }
+
+  @media only screen and (min-width: 1250px) {
+    padding: 15px 350px;
+  }
 `
 
 export default class Description extends Component {
