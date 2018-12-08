@@ -16,8 +16,11 @@ const Bar = styled.section`
   background: #fff;
 `
 
-const Logo = styled.img`
+const Link = styled.a`
   grid-column: 2 / 3;
+`
+
+const Logo = styled.img`
   width: 55px;
 
   @media only screen and (min-width: 750px) {
@@ -43,7 +46,9 @@ export default class Navigation extends Component {
     const { searchChange } = this.props
     return (
       <Bar>
-        <Logo alt="logo" src={logo} />
+        <Link href="/">
+          <Logo alt="logo" src={logo} />
+        </Link>
 
         <Input
           type="search"
