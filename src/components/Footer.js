@@ -26,7 +26,6 @@ const Wrapper = styled.section`
   align-items: center;
 
   @media only screen and (min-width: 900px) {
-    grid-column: 2 / 3;
     grid-row: 1 / 3;
     justify-content: center;
   }
@@ -44,7 +43,7 @@ const Image = styled.img`
 `
 
 const Made = styled.p`
-  margin-left: 20px;
+  margin-left: 10px;
 `
 
 const Name = styled.h3`
@@ -58,8 +57,8 @@ const Name = styled.h3`
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     justify-content: center;
-    margin-bottom: -10px;
     font-size: 20px;
+    margin-bottom: -10px;
   }
 `
 
@@ -72,9 +71,8 @@ const Claim = styled.p`
   color: cornflowerblue;
 
   @media only screen and (min-width: 900px) {
-    justify-content: center;
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
+    justify-content: center;
     margin-top: -10px;
   }
 `
@@ -104,7 +102,7 @@ export default class Navigation extends Component {
           <Made>Proudly produced in Hamburg</Made>
         </Wrapper>
         <Name>helloremote.co</Name>
-        <Claim>Finde Jobs an den ungewöhnlichsten Orten</Claim>
+        <Claim>Finde ortsunabhängige Jobs</Claim>
         <Adress>
           Christoph Carstens <br />
           Lerchenstraße 17 <br />

@@ -10,36 +10,62 @@ const Wrapper = styled.section`
 `
 
 const HeadlinesAll = styled.section`
-  grid-column: 2 / 3;
+  grid-column: 1 / 4;
   grid-row: 1 / 3;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 15px;
+
+  @media only screen and (min-width: 700px) {
+    grid-column: 2 / 3;
+  }
 `
 
 const Headline = styled.h1`
-  font-size: 46px;
+  font-size: 34px;
   font-weight: 700;
   margin: 0;
+
+  @media only screen and (min-width: 750px) {
+    font-size: 40px;
+  }
+
+  @media only screen and (min-width: 1050px) {
+    font-size: 46px;
+  }
 `
 
 const Subheadline = styled.h2`
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 300;
+
+  @media only screen and (min-width: 750px) {
+    font-size: 28px;
+  }
+
+  @media only screen and (min-width: 1050px) {
+    font-size: 28px;
+  }
 `
 
 const Image = styled.img`
   grid-column: 3 / 4;
   grid-row: 1 / 3;
-  width: 700px;
-  height: auto;
+  width: 0;
 
-  @media only screen and (max-width: 1000px) {
-    width: 500px;
+  @media only screen and (min-width: 700px) {
+    width: 350px;
+    margin-right: 20px;
   }
 
-  @media only screen and (max-width: 1200px) {
-    display: none;
+  @media only screen and (min-width: 950px) {
+    width: 550px;
+  }
+
+  @media only screen and (min-width: 1200px) {
+    width: 700px;
+    margin-right: 0;
   }
 `
 

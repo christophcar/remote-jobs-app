@@ -5,15 +5,20 @@ import PropTypes from 'prop-types'
 const Wrapper = styled.section`
   display: grid;
   grid-gap: 10px;
-  margin: 80px 80px 40px;
-  grid-template-columns: 1fr 1fr;
+  margin: 50px 80px 40px;
+  grid-template-columns: repeat(2, minmax(145px, 250px));
   grid-auto-rows: 80px;
   justify-content: center;
+  text-align: center;
 
-  @media only screen and (min-width: 700px) {
+  @media only screen and (min-width: 750px) {
     grid-gap: 15px;
-    grid-template-columns: repeat(6, minmax(154px, 154px));
-    grid-auto-rows: 50px 50px;
+    grid-template-columns: repeat(3, minmax(200px, 300px));
+    grid-auto-rows: 50px;
+  }
+
+  @media only screen and (min-width: 1050px) {
+    grid-template-columns: repeat(6, 154px);
   }
 `
 

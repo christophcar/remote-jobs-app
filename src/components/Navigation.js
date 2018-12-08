@@ -21,16 +21,24 @@ const Link = styled.a`
 `
 
 const Logo = styled.img`
-  width: 55px;
+  width: 85px;
+
+  @media only screen and (min-width: 375px) {
+    width: 135px;
+  }
 
   @media only screen and (min-width: 750px) {
+    width: 180px;
+  }
+
+  @media only screen and (min-width: 1050px) {
     width: 230px;
   }
 `
 
 const Input = styled.input`
   font-size: 16px;
-  width: 500px;
+  width: 220px;
   height: 40px;
   border: none;
   background: #fff;
@@ -39,6 +47,10 @@ const Input = styled.input`
   background: #efefef;
   border-radius: 4px;
   outline: none;
+
+  @media only screen and (min-width: 700px) {
+    width: 500px;
+  }
 `
 
 export default class Navigation extends Component {
