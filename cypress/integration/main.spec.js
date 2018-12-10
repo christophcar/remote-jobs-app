@@ -4,7 +4,7 @@ describe('App', () => {
   })
 
   it('has the right title', () => {
-    cy.title().should('equal', 'Remote Jobs in Germany')
+    cy.title().should('equal', 'Finde Jobs an den ungewöhnlichsten Orten')
   })
 
   it('has an input field', () => {
