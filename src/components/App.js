@@ -2,17 +2,10 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './Home'
 import Navigation from './Navigation'
-
+import Loading from './Loading'
 import SubPage from './SubPage'
 import styled from 'styled-components'
 import jobs from '../stepstone.json'
-
-const Loading = styled.h2`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 32px;
-`
 
 const Container = styled.section`
   margin-top: 130px;
@@ -44,7 +37,6 @@ export default class App extends Component {
       <Router>
         <Container>
           <Navigation searchChange={this.onSearchChange} />
-
           <Route
             exact
             path="/"
@@ -64,7 +56,7 @@ export default class App extends Component {
         </Container>
       </Router>
     ) : (
-      <Loading>Loading...</Loading>
+      <Loading />
     )
   }
 
