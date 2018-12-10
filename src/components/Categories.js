@@ -58,39 +58,45 @@ export default class Categories extends Component {
     const { searchChange } = this.props
     return (
       <Wrapper>
-        <Text>Suche nach:</Text>
+        <Text>Häufig gesucht:</Text>
         <Box data-cy="CategoryButton" onClick={() => searchChange('Frontend')}>
           Frontend
         </Box>
         <Box data-cy="CategoryButton" onClick={() => searchChange('Backend')}>
           Backend
         </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Fullstack')}>
           Fullstack
         </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
-          Data Science
+        <Box
+          data-cy="CategoryButton"
+          onClick={() => searchChange('Administrator')}
+        >
+          Administrator
         </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Marketing')}>
-          Marketing
+        <Box data-cy="CategoryButton" onClick={() => searchChange('SAP')}>
+          SAP
         </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Design')}>
-          Design
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Java')}>
+          Java
         </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Sales')}>
-          Sales
+        <Box
+          data-cy="CategoryButton"
+          onClick={() => searchChange('JavaScript')}
+        >
+          JavaScript
         </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
-          Management
+        <Box data-cy="CategoryButton" onClick={() => searchChange('DevOps')}>
+          DevOps
         </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
-          Finance
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Scrum')}>
+          Scrum
         </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
+        <Box data-cy="CategoryButton" onClick={() => searchChange('Mobile')}>
           Mobile
         </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('Support')}>
-          Support
+        <Box data-cy="CategoryButton" onClick={() => searchChange('React')}>
+          React
         </Box>
       </Wrapper>
     )
