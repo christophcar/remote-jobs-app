@@ -37,6 +37,9 @@ const Image = styled.img`
 `
 
 export default class SubPage extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
   render() {
     const { filtered } = this.props
     return (

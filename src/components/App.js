@@ -17,12 +17,12 @@ export default class App extends Component {
     searchfield: ''
   }
 
-  onSearchChange = value => {
-    this.setState({ searchfield: value.toLowerCase() })
-  }
-
   componentDidMount() {
     window.scrollTo(0, 0)
+  }
+
+  onSearchChange = value => {
+    this.setState({ searchfield: value.toLowerCase() })
   }
 
   render() {
@@ -38,7 +38,7 @@ export default class App extends Component {
     this.save()
 
     return jobs.length ? (
-      <Router>
+      <Router onUpdate={() => window.scrollTo(0, 0)}>
         <Container>
           <Navigation searchChange={this.onSearchChange} />
           <Route
