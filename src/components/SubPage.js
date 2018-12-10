@@ -19,26 +19,37 @@ const Link = styled.a`
   width: 300px;
 `
 
+const Wrapper = styled.section`
+  display: flex;
+  justify-content: center;
+  width: 110px;
+  height: 80px;
+  margin: auto;
+  border-radius: 8px;
+  background: white;
+`
+
 const Image = styled.img`
   display: flex;
   justify-content: center;
-  width: 80px;
+  width: 90px;
   margin: auto;
-  border-radius: 4px;
 `
 
 export default class SubPage extends Component {
   render() {
-    const { filteredJobs } = this.props
+    const { filtered } = this.props
     return (
       <React.Fragment>
-        {filteredJobs.details.map(description => (
+        {
+          <Wrapper>
+            <Image src={filtered.image} />
+          </Wrapper>
+        }
+        {filtered.details.map(description => (
           <Description title={description.title} body={description.body} />
         ))}
-        <Description
-          link={<Link href={filteredJobs.href}>Jetzt bewerben</Link>}
-          image={<Image src={filteredJobs.image} />}
-        />
+        <Description link={<Link href={filtered.href}>Jetzt bewerben</Link>} />
       </React.Fragment>
     )
   }

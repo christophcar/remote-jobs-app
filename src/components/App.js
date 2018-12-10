@@ -21,6 +21,10 @@ export default class App extends Component {
     this.setState({ searchfield: value.toLowerCase() })
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     const filteredJobs = this.state.jobs.filter(job => {
       return (
@@ -47,10 +51,10 @@ export default class App extends Component {
           <Route
             path="/jobs/:id"
             render={({ match }) => {
-              const filteredJobs = this.state.jobs.find(
+              const filtered = this.state.jobs.find(
                 job => job.id === match.params.id
               )
-              return <SubPage filteredJobs={filteredJobs} />
+              return <SubPage filtered={filtered} />
             }}
           />
         </Container>
