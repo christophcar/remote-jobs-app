@@ -46,7 +46,7 @@ export default class Description extends Component {
     const { title, body } = this.props
     return (
       <React.Fragment>
-        <Title>{title}</Title>
+        <Title data-cy="Descriptions">{title}</Title>
         <Body>{body}</Body>
       </React.Fragment>
     )

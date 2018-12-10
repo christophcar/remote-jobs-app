@@ -78,13 +78,15 @@ export default class Categories extends Component {
     return (
       <Wrapper>
         <HeadlinesAll>
-          <Headline>Finde Jobs an den ungewöhnlichsten Orten</Headline>
+          <Headline data-cy="title">
+            Finde Jobs an den ungewöhnlichsten Orten
+          </Headline>
           <Subheadline>
             Auf <u>helloremote.co</u> findest du anspruchsvolle, ortsunabhängige
             Jobs bei innovativen deutschsprachigen Unternehmen.
           </Subheadline>
         </HeadlinesAll>
-        <Image alt="Icon" src={undraw} />
+        <Image data-cy="Heroimage" alt="Icon" src={undraw} />
       </Wrapper>
     )
   }

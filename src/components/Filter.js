@@ -33,7 +33,6 @@ export default class Filter extends Component {
     return (
       <Wrapper>
         <Input
-          data-cy="Input"
           type="search"
           placeholder="Search for position or company..."
           onChange={event => searchChange(event.target.value)}

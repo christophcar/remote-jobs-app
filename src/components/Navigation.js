@@ -59,10 +59,11 @@ export default class Navigation extends Component {
     return (
       <Bar>
         <Link href="/">
-          <Logo alt="logo" src={logo} />
+          <Logo data-cy="Logo" alt="logo" src={logo} />
         </Link>
 
         <Input
+          data-cy="Input"
           type="search"
           placeholder="Suche nach Jobs..."
           onChange={event => searchChange(event.target.value)}

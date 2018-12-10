@@ -4,19 +4,29 @@ describe('App', () => {
   })
 
   it('has the right title', () => {
-    cy.title().should('equal', 'Remote Jobs in Germany')
+    cy.title().should('equal', 'Finde Jobs an den ungewöhnlichsten Orten')
+  })
+
+  it('has a hero image', () => {
+    cy.get('[data-cy="Heroimage"]').should('have.length', 1)
+  })
+
+  it('has multiple category buttons', () => {
+    cy.get('[data-cy="CategoryButton"]').should('have.length', 11)
+  })
+})
+
+describe('Navigation', () => {
+  beforeEach(() => {
+    cy.visit('http://localhost:3000')
+  })
+
+  it('has a logo that is clickable', () => {
+    cy.get('[data-cy="Logo"]').click()
   })
 
   it('has an input field', () => {
     cy.get('[data-cy="Input"]').should('have.length', 1)
-  })
-
-  it('has filter button', () => {
-    cy.get('[data-cy="FilterButton"]').should('have.length', 1)
-  })
-
-  it('has six category buttons', () => {
-    cy.get('[data-cy="CategoryButton"]').should('have.length', 6)
   })
 })
 
@@ -25,8 +35,7 @@ describe('Search', () => {
     cy.visit('http://localhost:3000')
   })
   it('can filter jobs via text', () => {
-    cy.get('input[placeholder="Search for jobs..."]').type('Frontend')
-
+    cy.get('input[placeholder="Suche nach Jobs..."]').type('Frontend')
     cy.get('[data-cy="JobCard"]')
   })
 
@@ -34,5 +43,17 @@ describe('Search', () => {
     cy.get('[data-cy="CategoryButton"]').click({ multiple: true })
 
     cy.get('[data-cy="JobCard"]')
+  })
+})
+
+describe('Descriptions', () => {
+  beforeEach(() => {
+    cy.visit('http://localhost:3000')
+  })
+  it('can visit details page', () => {
+    cy.get('[data-cy="JobCard"]')
+      .first()
+      .click()
+    cy.get('[data-cy="Descriptions"]')
   })
 })
