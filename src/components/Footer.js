@@ -91,7 +91,9 @@ const Adress = styled.p`
   }
 `
 
-const Link = styled.a``
+const Link = styled.a`
+  color: cornflowerblue;
+`
 
 export default class Navigation extends Component {
   render() {

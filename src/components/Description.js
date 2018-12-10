@@ -37,17 +37,26 @@ const Body = styled.section`
   }
 `
 
+const Link = styled.section`
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+`
+
 export default class Description extends Component {
   static propTypes = {
     description: PropTypes.string
   }
 
   render() {
-    const { title, body } = this.props
+    const { title, body, link } = this.props
     return (
       <React.Fragment>
+        <React.Fragment />
         <Title data-cy="Descriptions">{title}</Title>
         <Body>{body}</Body>
+        <Link>{link}</Link>
       </React.Fragment>
     )
   }

@@ -17,6 +17,23 @@ const Container = styled.section`
   margin-top: 130px;
 `
 
+const Link = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+  padding: 18px;
+  box-shadow: 0 5px 5px rgba(17, 16, 62, 0.1);
+  font-size: 22px;
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid rgb(74, 165, 234);
+  border-radius: 3px;
+  background: white;
+  width: 300px;
+`
+
 export default class App extends Component {
   state = {
     jobs: jobs,
@@ -53,16 +70,24 @@ export default class App extends Component {
           />
           <Route
             path="/jobs/:id"
-            render={({ match }) =>
-              this.state.jobs
-                .find(job => job.id === match.params.id)
-                .details.map(description => (
+            render={({ match }) => {
+              const filtered = this.state.jobs.find(
+                job => job.id === match.params.id
+              )
+              return (
+                <div>
+                  {filtered.details.map(description => (
+                    <Description
+                      title={description.title}
+                      body={description.body}
+                    />
+                  ))}
                   <Description
-                    title={description.title}
-                    body={description.body}
+                    link={<Link href={filtered.href}>Jetzt bewerben</Link>}
                   />
-                ))
-            }
+                </div>
+              )
+            }}
           />
         </Container>
       </Router>

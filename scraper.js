@@ -41,7 +41,7 @@ const async = require('async')
   })
 
   const newStepstone = async.mapSeries(
-    stepstone,
+    stepstone.slice(0, 1),
     async stone => {
       await page.goto(stone.href)
       const details = await page.evaluate(() => {
