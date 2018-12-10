@@ -1,35 +1,31 @@
 [
   {
-    "id": "2018-12-10T11:12:10Z",
-    "position": "(Senior) Software Engineer (m/w)",
-    "company": "GreenPocket GmbH",
-    "image": "https://www.stepstone.de/upload_de/logo/A/logoGreenPocket-GmbH-72152DE.gif",
-    "date": "2018-12-10T11:12:10Z",
-    "href": "https://www.stepstone.de/stellenangebote--Senior-Software-Engineer-m-w-Koeln-GreenPocket-GmbH--5296637-inline.html?suid=125db1cd-78ba-45b5-87d7-2750bb7d0242&rltr=1_1_50_dynrl_m_0_0_0",
+    "id": "2018-12-10T15:12:10Z",
+    "position": "COGNOS ENTWICKLER (M/W)",
+    "company": "Altran Deutschland S.A.S.",
+    "image": "https://www.stepstone.de/upload_de/logo/A/logoALTRAN-Deutschland-Holding-GmbH-90636DE.gif",
+    "date": "2018-12-10T15:12:10Z",
+    "href": "https://www.stepstone.de/stellenangebote--COGNOS-ENTWICKLER-M-W-Wolfsburg-Altran-Deutschland-S-A-S-Co-KG--4812861-inline.html?suid=65012979-5448-43d6-ab3a-300c0927ba1c&rltr=1_1_50_dynrl_m_0_0_0",
     "details": [
       {
-        "title": "DAS UNTERNEHMEN",
-        "body": "\nBring Deine Ideen ein – nicht nur technisch, sondern auch fachlich.  Aktuelle Sprachen und Konzepte, wie Kotlin, funktionales oder reaktives Programmieren reizen Dich? Du fühlst Dich im Backend zuhause, hast aber auch Spaß am Aufbau intuitiver UIs? Dann komm‘ doch einfach ins netteste Entwicklerteam Kölns! \nAls agiles Startup im dynamischen Wachstumsmarkt für Energiemanagement-Software begleiten wir weltweit Energieversorger und Unternehmenskunden bei der Realisierung von Mehrwerten aus Verbrauchsdaten. Dabei setzen wir mit einem talentierten Team innovative Technologien (AI, Machine Learning, Data Science) ein. Bereits heute leisten wir so einen nachhaltigen Beitrag zur Energiewende und gestalten die Digitalisierung der Energiebranche mit unseren kreativen und intuitiven Software-Lösungen maßgeblich mit. \nStacks: \n \nJava, JEE, Kotlin \nES6, Redux \nREST, JSON \nHTML5, CSS3 \nReact, JSF \nPython \nNode.js  \nMicro Services \n \nTools:  \n \nEclipse, IntelliJ, Visual Studio Code, Sublime Text \nMaven, git, webpack \nJenkins, Ansible \nWildFly, MySQL, Oracle \nDocker \n\n"
+        "title": "IHRE AUFGABEN",
+        "body": "\n \nDesign, Implementierung und Optimierung von IBM Cognos-basierten BI-Architekturen inkl. Dashboards und Reports \nDatenmodellierung und ETL Implementierung (DB2, COGNOS, Informatica) \nOptimierung von Datenmodellen, Cube-Prozessen sowie Performance und Ressourcennutzung \nBetrieb, Administration, Monitoring und Deployment von Cognos(-Implementierungen) \nMitgestaltung neuer BI-Anwendungsfälle bzw. Optimierung bestehender Anwendungsfälle \n\n"
       },
       {
-        "title": "DEINE ROLLE",
-        "body": "\nEin hervorragendes Produkt beginnt mit einer klaren Idee und einem Plan. Daher sind Entwickler bei GreenPocket bereits bei der Anforderung und dem technischen Design neuer Features involviert und gestalten gemeinsam mit dem Produkt- und Projektmanagement die Strategien einer erfolgreichen Produktentwicklung. Ein hoher Anspruch, Präzision und kritisches Hinterfragen fangen für uns also nicht erst beim Coding an. \n \nIn einem Scrum-Team entwickelst Du unsere innovativen und großartigen Smart Energy-Softwarelösungen weiter \nDu bist auf allen Ebenen der Software-Entwicklung beteiligt. Du entwirfst, testest und implementierst selbstständig und im Team einzelne Features oder gesamte Softwarekomponenten, die später in Tausenden von Unternehmen und Haushalten im Einsatz sind \nDurch Pair Programming, Code-Reviews und Prototyping entwickelst Du nicht nur unsere Produkte, sondern auch Dich kontinuierlich weiter \nDu tauschst Dich regelmäßig im Rahmen von DevComs mit unseren Developer-Teams aus und arbeitest zusammen mit hochqualifizierten Informatik-, Mathematik- und Data Science-KollegInnen \nUnser Produktmanagement unterstützt Du bei technischen Fragen und trägst so wesentlich zur Entwicklung technisch anspruchsvoller, performanter, modularer und damit testbarer und wartbarer Software-Komponenten bei \nDu schaust über den eigenen Tellerrand und verwirklichst Deine Ideen in monatlichen GreenDays \n\n"
+        "title": "IHR PROFIL",
+        "body": "\n \n(Fach-) Hochschulabschluss Wirtschaftsinformatik, Informatik, BWL mit Schwerpunkt IT oder ein vergleichbarer Studiengang \n \n \nBerufserfahrung im Business Intelligence Umfeld sowie Kenntnisse im Umgang mit relationalen Datenbanksystemen (Datenmodellierung, SQL) \nEntwicklungserfahrung im Projektumfeld mit agilen Methoden (z.B. KANBAN, SCRUM) \nFundierte Kenntnisse im gesamten IBM Cognos-Umfeld (Backend bis Frontend) sowie Datenbanken \nGute Deutschkenntnisse, mindestens B1-Level sowie zusätzlich Englisch von Vorteil \n\n"
       },
       {
-        "title": "DEIN PROFIL",
-        "body": "\n \nAbgeschlossenes Studium im IT-Bereich oder ein vergleichbares technisches Studium \nMehrjährige einschlägige Berufserfahrung als Software-Developer \nUmfangreiches Java-Wissen, idealerweise JEE  \nAnalytisches Denkvermögen, Kommunikations- und Teamfähigkeit \nSehr gute Deutschkenntnisse sowie gute Englischkenntnisse  \n\n"
+        "title": "UNSER ANGEBOT",
+        "body": "\n \nSpannende internationale und nationale Projekte in unserem hochtechnologischen Kundenumfeld \n \n \nSpezialisierungsmöglichkeiten sowie fachspezifische Weiterbildungen und Trainings \nEin anspruchsvolles Aufgabengebiet mit hoher Eigenverantwortung \n\n"
       },
       {
-        "title": "WIR BIETEN",
-        "body": "\n \nStartup-Atmosphäre mit viel Gestaltungsspielraum \nAnspruchsvolle Aufgaben mit hoher Eigenverantwortung \nDevCom: Austausch mit Kollegen über Trends und Updates 1x im Monat \nDevTraining: Kollegen empfehlen neue Technologien 1x im Monat \nGreenDay: einen Tag im Monat eigenen Ideen widmen  \nFlexible Arbeitszeiten und Home-Office \nRegelmäßige Teamevents und Kicker-Pausen mit motivierten und herzlichen Kollegen \nKulturell, sportlich sowie verkehrstechnisch sehr gut angebundene Lage \nAuf Wunsch gerne ein Job-Ticket \n\n"
-      },
-      {
-        "title": "Kontakt",
-        "body": "\nWenn Dich die Herausforderung reizt, ein innovatives Unternehmen erfolgreich mitzugestalten, sende Deine aussagekräftige Bewerbung mit Angabe Deines möglichen Starttermins und Deiner Gehaltsvorstellung per E-Mail an Kristin Sanft: jobs@greenpocket.de. \nGreenPocket GmbH | Labor 3.09 I Schanzenstr. 6-20 | 51063 Köln | Tel: 0221 / 35 50 95 - 0 | Fax: 0221 / 35 50 95 - 99 | jobs@greenpocket.de\n"
+        "title": "WIR FREUEN UNS AUF IHRE ONLINE-BEWERBUNG",
+        "body": "\nAngela Kanno / Recruiting \n \n+49 162-1088176 \n \nAngela.Kanno@altran.com \n \n \n \nwww.altran.com/de\n"
       },
       {
         "title": "Standort",
-        "body": " GreenPocket GmbH Schanzenstraße 06-20, 51063 Köln, Deutschland "
+        "body": " Altran Deutschland S.A.S. & Co. KG Wolfsburg, Deutschland "
       }
     ]
   }

@@ -34,6 +34,14 @@ const Link = styled.a`
   width: 300px;
 `
 
+const Image = styled.img`
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  margin: auto;
+  border-radius: 4px;
+`
+
 export default class App extends Component {
   state = {
     jobs: jobs,
@@ -75,7 +83,7 @@ export default class App extends Component {
                 job => job.id === match.params.id
               )
               return (
-                <div>
+                <React.Fragment>
                   {filtered.details.map(description => (
                     <Description
                       title={description.title}
@@ -84,8 +92,9 @@ export default class App extends Component {
                   ))}
                   <Description
                     link={<Link href={filtered.href}>Jetzt bewerben</Link>}
+                    image={<Image src={filtered.image} />}
                   />
-                </div>
+                </React.Fragment>
               )
             }}
           />
