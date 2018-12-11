@@ -28,7 +28,7 @@ const Logo = styled.img`
   }
 
   @media only screen and (min-width: 750px) {
-    width: 180px;
+    width: 190px;
   }
 
   @media only screen and (min-width: 1050px) {

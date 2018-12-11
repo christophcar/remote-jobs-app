@@ -52,7 +52,13 @@ export default class SubPage extends Component {
         {filtered.details.map(description => (
           <Description title={description.title} body={description.body} />
         ))}
-        <Description link={<Link href={filtered.href}>Jetzt bewerben</Link>} />
+        <Description
+          link={
+            <Link href={filtered.href} target="_blank">
+              Jetzt bewerben
+            </Link>
+          }
+        />
       </React.Fragment>
     )
   }

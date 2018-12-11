@@ -13,10 +13,10 @@ const async = require('async')
 
   function scrapeFirstPage() {
     return Array.from(document.querySelectorAll('.job-element')).map(card => {
-      const id = card.querySelector('time').getAttribute('datetime')
       const href = card
         .querySelector('.job-element__body > a')
         .getAttribute('href')
+      const id = card.querySelector('time').getAttribute('datetime')
       const position = card
         .querySelector('.job-element__body__title')
         .textContent.trim()
@@ -65,18 +65,15 @@ const async = require('async')
   }
 
   const newStepstone = async.mapSeries(
-    stepstone,
+    stepstone.slice(8, 12),
     async stone => {
       try {
         await page.goto(stone.href)
-      } catch (error) {
-        console.log('page.goto', error)
-      }
+      } catch (error) {}
       let details
       try {
         details = await page.evaluate(goThroughCards)
       } catch (error) {
-        console.log('page.evaluate', error)
         return stone
       }
       return {
