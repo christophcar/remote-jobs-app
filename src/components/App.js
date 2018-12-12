@@ -6,39 +6,38 @@ import Loading from './Loading'
 import SubPage from './SubPage'
 import styled from 'styled-components'
 import jobs from '../stepstone.json'
+import { configureStore } from 'redux-starter-kit'
+import reducer from '../ducks/reducer'
+import * as Actions from '../ducks/actions'
 
 const Container = styled.section`
   margin-top: 130px;
 `
 
-export default class App extends Component {
-  state = {
-    jobs: jobs,
-    searchfield: ''
-  }
+const store = configureStore({ reducer })
 
+export default class App extends Component {
   componentDidMount() {
+    store.subscribe(() => this.forceUpdate())
     window.scrollTo(0, 0)
   }
 
   onSearchChange = value => {
-    this.setState({ searchfield: value.toLowerCase() })
+    store.dispatch(Actions.setSearchfield(value))
   }
 
   render() {
-    const filteredJobs = this.state.jobs.filter(job => {
+    const state = store.getState()
+
+    const filteredJobs = state.jobs.filter(job => {
       return (
-        job.position
-          .toLowerCase()
-          .includes(this.state.searchfield.toLowerCase()) ||
-        job.company.toLowerCase().includes(this.state.searchfield)
+        job.position.toLowerCase().includes(state.searchfield.toLowerCase()) ||
+        job.company.toLowerCase().includes(state.searchfield)
       )
     })
 
-    this.save()
-
     return jobs.length ? (
-      <Router onUpdate={() => window.scrollTo(0, 0)}>
+      <Router>
         <Container>
           <Navigation searchChange={this.onSearchChange} />
           <Route
@@ -51,7 +50,7 @@ export default class App extends Component {
           <Route
             path="/jobs/:id"
             render={({ match }) => {
-              const filtered = this.state.jobs.find(
+              const filtered = state.jobs.find(
                 job => job.id === match.params.id
               )
               return <SubPage filtered={filtered} />
@@ -62,17 +61,5 @@ export default class App extends Component {
     ) : (
       <Loading />
     )
-  }
-
-  save() {
-    localStorage.setItem('remote-jobs', JSON.stringify(jobs))
-  }
-
-  load() {
-    try {
-      return JSON.parse(localStorage.getItem('remote-jobs')) || []
-    } catch (err) {
-      return []
-    }
   }
 }
