@@ -35,8 +35,6 @@ export default class App extends Component {
       )
     })
 
-    this.save()
-
     return jobs.length ? (
       <Router onUpdate={() => window.scrollTo(0, 0)}>
         <Container>
@@ -62,17 +60,5 @@ export default class App extends Component {
     ) : (
       <Loading />
     )
-  }
-
-  save() {
-    localStorage.setItem('remote-jobs', JSON.stringify(jobs))
-  }
-
-  load() {
-    try {
-      return JSON.parse(localStorage.getItem('remote-jobs')) || []
-    } catch (err) {
-      return []
-    }
   }
 }
