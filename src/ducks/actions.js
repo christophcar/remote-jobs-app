@@ -1,3 +1,6 @@
-import { createAction } from 'redux-starter-kit'
+import { CHANGE_SEARCH_FIELD } from './constants'
 
-export const setSearchfield = createAction('setSearchfield')
+export const setSearchfield = text => ({
+  type: CHANGE_SEARCH_FIELD,
+  payload: text
+})
