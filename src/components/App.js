@@ -1,20 +1,20 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Provider } from 'react-redux'
-import { configureStore } from 'redux-starter-kit'
+import { searchJobs } from '../ducks/reducer'
+import { createStore } from 'redux'
 import HomeContainer from './HomeContainer'
 import NavigationContainer from './NavigationContainer'
 import Loading from './Loading'
 import SubPageContainer from './SubPageContainer'
 import styled from 'styled-components'
 import jobs from '../stepstone.json'
-import reducer from '../ducks/reducer'
 
 const Container = styled.section`
   margin-top: 130px;
 `
-
-const store = configureStore({ reducer })
+// redux offers this createStore() function
+const store = createStore(searchJobs)
 
 export default class App extends Component {
   componentDidMount() {
