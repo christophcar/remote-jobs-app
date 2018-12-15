@@ -13,7 +13,3 @@ const setSearchfield = (state, action) => {
 export default createReducer(initialState, {
   setSearchfield
 })
-
-// onSearchChange = value => {
-//     this.setState({ searchfield: value.toLowerCase() })
-//   }
