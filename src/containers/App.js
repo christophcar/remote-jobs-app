@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { Provider, connect } from 'react-redux'
-import { searchJobs } from '../ducks/reducer'
-import { createStore } from 'redux'
+import { connect } from 'react-redux'
 import { setSearchfield } from '../ducks/actions'
 import HomeContainer from './HomeContainer'
 import NavigationContainer from './NavigationContainer'
-import Loading from './Loading'
+import Loading from '../components/Loading'
 import SubPageContainer from './SubPageContainer'
 import styled from 'styled-components'
 import jobs from '../stepstone.json'
@@ -14,16 +12,15 @@ import jobs from '../stepstone.json'
 const Container = styled.section`
   margin-top: 130px;
 `
-// redux offers this createStore() function
-// basically this creates the store that holds the complete state of my app
-const store = createStore(searchJobs)
 
+// what state it should listen to
 const mapStateToProps = state => {
   return {
     searchfield: state.searchfield
   }
 }
 
+// what actions it should listen to that will be send to reducer
 const mapDispatchToProps = dispatch => {
   return {
     onSearchChange: event => dispatch(setSearchfield(event.target.value))
@@ -35,26 +32,21 @@ class App extends Component {
     window.scrollTo(0, 0)
   }
 
-  // we put the store into the provider component (from Redux) which makes the store available
-  // to all container components without passing it down from component to component
   render() {
     return jobs.length ? (
-      <Provider store={store}>
-        <Router>
-          <Container>
-            <NavigationContainer />
-            <Route exact path="/" component={HomeContainer} />
-            <Route path="/jobs/:id" component={SubPageContainer} />
-          </Container>
-        </Router>
-      </Provider>
+      <Router>
+        <Container>
+          <NavigationContainer />
+          <Route exact path="/" component={HomeContainer} />
+          <Route path="/jobs/:id" component={SubPageContainer} />
+        </Container>
+      </Router>
     ) : (
       <Loading />
     )
   }
 }
 
-// this tells the component App.js that any time something changes to the state it shall listen to it
 export default connect(
   mapStateToProps,
   mapDispatchToProps

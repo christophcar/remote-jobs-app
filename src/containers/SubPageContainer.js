@@ -1,4 +1,4 @@
-import SubPage from './SubPage'
+import SubPage from '../components/SubPage'
 import { connect } from 'react-redux'
 
 const mapStateToProps = (state, { match }) => ({

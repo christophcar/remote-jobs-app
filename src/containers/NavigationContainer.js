@@ -1,4 +1,4 @@
-import Navigation from './Navigation'
+import Navigation from '../components/Navigation'
 import { connect } from 'react-redux'
 import { setSearchfield } from '../ducks/actions'
 
