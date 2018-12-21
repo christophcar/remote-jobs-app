@@ -13,14 +13,12 @@ const Container = styled.section`
   margin-top: 130px;
 `
 
-// what state it should listen to
 const mapStateToProps = state => {
   return {
     searchfield: state.searchfield
   }
 }
 
-// what actions it should listen to that will be send to reducer
 const mapDispatchToProps = dispatch => {
   return {
     onSearchChange: event => dispatch(setSearchfield(event.target.value))

@@ -31,11 +31,12 @@ const Text = styled.div`
   color: #999;
 `
 
-const Box = styled.div`
+const Box = styled.button`
+  font-family: nunito;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 18px;
+  padding: 0;
   box-shadow: 0 5px 5px rgba(17, 16, 62, 0.1);
   font-size: 16px;
   font-weight: 700;
@@ -46,6 +47,12 @@ const Box = styled.div`
 
   &:hover {
     box-shadow: 0 5px 5px rgba(17, 16, 62, 0.15);
+  }
+
+  &:focus {
+    background: rgb(104, 173, 226);
+    color: white;
+    outline: none;
   }
 `
 
@@ -59,6 +66,9 @@ export default class Categories extends Component {
     return (
       <Wrapper>
         <Text>Häufig gesucht:</Text>
+        <Box data-cy="CategoryButton" onClick={() => searchChange('')}>
+          Alle Jobs
+        </Box>
         <Box data-cy="CategoryButton" onClick={() => searchChange('Frontend')}>
           Frontend
         </Box>
@@ -73,9 +83,6 @@ export default class Categories extends Component {
           onClick={() => searchChange('Administrator')}
         >
           Administrator
-        </Box>
-        <Box data-cy="CategoryButton" onClick={() => searchChange('SAP')}>
-          SAP
         </Box>
         <Box data-cy="CategoryButton" onClick={() => searchChange('Java')}>
           Java
