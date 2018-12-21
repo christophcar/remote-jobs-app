@@ -1,7 +1,6 @@
 const fs = require('fs')
 const path = require('path')
 const puppeteer = require('puppeteer')
-// let node_uid = require('node-uid')
 const async = require('async')
 ;(async () => {
   const browser = await puppeteer.launch({ headless: true })
@@ -12,13 +11,16 @@ const async = require('async')
 
   const stepstone = await page.evaluate(scrapeFirstPage)
 
+  // document.querySelectorAll('.save-listing-placeholder > span')).map((item) => item.getAttribute('data-offerid'))
+
   function scrapeFirstPage() {
     return Array.from(document.querySelectorAll('.job-element')).map(card => {
       const href = card
         .querySelector('.job-element__body > a')
         .getAttribute('href')
-      const id = card.querySelector('time').getAttribute('datetime')
-      // .node_uid(15)
+      const id = card
+        .querySelector('.save-listing-placeholder > span')
+        .getAttribute('data-offerid')
       const position = card
         .querySelector('.job-element__body__title')
         .textContent.trim()

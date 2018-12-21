@@ -50,7 +50,7 @@ const Box = styled.button`
   }
 
   &:focus {
-    background: rgb(104, 173, 226);
+    background: rgb(74, 165, 234);
     color: white;
     outline: none;
   }
@@ -78,12 +78,6 @@ export default class Categories extends Component {
         <Box data-cy="CategoryButton" onClick={() => searchChange('Fullstack')}>
           Fullstack
         </Box>
-        <Box
-          data-cy="CategoryButton"
-          onClick={() => searchChange('Administrator')}
-        >
-          Administrator
-        </Box>
         <Box data-cy="CategoryButton" onClick={() => searchChange('Java')}>
           Java
         </Box>
@@ -92,6 +86,12 @@ export default class Categories extends Component {
           onClick={() => searchChange('JavaScript')}
         >
           JavaScript
+        </Box>
+        <Box
+          data-cy="CategoryButton"
+          onClick={() => searchChange('Administrator')}
+        >
+          Administrator
         </Box>
         <Box data-cy="CategoryButton" onClick={() => searchChange('DevOps')}>
           DevOps
