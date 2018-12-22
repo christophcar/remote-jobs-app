@@ -79,7 +79,7 @@ export default class Categories extends Component {
       <Wrapper>
         <HeadlinesAll>
           <Headline data-cy="title">
-            Finde Jobs an den ungewöhnlichsten Orten
+            Ortsunabhängige Jobs für digitale Talente
           </Headline>
           <Subheadline>
             Auf <u>helloremote.co</u> findest du anspruchsvolle, ortsunabhängige

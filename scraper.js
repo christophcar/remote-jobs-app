@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const puppeteer = require('puppeteer')
 const async = require('async')
+
 ;(async () => {
   const browser = await puppeteer.launch({ headless: true })
   const page = await browser.newPage()
@@ -10,8 +11,6 @@ const async = require('async')
   )
 
   const stepstone = await page.evaluate(scrapeFirstPage)
-
-  // document.querySelectorAll('.save-listing-placeholder > span')).map((item) => item.getAttribute('data-offerid'))
 
   function scrapeFirstPage() {
     return Array.from(document.querySelectorAll('.job-element')).map(card => {
@@ -68,7 +67,7 @@ const async = require('async')
   }
 
   const newStepstone = async.mapSeries(
-    stepstone,
+    stepstone.slice(0, 1),
     async stone => {
       try {
         await page.goto(stone.href)

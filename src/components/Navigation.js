@@ -54,6 +54,10 @@ const Input = styled.input`
 `
 
 export default class Navigation extends Component {
+  state = {
+    showOnScroll: false
+  }
+
   render() {
     const { searchChange } = this.props
     return (
@@ -61,7 +65,6 @@ export default class Navigation extends Component {
         <Link href="/">
           <Logo data-cy="Logo" alt="logo" src={logo} />
         </Link>
-
         <Input
           data-cy="Input"
           type="search"
