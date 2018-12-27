@@ -111,7 +111,6 @@ export default class JobCard extends Component {
           <Moment locale="de" format="D MMM" fromNow>
             {date}
           </Moment>
-          {/* <Moment fromNow>{date}</Moment> */}
         </Date>
       </Card>
     )
