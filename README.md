@@ -1,4 +1,4 @@
-I build this job board as final project from the developer Bootcamp at neuefische.
+I build this job board as final project for the developer bootcamp at neuefische.
 
 Feel free to scroll around and find a daily curated selection of up-to-date remote jobs in Germany.
 
