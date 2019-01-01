@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import logo from '../img/logo.png'
+import PropTypes from 'prop-types'
 
 const Bar = styled.section`
   display: grid;
@@ -54,8 +55,8 @@ const Input = styled.input`
 `
 
 export default class Navigation extends Component {
-  state = {
-    showOnScroll: false
+  static propTypes = {
+    searchChange: PropTypes.func
   }
 
   render() {

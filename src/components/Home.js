@@ -8,8 +8,7 @@ import Footer from './Footer'
 export default class Home extends Component {
   static propTypes = {
     jobs: PropTypes.array,
-    searchChange: PropTypes.func,
-    clickChange: PropTypes.func
+    searchChange: PropTypes.func
   }
 
   render() {
@@ -18,9 +17,9 @@ export default class Home extends Component {
       <React.Fragment>
         <StartPage />
         <Categories searchChange={searchChange} />
-        {jobs.map((job, index) => (
+        {jobs.map(job => (
           <JobCard
-            key={index}
+            key={job.key}
             id={job.id}
             position={job.position}
             company={job.company}

@@ -23,7 +23,7 @@ const Wrapper = styled.section`
   display: flex;
   justify-content: center;
   width: 110px;
-  height: 80px;
+  height: 110px;
   margin: auto;
   border-radius: 8px;
   background: white;
@@ -45,11 +45,9 @@ export default class SubPage extends Component {
     const { filtered } = this.props
     return (
       <React.Fragment>
-        {
-          <Wrapper>
-            <Image src={filtered.image} />
-          </Wrapper>
-        }
+        <Wrapper>
+          <Image src={filtered.image} />
+        </Wrapper>
         {filtered.details.map(description => (
           <Description title={description.title} body={description.body} />
         ))}

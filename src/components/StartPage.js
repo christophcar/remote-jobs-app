@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import PropTypes from 'prop-types'
 import undraw from '../img/undraw-new.svg'
 
 const Wrapper = styled.section`
@@ -70,10 +69,6 @@ const Image = styled.img`
 `
 
 export default class Categories extends Component {
-  static propTypes = {
-    clickChange: PropTypes.func
-  }
-
   render() {
     return (
       <Wrapper>

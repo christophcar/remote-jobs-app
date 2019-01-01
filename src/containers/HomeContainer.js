@@ -14,7 +14,7 @@ const filteredJobs = state =>
   state.jobs.filter(job => {
     return (
       job.position.toLowerCase().includes(state.searchfield.toLowerCase()) ||
-      job.company.toLowerCase().includes(state.searchfield)
+      job.company.toLowerCase().includes(state.searchfield.toLowerCase())
     )
   })
 

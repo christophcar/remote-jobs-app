@@ -37,7 +37,6 @@ export default class Filter extends Component {
           placeholder="Search for position or company..."
           onChange={event => searchChange(event.target.value)}
         />
-        {/* <Button data-cy="FilterButton">Filter</Button> */}
       </Wrapper>
     )
   }

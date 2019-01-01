@@ -4,7 +4,7 @@ describe('App', () => {
   })
 
   it('has the right title', () => {
-    cy.title().should('equal', 'Finde Jobs an den ungewöhnlichsten Orten')
+    cy.title().should('equal', 'Finde ortsunabhängige Jobs')
   })
 
   it('has a hero image', () => {

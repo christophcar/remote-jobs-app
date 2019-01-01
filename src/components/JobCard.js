@@ -94,9 +94,10 @@ const Image = styled.img`
 
 export default class JobCard extends Component {
   static propTypes = {
-    position: PropTypes.string,
     company: PropTypes.string,
     date: PropTypes.string,
+    position: PropTypes.string,
+    image: PropTypes.string,
     id: PropTypes.string
   }
 

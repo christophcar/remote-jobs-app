@@ -9,6 +9,7 @@ import { searchJobs } from './ducks/reducer'
 import { createLogger } from 'redux-logger'
 
 const logger = createLogger()
+
 const store = createStore(searchJobs, applyMiddleware(logger))
 
 ReactDOM.render(

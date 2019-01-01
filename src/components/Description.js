@@ -58,7 +58,7 @@ export default class Description extends Component {
         <Title data-cy="Descriptions">{title}</Title>
         <Logo>{image}</Logo>
         <Body>{body}</Body>
-        <Link>{link}</Link>
+        <Link data-cy="Apply">{link}</Link>
       </React.Fragment>
     )
   }
