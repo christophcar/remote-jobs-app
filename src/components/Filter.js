@@ -25,7 +25,7 @@ const Input = styled.input.attrs({
 
 export default class Filter extends Component {
   static propTypes = {
-    onChange: PropTypes.func
+    searchChange: PropTypes.func
   }
 
   render() {

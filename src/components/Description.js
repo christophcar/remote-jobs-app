@@ -48,7 +48,10 @@ const Logo = styled.section``
 
 export default class Description extends Component {
   static propTypes = {
-    description: PropTypes.string
+    title: PropTypes.string,
+    body: PropTypes.string,
+    link: PropTypes.object,
+    image: PropTypes.string
   }
 
   render() {

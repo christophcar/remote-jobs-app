@@ -58,7 +58,7 @@ const Box = styled.button`
 
 export default class Categories extends Component {
   static propTypes = {
-    clickChange: PropTypes.func
+    searchChange: PropTypes.func
   }
 
   render() {

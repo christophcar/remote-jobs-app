@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Description from './Description'
 import styled from 'styled-components'
+import PropTypes from 'prop-types'
 
 const Link = styled.a`
   display: flex;
@@ -39,6 +40,10 @@ const Image = styled.img`
 export default class SubPage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0)
+  }
+
+  static propTypes = {
+    filtered: PropTypes.object
   }
 
   render() {
